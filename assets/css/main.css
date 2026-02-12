@@ -4657,3 +4657,266 @@ section,
   }
 }
 
+/*--------------------------------------------------------------
+# sector-Education Section
+--------------------------------------------------------------*/
+
+.hero-section {
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1562774053-701939374585') center/cover no-repeat;
+  padding: 90px 0 110px;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(1, 10, 24, 0.75);
+}
+
+/* STAT CARDS */
+.stat-card {
+  background: rgba(255, 255, 255, 0.12); /* translucent glass */
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  
+  border-radius: 16px;
+  padding: 22px;
+  text-align: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.35),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+
+  color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Hover effect (optional but recommended) */
+.stat-card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+}
+
+.p h1 {
+  color: #0d6efd;
+  font-size: 24px;
+}
+.stat-card h3 {
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.stat-card span {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* TABS */
+.sector-tabs {
+  border-bottom: none;
+}
+
+.sector-tabs .nav-link {
+  border: none;
+  color: #6c757d;
+  padding: 16px 20px;
+  font-weight: 500;
+}
+
+.sector-tabs .nav-link.active {
+  color: #0a1e3c;
+  border-bottom: 3px solid #0d6efd;
+}
+
+/* GENERAL */
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+footer {
+  font-size: 14px;
+}
+
+.why-invest-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.section-title-white {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #6c757d;
+  margin-top: 8px;
+}
+
+.card-sub-points {
+  text-align: left;
+  color: white;
+}
+
+/* CARD */
+.info-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 26px;
+  height: 100%;
+  border: 1px solid #90c6fc;
+  transition: all 0.35s ease;
+  position: relative;
+}
+
+/* Hover card */
+.info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.08);
+  border-color: #0d6dfda1;
+}
+
+/* ICON BOX */
+.icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  border: 1px solid #e4e8ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  transition: all 0.35s ease;
+  background: #fff;
+}
+
+.icon-box i {
+  font-size: 22px;
+  color: #0d6efd;
+  transition: all 0.35s ease;
+}
+
+/* Icon hover animation */
+.info-card:hover .icon-box {
+  background: #0d6efd;
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.35);
+  transform: scale(1.08) rotate(3deg);
+}
+
+.info-card:hover .icon-box i {
+  color: #ffffff;
+}
+
+/* TEXT */
+.info-card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #0a1e3c;
+}
+
+.info-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #6c757d;
+}
+
+/* INCENTIVES */
+
+.incentives-sections {
+  position: relative;
+  background: #1e3a5f center/cover no-repeat;
+  padding: 90px 0 110px;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(1, 10, 24, 0.75);
+}
+
+.incentive-card {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 14px;
+  padding: 24px;
+  color: #fff;
+  transition: all .3s ease;
+}
+
+.incentive-card:hover {
+  transform: translateY(-6px);
+  background: rgba(255,255,255,0.14);
+}
+
+/* PROJECTS */
+.project-box {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all .35s ease;
+}
+
+.project-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.15);
+}
+
+.project-body {
+  padding: 16px;
+}
+
+.project-body h6 {
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.project-body p {
+  font-size: 13px;
+  color: #6c757d;
+}
+
+.flagship-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.flagship-card img {
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.flagship-card:hover {
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+
+/*--------------------------------------------------------------
+# sector-Education project Page
+--------------------------------------------------------------*/
+
+.hero-section-project {
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1562774053-701939374585') center/cover no-repeat;
+  padding: 90px 0 110px;
+}
+
+.hero-overlay-project {
+  position: absolute;
+  inset: 0;
+  background: rgba(1, 10, 24, 0.75);
+}

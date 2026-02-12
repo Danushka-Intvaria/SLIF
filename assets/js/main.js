@@ -269,3 +269,28 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+/**
+   * Education Sector filter
+   */
+const filters = document.querySelectorAll('select');
+const cards = document.querySelectorAll('.project-card');
+
+filters.forEach(filter => {
+  filter.addEventListener('change', applyFilters);
+});
+
+function applyFilters() {
+  const location = locationFilter.value;
+  const type = typeFilter.value;
+  const size = sizeFilter.value;
+
+  cards.forEach(card => {
+    const match =
+      (location === 'all' || card.dataset.location === location) &&
+      (type === 'all' || card.dataset.type === type) &&
+      (size === 'all' || card.dataset.size === size);
+
+    card.style.display = match ? 'block' : 'none';
+  });
+}
