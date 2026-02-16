@@ -1,70 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Project Details | SLIF</title>
+  <title>Project | SLIF</title>
+  <meta name="description" content="View SLIF investment project details.">
 
   <link href="assets/img/logoforum.png" rel="icon">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/sector-system.css" rel="stylesheet">
 </head>
-
 <body>
-  <main class="container py-5">
-    <a id="backToSector" href="sector.html" class="btn btn-outline-secondary btn-sm mb-4"><i class="bi bi-arrow-left"></i> Back to sector</a>
-
-    <section id="projectDetails" class="card border-0 shadow-sm"></section>
-  </main>
-
-  <script src="assets/js/sector-projects-data.js"></script>
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const sectorId = params.get('sector');
-    const projectId = params.get('project');
-
-    const sectors = window.SECTOR_PROJECTS_DATA?.sectors || [];
-    const sector = sectors.find(item => item.id === sectorId) || sectors[0];
-    const project = sector.projects.find(item => item.id === projectId) || sector.projects[0];
-
-    const details = document.getElementById('projectDetails');
-    details.innerHTML = `
-      <div class="card-body p-4 p-md-5">
-        <div class="d-flex flex-wrap justify-content-between gap-3 mb-3">
-          <span class="badge text-bg-primary">${sector.name}</span>
-          <span class="text-muted small">Project ID: ${project.id}</span>
-        </div>
-        <h1 class="h3 mb-3">${project.name}</h1>
-        <p class="mb-4 text-muted">${project.description}</p>
-
-        <div class="row g-3">
-          <div class="col-md-4">
-            <div class="border rounded-3 p-3 h-100">
-              <small class="text-muted d-block">Location</small>
-              <strong>${project.location}</strong>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="border rounded-3 p-3 h-100">
-              <small class="text-muted d-block">Estimated Investment</small>
-              <strong>${project.investment}</strong>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="border rounded-3 p-3 h-100">
-              <small class="text-muted d-block">Current Stage</small>
-              <strong>${project.stage}</strong>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-
-    document.title = `${project.name} | SLIF`;
-    document.getElementById('backToSector').href = `sector.html?id=${sector.id}`;
-  </script>
+  <main id="projectApp"></main>
+  <script src="js/project-loader.js"></script>
 </body>
-
 </html>

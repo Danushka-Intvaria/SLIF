@@ -1,0 +1,168 @@
+.slif-sector-hero,
+.slif-project-hero {
+  position: relative;
+  min-height: clamp(260px, 45vw, 480px);
+  display: flex;
+  align-items: end;
+  color: var(--contrast-color);
+  overflow: hidden;
+}
+
+.slif-sector-hero-image,
+.slif-project-hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slif-sector-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--heading-color), transparent 65%) 0%, color-mix(in srgb, var(--heading-color), transparent 25%) 100%);
+}
+
+.slif-sector-hero-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-top: clamp(1.5rem, 4vw, 3rem);
+  padding-bottom: clamp(1.5rem, 4vw, 3rem);
+}
+
+.slif-kicker {
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: .78rem;
+  opacity: .9;
+}
+
+.slif-sector-page h1,
+.slif-project-page h1 {
+  color: var(--contrast-color);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+}
+
+.slif-sector-page .lead,
+.slif-project-page .lead {
+  font-size: clamp(1rem, 2.1vw, 1.3rem);
+}
+
+.slif-stat-card,
+.slif-adv-card,
+.slif-fact-card,
+.slif-bullet-card {
+  background: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.slif-stat-value {
+  color: var(--heading-color);
+  font-size: clamp(1.15rem, 2.4vw, 1.6rem);
+  font-weight: 700;
+}
+
+.slif-stat-label {
+  font-size: .875rem;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.slif-bullet-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: .85rem;
+}
+
+.slif-bullet-card,
+.slif-adv-card {
+  display: flex;
+  align-items: start;
+  gap: .75rem;
+}
+
+.slif-bullet-card i,
+.slif-adv-card i {
+  color: var(--accent-color);
+  margin-top: .1rem;
+}
+
+.slif-project-card .card-img-top {
+  height: 170px;
+  object-fit: cover;
+}
+
+.slif-project-card {
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.slif-project-card:hover {
+  transform: translateY(-4px);
+}
+
+.slif-sector-contact {
+  background-color: color-mix(in srgb, var(--accent-color), var(--surface-color) 84%);
+}
+
+.slif-cta-btn {
+  min-height: 44px;
+  padding-inline: 1.1rem;
+}
+
+.slif-detail-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.slif-detail-list li {
+  margin-bottom: .5rem;
+}
+
+.slif-investment-panel {
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 84%);
+  border-radius: 1rem;
+  padding: 1rem;
+  background: var(--surface-color);
+}
+
+.fade-in-up {
+  animation: fadeInUp .35s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .slif-bullet-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+  .slif-investment-panel {
+    position: sticky;
+    top: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .slif-sector-page section,
+  .slif-project-page section {
+    margin-bottom: 2rem !important;
+  }
+
+  .btn-group .btn {
+    font-size: .85rem;
+    padding: .45rem .65rem;
+  }
+}

@@ -1,78 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Sector Projects | SLIF</title>
+  <title>Sector | SLIF</title>
+  <meta name="description" content="Explore Sri Lanka Investment Forum sector opportunities.">
 
   <link href="assets/img/logoforum.png" rel="icon">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/sector-system.css" rel="stylesheet">
 </head>
-
 <body>
-  <main class="container py-5">
-    <a href="index.html" class="btn btn-outline-secondary btn-sm mb-4"><i class="bi bi-arrow-left"></i> Back to sectors</a>
-
-    <section id="sectorHeader" class="p-4 p-md-5 rounded-4 text-white" style="background: linear-gradient(135deg,#1e3a8a,#0f766e);"></section>
-
-    <section class="mt-5">
-      <h2 class="h4 mb-3">Projects in this sector</h2>
-      <div id="projectList" class="row g-4"></div>
-    </section>
-  </main>
-
-  <script src="assets/js/sector-projects-data.js"></script>
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const sectorId = params.get('id');
-    const sectors = window.SECTOR_PROJECTS_DATA?.sectors || [];
-    const sector = sectors.find(item => item.id === sectorId) || sectors[0];
-
-    const header = document.getElementById('sectorHeader');
-    const statsHtml = sector.stats.map(stat => `
-      <div class="col-6 col-lg-4">
-        <div class="bg-white text-dark rounded-3 p-3 h-100">
-          <div class="fw-bold">${stat.value}</div>
-          <small class="text-muted">${stat.label}</small>
-        </div>
-      </div>
-    `).join('');
-
-    header.innerHTML = `
-      <div class="row g-4 align-items-center">
-        <div class="col-md-7">
-          <p class="text-uppercase small mb-2">Sector Overview</p>
-          <h1 class="h2 mb-3">${sector.name}</h1>
-          <p class="mb-0">${sector.summary}</p>
-        </div>
-        <div class="col-md-5">
-          <img src="${sector.heroImage}" class="img-fluid rounded-3" alt="${sector.name}">
-        </div>
-      </div>
-      <div class="row g-3 mt-1">${statsHtml}</div>
-    `;
-
-    document.title = `${sector.name} | SLIF`;
-
-    const projectList = document.getElementById('projectList');
-    projectList.innerHTML = sector.projects.map(project => `
-      <div class="col-md-6 col-lg-4">
-        <article class="card h-100 border-0 shadow-sm">
-          <div class="card-body d-flex flex-column">
-            <h3 class="h6">${project.name}</h3>
-            <p class="text-muted small mb-2"><i class="bi bi-geo-alt"></i> ${project.location}</p>
-            <p class="small mb-2"><strong>Investment:</strong> ${project.investment}</p>
-            <p class="small mb-3"><strong>Stage:</strong> ${project.stage}</p>
-            <p class="text-muted small">${project.description}</p>
-            <a class="mt-auto btn btn-sm btn-outline-primary" href="project.html?sector=${sector.id}&project=${project.id}">View details</a>
-          </div>
-        </article>
-      </div>
-    `).join('');
-  </script>
+  <main id="sectorApp"></main>
+  <script src="js/sector-loader.js"></script>
 </body>
-
 </html>
