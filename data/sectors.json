@@ -1,0 +1,272 @@
+{
+  "agriculture": {
+    "name": "Agriculture & Agro-Processing",
+    "tagline": "Accelerating export-ready food systems from farm to global markets.",
+    "heroImage": "assets/img/Sectors/agriculture.webp",
+    "overview": "Sri Lanka's agriculture sector is transforming through modern cultivation, value-added processing, and logistics integration that supports premium export growth.",
+    "stats": [
+      {"label": "Investment Pipeline", "value": "USD 36 Mn"},
+      {"label": "Priority Projects", "value": "3"},
+      {"label": "Export Orientation", "value": "High"}
+    ],
+    "whyInvest": [
+      "Year-round cultivation conditions and diverse agro-climatic zones",
+      "Strong policy focus on value addition and export competitiveness",
+      "Access to regional shipping routes and cold-chain expansion",
+      "Skilled labor in food processing and agri-logistics"
+    ],
+    "advantages": [
+      "Duty concessions for approved capital equipment",
+      "Integrated processing opportunities near production zones",
+      "Expanding partnerships with contract farming networks"
+    ],
+    "cta": {
+      "title": "Partner with Sri Lanka's agri-value chain",
+      "description": "Engage with SLIF to evaluate land, incentives, and project structuring for scalable agribusiness investments."
+    },
+    "seo": {
+      "title": "Agriculture & Agro-Processing | SLIF",
+      "description": "Explore agriculture and agro-processing investment projects in Sri Lanka with flagship and standard opportunities."
+    }
+  },
+  "tourism": {
+    "name": "Tourism & Leisure",
+    "tagline": "Building high-value, year-round destination experiences.",
+    "heroImage": "assets/img/Sectors/tourisms.webp",
+    "overview": "From wellness to eco-tourism and heritage circuits, Sri Lanka's tourism portfolio is designed for differentiated visitor experiences and strong investor returns.",
+    "stats": [
+      {"label": "Investment Pipeline", "value": "USD 70 Mn"},
+      {"label": "Priority Projects", "value": "3"},
+      {"label": "Global Demand", "value": "Growing"}
+    ],
+    "whyInvest": [
+      "Strong destination equity across leisure, wellness, and culture",
+      "Rapidly diversifying tourism products and regional feeder markets",
+      "Public-private support for destination infrastructure",
+      "Opportunities for branded and boutique hospitality models"
+    ],
+    "advantages": [
+      "Favorable occupancy outlook in key corridors",
+      "Integrated packages across heritage, beach, and eco clusters",
+      "Competitive operating costs for resort and experience formats"
+    ],
+    "cta": {
+      "title": "Shape Sri Lanka's next tourism chapter",
+      "description": "Discover curated projects that align with sustainable tourism, destination branding, and long-term portfolio growth."
+    },
+    "seo": {
+      "title": "Tourism & Leisure | SLIF",
+      "description": "Discover tourism and leisure investment opportunities in Sri Lanka, including flagship destination projects."
+    }
+  },
+  "urban": {
+    "name": "Urban Development & Real Estate",
+    "tagline": "Future-ready cities through integrated real estate and mobility.",
+    "heroImage": "assets/img/Sectors/urban.webp",
+    "overview": "The urban sector pipeline combines mixed-use development, transit integration, and resilient infrastructure to support growing metropolitan demand.",
+    "stats": [
+      {"label": "Investment Pipeline", "value": "USD 103 Mn"},
+      {"label": "Priority Projects", "value": "3"},
+      {"label": "PPP Potential", "value": "High"}
+    ],
+    "whyInvest": [
+      "High demand for integrated residential-commercial assets",
+      "Urban mobility upgrades unlocking land value uplift",
+      "Pipeline aligned with climate-resilient planning goals",
+      "Strong opportunities for phased development structures"
+    ],
+    "advantages": [
+      "Government-backed corridor and city enhancement programs",
+      "Scalable mixed-use blocks in high-demand districts",
+      "Institutional interest in long-hold urban assets"
+    ],
+    "cta": {
+      "title": "Invest in next-generation urban assets",
+      "description": "Work with SLIF to assess project readiness, development phasing, and investment entry models."
+    },
+    "seo": {
+      "title": "Urban Development & Real Estate | SLIF",
+      "description": "Review urban development and real estate projects in Sri Lanka designed for scalable long-term investment."
+    }
+  },
+  "ict": {
+    "name": "ICT, Innovation & Tech Park Development",
+    "tagline": "Enabling a connected digital economy and innovation ecosystem.",
+    "heroImage": "assets/img/Sectors/ICT.webp",
+    "overview": "Sri Lanka's ICT sector offers high-growth opportunities in digital infrastructure, innovation parks, cloud services, and skills acceleration.",
+    "stats": [
+      {"label": "Investment Pipeline", "value": "USD 75 Mn"},
+      {"label": "Priority Projects", "value": "3"},
+      {"label": "Talent Momentum", "value": "Strong"}
+    ],
+    "whyInvest": [
+      "Large pipeline in data infrastructure and digital services",
+      "Strong graduate flow in software and engineering disciplines",
+      "Cost-competitive base for regional service delivery",
+      "Growing startup and innovation support platforms"
+    ],
+    "advantages": [
+      "Scalable campus and park-based development options",
+      "Demand from BPO, cloud, AI, and cybersecurity segments",
+      "Supportive policy environment for digital transformation"
+    ],
+    "cta": {
+      "title": "Build with Sri Lanka's digital growth",
+      "description": "Evaluate high-potential ICT and innovation projects with clear pathways to regional market access."
+    },
+    "seo": {
+      "title": "ICT & Innovation | SLIF",
+      "description": "Explore Sri Lanka's ICT investment opportunities, including tech parks, data centers, and digital skills initiatives."
+    }
+  },
+  "education": {
+    "name": "Higher Education & Vocational Training",
+    "tagline": "Positioning Sri Lanka as a regional knowledge and skills hub.",
+    "heroImage": "assets/img/Sectors/Education.webp",
+    "overview": "The education sector presents strong demand for private higher education and vocational pathways, supported by high literacy, English proficiency, and workforce transition needs.",
+    "stats": [
+      {"label": "Literacy Rate", "value": "92%"},
+      {"label": "Annual Higher Education Demand", "value": "100,000+"},
+      {"label": "Annual TVET Demand", "value": "100,000+"}
+    ],
+    "whyInvest": [
+      "Significant unmet demand for quality tertiary and vocational education",
+      "Strong alignment with growth sectors such as ICT and healthcare",
+      "Competitive setup and operating costs for education operators",
+      "Government and BOI facilitation for approved education ventures"
+    ],
+    "advantages": [
+      "English-medium delivery enables international partnerships",
+      "High employability focus through industry-linked curriculum",
+      "Growing regional student market potential"
+    ],
+    "cta": {
+      "title": "Co-create Sri Lanka's future workforce",
+      "description": "Partner with SLIF to structure education projects spanning campuses, training centers, and specialist institutes."
+    },
+    "seo": {
+      "title": "Education & Vocational Training | SLIF",
+      "description": "View education investment opportunities in Sri Lanka, from flagship knowledge-city concepts to vocational expansion projects."
+    }
+  },
+  "transport": {
+    "name": "Transport & Logistics",
+    "tagline": "Strengthening regional trade through multimodal logistics infrastructure.",
+    "heroImage": "assets/img/Sectors/Transportation.webp",
+    "overview": "Transport and logistics investments in Sri Lanka focus on freight efficiency, inland connectivity, and high-performance trade infrastructure.",
+    "stats": [
+      {"label": "Investment Pipeline", "value": "USD 74 Mn"},
+      {"label": "Priority Projects", "value": "3"},
+      {"label": "Trade Impact", "value": "High"}
+    ],
+    "whyInvest": [
+      "Strategic location on key Indian Ocean trade routes",
+      "Demand for integrated rail, road, and port-linked systems",
+      "Strong opportunities in logistics parks and digital freight",
+      "Government-backed modernization priorities"
+    ],
+    "advantages": [
+      "Gateway potential for South Asia and beyond",
+      "Infrastructure-ready zones for logistics expansion",
+      "Operational efficiencies through multimodal integration"
+    ],
+    "cta": {
+      "title": "Advance Sri Lanka's logistics competitiveness",
+      "description": "Unlock projects that improve freight flow, reduce turnaround times, and expand regional distribution capacity."
+    },
+    "seo": {
+      "title": "Transport & Logistics | SLIF",
+      "description": "Discover transport and logistics projects in Sri Lanka with opportunities in freight, terminals, and logistics zones."
+    }
+  },
+  "aviation": {
+    "name": "Aviation & Aerospace Services",
+    "tagline": "Expanding airport-linked services, cargo, and MRO capabilities.",
+    "heroImage": "assets/img/Sectors/Aviation.webp",
+    "overview": "Aviation opportunities cover maintenance, repair, cargo handling, and supporting services aligned with Sri Lanka's regional connectivity role.",
+    "stats": [
+      {"label": "Investment Pipeline", "value": "USD 45 Mn"},
+      {"label": "Priority Projects", "value": "2"},
+      {"label": "Growth Drivers", "value": "Cargo + MRO"}
+    ],
+    "whyInvest": [
+      "Strategic airport location for regional operations",
+      "Increasing demand for efficient cargo movement",
+      "Potential to scale MRO services for regional fleets",
+      "Supportive ecosystem for aviation-adjacent investments"
+    ],
+    "advantages": [
+      "Airport-linked land and service integration potential",
+      "Digitalization opportunities in cargo workflows",
+      "Strong upside from tourism and trade recovery"
+    ],
+    "cta": {
+      "title": "Invest in aviation-ready growth",
+      "description": "Explore opportunities in MRO, cargo terminals, and value-added aviation service infrastructure."
+    },
+    "seo": {
+      "title": "Aviation & Aerospace Services | SLIF",
+      "description": "Review aviation investment projects in Sri Lanka including MRO upgrades and digital cargo facilities."
+    }
+  },
+  "manufacturing": {
+    "name": "Manufacturing & Industrial Zones",
+    "tagline": "Driving value-added production through modern industrial infrastructure.",
+    "heroImage": "assets/img/Sectors/Manufacturing.webp",
+    "overview": "Manufacturing projects focus on industrial clustering, sustainable production, and export-focused value chains with strong growth potential.",
+    "stats": [
+      {"label": "Investment Pipeline", "value": "USD 46 Mn"},
+      {"label": "Priority Projects", "value": "2"},
+      {"label": "Industry 4.0 Readiness", "value": "Advancing"}
+    ],
+    "whyInvest": [
+      "Established industrial capabilities with export orientation",
+      "Demand for modernized, sustainability-led industrial parks",
+      "Scope for precision engineering and packaging innovation",
+      "Regional access to high-growth consumer and B2B markets"
+    ],
+    "advantages": [
+      "Cluster-based models improve efficiency and supplier integration",
+      "Opportunities for green manufacturing technologies",
+      "Strong potential for phased and modular development"
+    ],
+    "cta": {
+      "title": "Scale sustainable manufacturing in Sri Lanka",
+      "description": "Partner on industrial projects designed for productivity, resilience, and export performance."
+    },
+    "seo": {
+      "title": "Manufacturing & Industrial Zones | SLIF",
+      "description": "Find manufacturing and industrial investment opportunities in Sri Lanka including cluster and park developments."
+    }
+  },
+  "renewable": {
+    "name": "Renewable Energy",
+    "tagline": "Accelerating the clean energy transition with utility-scale projects.",
+    "heroImage": "assets/img/Sectors/Renewable.webp",
+    "overview": "Sri Lanka's renewable pipeline includes high-impact solar and wind developments that support national energy security and low-carbon growth.",
+    "stats": [
+      {"label": "Investment Pipeline", "value": "USD 97 Mn"},
+      {"label": "Priority Projects", "value": "2"},
+      {"label": "Grid Integration", "value": "Priority"}
+    ],
+    "whyInvest": [
+      "Strong solar and wind resource potential in strategic locations",
+      "National commitment to expand clean energy share",
+      "Long-term demand for utility and hybrid generation assets",
+      "Opportunities across generation, storage, and grid support"
+    ],
+    "advantages": [
+      "High-value projects aligned with climate finance priorities",
+      "Potential for blended structures and institutional capital",
+      "Scalable deployment with clear decarbonization impact"
+    ],
+    "cta": {
+      "title": "Power Sri Lanka's renewable future",
+      "description": "Engage with SLIF to structure bankable clean-energy projects across solar, wind, and grid-connected assets."
+    },
+    "seo": {
+      "title": "Renewable Energy | SLIF",
+      "description": "Explore renewable energy investment projects in Sri Lanka covering utility-scale solar and wind opportunities."
+    }
+  }
+}
