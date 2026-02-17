@@ -41,10 +41,12 @@
     const descMeta = document.querySelector('meta[name="description"]');
     if (descMeta && sector.seo?.description) descMeta.setAttribute('content', sector.seo.description);
 
+    const cardIcons = ['bi-briefcase-fill', 'bi-graph-up-arrow', 'bi-globe2', 'bi-lightning-charge-fill', 'bi-building-fill-check', 'bi-shield-check'];
     const statsWrap = document.getElementById('sectorStats');
-    statsWrap.innerHTML = (sector.stats || []).map((stat) => `
+    statsWrap.innerHTML = (sector.stats || []).map((stat, index) => `
       <div class="col-6 col-lg-4">
         <article class="slif-stat-card h-100 fade-in-up">
+          <span class="slif-card-icon-box" aria-hidden="true"><i class="bi ${cardIcons[index % cardIcons.length]}"></i></span>
           <p class="slif-stat-value mb-1">${stat.value}</p>
           <p class="slif-stat-label mb-0">${stat.label}</p>
         </article>
@@ -52,19 +54,25 @@
     `).join('');
 
     const whyWrap = document.getElementById('whyInvestList');
-    whyWrap.innerHTML = (sector.whyInvest || []).map((item) => `
+    whyWrap.innerHTML = (sector.whyInvest || []).map((item, index) => `
       <article class="slif-bullet-card fade-in-up">
-        <i class="bi bi-check-circle-fill"></i>
-        <p class="mb-0">${item}</p>
+        <span class="slif-card-icon-box" aria-hidden="true"><i class="bi ${cardIcons[index % cardIcons.length]}"></i></span>
+        <div>
+          <p class="mb-0">${item}</p>
+          <span class="slif-hover-arrow" aria-hidden="true"><i class="bi bi-arrow-up-right"></i></span>
+        </div>
       </article>
     `).join('');
 
     const advantagesWrap = document.getElementById('advantagesList');
-    advantagesWrap.innerHTML = (sector.advantages || []).map((advantage) => `
+    advantagesWrap.innerHTML = (sector.advantages || []).map((advantage, index) => `
       <div class="col-12 col-md-6 col-lg-4">
         <article class="slif-adv-card h-100 fade-in-up">
-          <i class="bi bi-star-fill"></i>
-          <p class="mb-0">${advantage}</p>
+          <span class="slif-card-icon-box" aria-hidden="true"><i class="bi ${cardIcons[(index + 2) % cardIcons.length]}"></i></span>
+          <div>
+            <p class="mb-0">${advantage}</p>
+            <span class="slif-hover-arrow" aria-hidden="true"><i class="bi bi-arrow-up-right"></i></span>
+          </div>
         </article>
       </div>
     `).join('');
@@ -85,7 +93,7 @@
               <p class="small mb-1"><strong>Investment:</strong> ${project.investment}</p>
               <p class="small mb-3"><strong>Expected IRR:</strong> ${project.irr || 'N/A'}</p>
               <p class="text-muted small mb-3">${project.summary || ''}</p>
-              <a class="mt-auto btn btn-sm btn-outline-primary" href="project.html?id=${project.id}">View details</a>
+              <a class="mt-auto btn btn-sm btn-outline-primary slif-project-link" href="project.html?id=${project.id}">View details <i class="bi bi-arrow-right-short"></i></a>
             </div>
           </article>
         </div>

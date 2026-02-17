@@ -49,25 +49,78 @@
   font-size: clamp(1rem, 2.1vw, 1.3rem);
 }
 
+:root {
+  --slif-card-border: #90c6fc;
+  --slif-card-border-hover: #0d6dfda1;
+  --slif-card-title: #0a1e3c;
+  --slif-card-muted: #6c757d;
+}
+
 .slif-stat-card,
 .slif-adv-card,
 .slif-fact-card,
 .slif-bullet-card {
-  background: var(--surface-color);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  border-radius: 1rem;
-  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid var(--slif-card-border);
+  border-radius: 16px;
+  padding: 1.1rem;
+  position: relative;
+  transition: all .35s ease;
+}
+
+.slif-stat-card:hover,
+.slif-adv-card:hover,
+.slif-fact-card:hover,
+.slif-bullet-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.08);
+  border-color: var(--slif-card-border-hover);
+}
+
+.slif-card-icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  border: 1px solid #e4e8ef;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  transition: all 0.35s ease;
+  background: #fff;
+}
+
+.slif-card-icon-box i {
+  font-size: 22px;
+  color: var(--accent-color);
+  transition: all 0.35s ease;
+}
+
+.slif-stat-card:hover .slif-card-icon-box,
+.slif-adv-card:hover .slif-card-icon-box,
+.slif-bullet-card:hover .slif-card-icon-box {
+  background: var(--accent-color);
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.35);
+  transform: scale(1.08) rotate(3deg);
+}
+
+.slif-stat-card:hover .slif-card-icon-box i,
+.slif-adv-card:hover .slif-card-icon-box i,
+.slif-bullet-card:hover .slif-card-icon-box i {
+  color: #ffffff;
 }
 
 .slif-stat-value {
-  color: var(--heading-color);
+  color: var(--slif-card-title);
   font-size: clamp(1.15rem, 2.4vw, 1.6rem);
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .slif-stat-label {
   font-size: .875rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: var(--slif-card-muted);
+  margin-bottom: 0;
 }
 
 .slif-bullet-grid {
@@ -83,23 +136,53 @@
   gap: .75rem;
 }
 
-.slif-bullet-card i,
-.slif-adv-card i {
+.slif-bullet-card > div,
+.slif-adv-card > div {
+  flex: 1;
+}
+
+.slif-bullet-card p,
+.slif-adv-card p {
+  color: var(--slif-card-muted);
+}
+
+.slif-hover-arrow {
+  display: inline-flex;
+  margin-top: 8px;
   color: var(--accent-color);
-  margin-top: .1rem;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: all .25s ease;
+}
+
+.slif-bullet-card:hover .slif-hover-arrow,
+.slif-adv-card:hover .slif-hover-arrow {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .slif-project-card .card-img-top {
-  height: 170px;
+  height: 180px;
   object-fit: cover;
 }
 
 .slif-project-card {
-  transition: transform .25s ease, box-shadow .25s ease;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: all .35s ease;
 }
 
 .slif-project-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-8px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
+}
+
+.slif-project-link i {
+  transition: transform .2s ease;
+}
+
+.slif-project-card:hover .slif-project-link i {
+  transform: translateX(4px);
 }
 
 .slif-sector-contact {
