@@ -307,7 +307,7 @@ window.SECTOR_PROJECTS_DATA = {
           stage: 'Resource confirmation',
           description: 'Wind turbine installation with transmission and operations infrastructure.'
         }
-      ]
+      ],
     }
   ]
 };

@@ -136,8 +136,8 @@
   gap: .75rem;
 }
 
-.slif-bullet-card > div,
-.slif-adv-card > div {
+.slif-bullet-card>div,
+.slif-adv-card>div {
   flex: 1;
 }
 
@@ -192,6 +192,7 @@
 .slif-cta-btn {
   min-height: 44px;
   padding-inline: 1.1rem;
+  align-items: center;
 }
 
 .slif-detail-list {
@@ -219,6 +220,7 @@
     opacity: 0;
     transform: translateY(8px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -239,6 +241,7 @@
 }
 
 @media (max-width: 767.98px) {
+
   .slif-sector-page section,
   .slif-project-page section {
     margin-bottom: 2rem !important;
@@ -248,4 +251,321 @@
     font-size: .85rem;
     padding: .45rem .65rem;
   }
+}
+
+/* Glass Card */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08);
+}
+
+/* =================================
+   FLOATING STATS WRAPPER
+================================= */
+
+.slif-stats-wrapper {
+  position: relative;
+  z-index: 3;
+
+  margin-top: -70px;
+  padding: clamp(1.2rem, 4vw, 2.5rem);
+
+  border-radius: 28px;
+
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+/* Desltop hover effect for slif-stats-wrapper */
+@media (hover: hover) and (pointer: fine) {
+  .slif-stats-wrapper:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 35px 100px rgba(0, 0, 0, 0.18);
+  }
+}
+/* Desltop hover effect for slif-stats-wrapper */
+@media (max-width: 992px) {
+  .slif-stats-wrapper {
+    margin-top: -40px;
+    border-radius: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slif-stats-wrapper {
+    margin-top: -25px;
+    border-radius: 18px;
+    padding: 1rem;
+  }
+}
+
+.slif-stat-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+  transition: all .4s ease;
+  border: 1px solid rgba(255, 255, 255, .5);
+}
+
+.slif-stat-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.12);
+}
+
+/* Glass Image Frame */
+.slif-glass-image {
+  background: rgba(255, 255, 255, .5);
+  padding: 12px;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, .12);
+}
+
+/* Modern Section Spacing */
+.slif-section-modern {
+  padding: clamp(2rem, 6vw, 5rem) 0;
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 600;
+}
+
+/* Premium Flagship Card */
+.slif-flagship-card {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .12);
+  transition: all .4s ease;
+}
+
+.slif-flagship-card:hover {
+  transform: translateY(-8px);
+}
+
+.slif-flagship-image {
+  flex: 1 1 50%;
+  min-height: 350px;
+  object-fit: cover;
+}
+
+.slif-flagship-content {
+  flex: 1 1 50%;
+  padding: 2.5rem;
+}
+
+/* Modern Project Cards */
+.slif-project-card {
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, .75);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, .5);
+  transition: all .35s ease;
+}
+
+.slif-project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, .15);
+}
+
+/* Mobile Improvements */
+@media (max-width: 992px) {
+  .slif-stats-wrapper {
+    margin-top: -40px;
+  }
+
+  .slif-flagship-card {
+    flex-direction: column;
+  }
+
+  .slif-flagship-image {
+    min-height: 240px;
+  }
+}
+
+/* ====================================
+   SECTOR OFFICER SECTION
+==================================== */
+
+.slif-sector-officer-wrapper {
+  padding: 3rem 0;
+}
+
+.slif-sector-officer-section {
+  background: #1e3a5f;
+  border-radius: 32px;
+  padding: clamp(3rem, 6vw, 5rem);
+  overflow: hidden;
+}
+
+
+.slif-officer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.slif-officer-left {
+  flex: 1 1 55%;
+  color: #fff;
+}
+
+.slif-officer-left h2 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 600;
+  color: wheat;
+}
+
+.slif-officer-card {
+  flex: 1 1 380px;
+  justify-content: center;
+
+  /* Glass background */
+background: rgba(130, 84, 190, 0.377);
+backdrop-filter: blur(18px) saturate(160%);
+-webkit-backdrop-filter: blur(18px) saturate(160%);
+
+/* Frosted border */
+border: 1px solid rgb(255, 255, 255);
+
+border-radius: 24px;
+padding: 2rem;
+
+/* Depth */
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25),
+inset 0 1px 0 rgba(255, 255, 255, 0.4);
+
+transition: all .4s ease;
+}
+
+.slif-officer-card:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 992px) {
+  .slif-officer-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+.slif-officer-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-color);
+}
+
+@media (max-width: 992px) {
+  .slif-officer-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* ===============================
+   OFFICER LEFT CONTENT
+================================ */
+
+.slif-officer-left {
+  flex: 1 1 55%;
+  color: #fff;
+}
+
+.slif-officer-title {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.slif-officer-desc {
+  padding-left: 15%;
+  padding-right: 15%;
+  opacity: 0.9;
+  font-size: 1rem;
+
+}
+
+/* ===============================
+   BUTTON GROUP (DESKTOP)
+================================ */
+
+.slif-officer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===============================
+   BUTTON IMPROVEMENTS
+================================ */
+
+.slif-cta-btn {
+  min-height: 46px;
+  padding: 0.65rem 1.3rem;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: all .25s ease;
+}
+
+.slif-cta-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ===============================
+   MOBILE OPTIMIZATION
+================================ */
+
+@media (max-width: 992px) {
+
+  .slif-officer-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .slif-officer-left {
+    flex: 1 1 100%;
+  }
+
+  .slif-officer-desc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slif-officer-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slif-officer-actions .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+
 }

@@ -37,6 +37,30 @@
     setText('sectorCtaTitle', sector.cta?.title);
     setText('sectorCtaDescription', sector.cta?.description);
 
+    /* ==========================
+   OFFICER SECTION
+========================== */
+
+if (sector.officer) {
+  const officer = sector.officer;
+
+  setText('sectorOfficerDescription', officer.description);
+  setText('officerName', officer.name);
+  setText('officerTitle', officer.title);
+  setText('officerSpecialization', officer.specialization);
+  setText('officerPhone', officer.phone);
+  setText('officerEmail', officer.email);
+
+  const img = document.getElementById('officerImage');
+  if (img) img.src = officer.image || '';
+
+  const consult = document.getElementById('consultationLink');
+  if (consult) consult.href = officer.consultationLink || '#';
+
+  const report = document.getElementById('sectorReportLink');
+  if (report) report.href = officer.reportLink || '#';
+}
+
     if (sector.seo?.title) document.title = sector.seo.title;
     const descMeta = document.querySelector('meta[name="description"]');
     if (descMeta && sector.seo?.description) descMeta.setAttribute('content', sector.seo.description);
