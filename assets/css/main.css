@@ -818,13 +818,29 @@ section,
 --------------------------------------------------------------*/
 .hero {
   padding-top: 150px;
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent-color), transparent 95%), color-mix(in srgb, var(--heading-color), transparent 97%));
+  background-image: url("../img/herobg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
   min-height: 70vh;
   display: flex;
   align-items: center;
   padding-bottom: 60px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.88);
+  pointer-events: none;
+}
+
+.hero > .container {
+  position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 1199px) {
