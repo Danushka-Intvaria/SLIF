@@ -9,7 +9,7 @@
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Rubik",  sans-serif;
-  --nav-font: "Kanit",  sans-serif;
+  --nav-font: "Rubik",  sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -82,9 +82,9 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/* PHP Email Form Messages
+/* Static Form Messages
 ------------------------------*/
-.php-email-form .error-message {
+.slif-form .error-message {
   display: none;
   background: #df1529;
   color: #ffffff;
@@ -94,7 +94,7 @@ h6 {
   font-weight: 600;
 }
 
-.php-email-form .sent-message {
+.slif-form .sent-message {
   display: none;
   color: #ffffff;
   background: #059652;
@@ -104,7 +104,7 @@ h6 {
   font-weight: 600;
 }
 
-.php-email-form .loading {
+.slif-form .loading {
   display: none;
   background: var(--surface-color);
   text-align: center;
@@ -112,7 +112,7 @@ h6 {
   margin-bottom: 24px;
 }
 
-.php-email-form .loading:before {
+.slif-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -121,10 +121,10 @@ h6 {
   margin: 0 10px -6px 0;
   border: 3px solid var(--accent-color);
   border-top-color: var(--surface-color);
-  animation: php-email-form-loading 1s linear infinite;
+  animation: slif-form-loading 1s linear infinite;
 }
 
-@keyframes php-email-form-loading {
+@keyframes slif-form-loading {
   0% {
     transform: rotate(0deg);
   }
@@ -4926,7 +4926,7 @@ footer {
   background: linear-gradient(135deg, #071c3a, #0b2b57);
   padding: 70px 20px;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--heading-font);
 }
 
 #if2026-spotlight .if2026-spotlight-box {
@@ -4981,7 +4981,7 @@ footer {
   background: linear-gradient(135deg, #071c3a, #0b2b57);
   padding: 60px 20px;
   color: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--heading-font);
 }
 
 #if2026-section .if2026-wrapper {
