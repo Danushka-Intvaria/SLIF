@@ -1,0 +1,123 @@
+<div class="slif-sector-page">
+
+  <!-- HERO -->
+  <section class="slif-sector-hero position-relative">
+    <img id="sectorHeroImage" class="slif-sector-hero-image" src="" alt="" loading="lazy">
+    <div class="slif-sector-hero-overlay"></div>
+
+    <div class="container slif-sector-hero-content">
+      <p class="slif-kicker mb-2">Sri Lanka Investment Forum</p>
+      <h1 id="sectorName" class="mb-3"></h1>
+      <p id="sectorTagline" class="lead mb-4"></p>
+      <a href="#sectorProjects" class="btn btn-primary slif-cta-btn">Explore Opportunities</a>
+    </div>
+  </section>
+
+  <!-- FLOATING STATS -->
+  <section class="container slif-stats-wrapper">
+    <div id="sectorStats" class="row g-4 justify-content-center"></div>
+  </section>
+
+  <div class="container">
+
+    <!-- OVERVIEW -->
+    <section class="slif-section-modern">
+      <div class="row align-items-center g-5">
+
+        <div class="col-lg-6">
+          <h2 class="section-title mb-4">Sector Overview</h2>
+          <p id="sectorOverview" class="text-muted"></p>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="slif-glass-image">
+            <img src="/assets/img/Sectors/Education.webp" class="img-fluid rounded-4" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHY INVEST -->
+    <section class="slif-section-modern">
+      <h2 class="section-title mb-4">Why Invest</h2>
+      <div id="whyInvestList" class="slif-bullet-grid"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="sectorProjects" class="slif-section-modern">
+
+      <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3">
+        <h2 class="section-title m-0">Investment Projects</h2>
+        <div class="btn-group">
+          <button class="btn btn-outline-primary active" data-filter="all">All</button>
+          <button class="btn btn-outline-primary" data-filter="flagship">Flagship</button>
+        </div>
+      </div>
+
+      <!-- Flagship Showcase -->
+      <div id="flagshipProjects" class="mb-5"></div>
+
+      <!-- Standard Projects Grid -->
+      <div id="standardProjects" class="row g-4"></div>
+
+    </section>
+
+    <!-- STRATEGIC ADVANTAGES -->
+    <section class="slif-section-modern">
+      <h2 class="section-title mb-4">Strategic Advantages</h2>
+      <div id="advantagesList" class="row g-4"></div>
+    </section>
+
+    <!-- CTA PANEL -->
+    <section class="slif-sector-contact glass-panel p-5 rounded-4 text-center">
+      <!-- SECTOR OFFICER SECTION -->
+      <section class="slif-sector-officer-wrapper">
+        <div class="container">
+          <div class="slif-sector-officer-section">
+
+            <!-- LEFT CONTENT -->
+            <div class="slif-officer-left">
+
+              <h2 class="slif-officer-title mb-3">
+                Interested in This Sector?
+              </h2>
+
+              <p id="sectorOfficerDescription" class="slif-officer-desc mb-4">
+              </p>
+
+              <div class="slif-officer-actions">
+                <a id="consultationLink" href="#" class="btn btn-light slif-cta-btn">
+                  Book a Consultation →
+                </a>
+                <a id="sectorReportLink" href="#" class="btn btn-outline-light slif-cta-btn">
+                  Download Sector Report
+                </a>
+              </div>
+            </div><br>
+
+
+            <!-- OFFICER CARD -->
+            <div class="slif-officer-card">
+
+              <div class="d-flex align-items-center mb-3">
+                <img id="officerImage" class="slif-officer-img me-3" src="" alt="">
+                <div>
+                  <h5 id="officerName" class="mb-1"></h5>
+                  <p id="officerTitle" class="mb-0 small"></p>
+                  <small id="officerSpecialization" class="text-muted"></small>
+                </div>
+              </div>
+
+              <hr>
+
+              <div>
+                <p class="mb-2"><strong>Direct Line:</strong> <span id="officerPhone"></span></p>
+                <p class="mb-0"><strong>Email:</strong> <span id="officerEmail"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </div>
+</div>
