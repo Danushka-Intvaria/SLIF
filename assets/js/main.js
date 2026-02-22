@@ -1,5 +1,5 @@
 
-(function() {
+function initSite() {
   "use strict";
 
   /**
@@ -8,6 +8,7 @@
   function toggleScrolled() {
     const selectBody = document.querySelector('body');
     const selectHeader = document.querySelector('#header');
+    if (!selectHeader) return;
     if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
     window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
   }
@@ -243,7 +244,7 @@
   /**
    * Correct scrolling position upon page load for URLs containing hash links.
    */
-  window.addEventListener('load', function(e) {
+  function handleHashScroll() {
     if (window.location.hash) {
       if (document.querySelector(window.location.hash)) {
         setTimeout(() => {
@@ -256,7 +257,8 @@
         }, 100);
       }
     }
-  });
+  }
+  window.addEventListener('load', handleHashScroll);
 
   /**
    * Navmenu Scrollspy
@@ -334,34 +336,76 @@
     initStaticForms();
   }
 
+  if (document.readyState === 'complete') {
+    toggleScrolled();
+    toggleScrollTop();
+    aosInit();
+    initSwiper();
+    navmenuScrollspy();
+    initIf2026Tabs();
+    handleHashScroll();
+    if (preloader) preloader.remove();
+  }
+
+}
+
+function initSectorFilters() {
+  /**
+     * Education Sector filter
+     */
+  const locationFilter = document.getElementById('locationFilter');
+  const typeFilter = document.getElementById('typeFilter');
+  const sizeFilter = document.getElementById('sizeFilter');
+  const cards = document.querySelectorAll('.project-card');
+
+  if (locationFilter && typeFilter && sizeFilter && cards.length) {
+    [locationFilter, typeFilter, sizeFilter].forEach(filter => {
+      filter.addEventListener('change', applyFilters);
+    });
+  }
+
+  function applyFilters() {
+    if (!locationFilter || !typeFilter || !sizeFilter) return;
+    const locationValue = locationFilter.value;
+    const type = typeFilter.value;
+    const size = sizeFilter.value;
+
+    cards.forEach(card => {
+      const match =
+        (locationValue === 'all' || card.dataset.location === locationValue) &&
+        (type === 'all' || card.dataset.type === type) &&
+        (size === 'all' || card.dataset.size === size);
+
+      card.style.display = match ? 'block' : 'none';
+    });
+  }
+}
+
+(function() {
+  "use strict";
+
+  let initialized = false;
+
+  const runInit = () => {
+    if (initialized) return;
+    initialized = true;
+    initSite();
+    initSectorFilters();
+  };
+
+  const readyPromise = window.__partialsReady;
+  if (readyPromise && typeof readyPromise.then === 'function') {
+    readyPromise.then(runInit);
+    return;
+  }
+
+  document.addEventListener('partials:loaded', runInit, { once: true });
+
+  if (!document.querySelector('[data-include]')) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', runInit, { once: true });
+    } else {
+      runInit();
+    }
+  }
 })();
-
-/**
-   * Education Sector filter
-   */
-const locationFilter = document.getElementById('locationFilter');
-const typeFilter = document.getElementById('typeFilter');
-const sizeFilter = document.getElementById('sizeFilter');
-const cards = document.querySelectorAll('.project-card');
-
-if (locationFilter && typeFilter && sizeFilter && cards.length) {
-  [locationFilter, typeFilter, sizeFilter].forEach(filter => {
-    filter.addEventListener('change', applyFilters);
-  });
-}
-
-function applyFilters() {
-  if (!locationFilter || !typeFilter || !sizeFilter) return;
-  const locationValue = locationFilter.value;
-  const type = typeFilter.value;
-  const size = sizeFilter.value;
-
-  cards.forEach(card => {
-    const match =
-      (locationValue === 'all' || card.dataset.location === locationValue) &&
-      (type === 'all' || card.dataset.type === type) &&
-      (size === 'all' || card.dataset.size === size);
-
-    card.style.display = match ? 'block' : 'none';
-  });
-}
