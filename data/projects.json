@@ -4,31 +4,74 @@
       "id": "agri-001",
       "type": "flagship",
       "title": "Integrated Cold Chain Network",
-      "location": "North Central Province",
-      "investment": "USD 18 Mn",
-      "irr": "17%",
-      "landArea": "35 Acres",
-      "summary": "Temperature-controlled collection, storage, and logistics network for fruits and vegetables.",
-      "overview": "A farm-to-port cold-chain backbone that reduces post-harvest losses and increases export-grade consistency.",
-      "highlights": ["Multi-node distribution model", "Packhouse integration", "Export logistics connectivity"],
-      "financialSnapshot": ["Revenue model: storage + transport fees", "Expected payback: 5-6 years"],
+      "subTitle": "High-value agriculture, modern processing, and export-ready supply chains.",
+      "description": "A strategic portfolio of infrastructure projects designed to modernize Sri Lanka's agricultural value chains, enhance export competitiveness, and drive inclusive rural development.",
       "images": ["assets/img/Sectors/agriculture.webp"],
-      "brochure": "#"
+      "video": "assets/video/agriculture.mp4",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Iranawila, Puttalam District"
+        },
+        {
+          "label": "Investment",
+          "value": "$18 Mn"
+        },
+        {
+          "label": "Timeline",
+          "value": "36 months"
+        },
+        {
+          "label": "Est. Return",
+          "value": "18-20% APR"
+        }
+      ],
+      "keyHighlights": [
+        "Rich agricultural base with high-value crops including tea, spices, coconut, fruits, and vegetables",
+        "Strategic access to India, the Middle East, Europe, and Africa for processed food exports",
+        "Strong brand and export potential with preferential trade access such as EU GSP+, UK DCTS, and regional FTAs",
+        "Skilled and cost-competitive talent pool for quality control, processing, and agri supply-chain operations",
+        "Improving logistics, cold storage, and distribution networks supporting lower post-harvest losses",
+        "Growing sustainability and traceability alignment for premium global markets"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     },
     {
       "id": "agri-002",
       "type": "standard",
       "title": "Value-Added Spice Processing Park",
-      "location": "Kandy",
-      "investment": "USD 11 Mn",
-      "irr": "15%",
-      "landArea": "18 Acres",
-      "summary": "Processing and export hub for premium spices and extracts.",
-      "overview": "Integrated grading, extraction, packaging, and traceability systems for high-value spice exports.",
-      "highlights": ["Shared quality labs", "Brand-ready export packaging", "Traceability platform"],
-      "financialSnapshot": ["Revenue model: processing + export margins", "Expected payback: 6-7 years"],
+      "subTitle": "Processing and export hub for premium spices and extracts.",
+      "description": "Integrated grading, extraction, packaging, and traceability systems for high-value spice exports.",
       "images": ["assets/img/Sectors/agriculture.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Kandy"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 11 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "15%"
+        },
+        {
+          "label": "Land Area",
+          "value": "18 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Shared quality labs",
+        "Brand-ready export packaging",
+        "Traceability platform",
+        "Revenue model: processing + export margins",
+        "Expected payback: 6-7 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     }
   ],
   "tourism": [
@@ -36,31 +79,73 @@
       "id": "tour-001",
       "type": "flagship",
       "title": "Eco-Lodge Cluster Development",
-      "location": "Eastern Province",
-      "investment": "USD 24 Mn",
-      "irr": "19%",
-      "landArea": "42 Acres",
-      "summary": "Low-impact eco-lodges linked to community tourism experiences.",
-      "overview": "A sustainability-driven resort cluster with curated activities and local enterprise participation.",
-      "highlights": ["Nature-integrated design", "Community partnership model", "Year-round experience programming"],
-      "financialSnapshot": ["Revenue model: room + experience bundles", "Expected payback: 5 years"],
+      "subTitle": "Low-impact eco-lodges linked to community tourism experiences.",
+      "description": "A sustainability-driven resort cluster with curated activities and local enterprise participation.",
       "images": ["assets/img/Sectors/tourisms.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Eastern Province"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 24 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "19%"
+        },
+        {
+          "label": "Land Area",
+          "value": "42 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Nature-integrated design",
+        "Community partnership model",
+        "Year-round experience programming",
+        "Revenue model: room + experience bundles",
+        "Expected payback: 5 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     },
     {
       "id": "tour-002",
       "type": "standard",
       "title": "Ayurveda Wellness Resort",
-      "location": "Southern Coast",
-      "investment": "USD 30 Mn",
-      "irr": "18%",
-      "landArea": "27 Acres",
-      "summary": "International-standard wellness retreat with Ayurveda and rehabilitation programs.",
-      "overview": "An integrated wellness destination combining hospitality, medical diagnostics, and preventive care services.",
-      "highlights": ["Medical-wellness positioning", "Premium retreat offerings", "Global market appeal"],
-      "financialSnapshot": ["Revenue model: stay + treatment packages", "Expected payback: 6 years"],
+      "subTitle": "International-standard wellness retreat with Ayurveda and rehabilitation programs.",
+      "description": "An integrated wellness destination combining hospitality, medical diagnostics, and preventive care services.",
       "images": ["assets/img/Sectors/tourisms.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Southern Coast"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 30 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "18%"
+        },
+        {
+          "label": "Land Area",
+          "value": "27 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Medical-wellness positioning",
+        "Premium retreat offerings",
+        "Global market appeal",
+        "Revenue model: stay + treatment packages",
+        "Expected payback: 6 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     }
   ],
   "urban": [
@@ -68,31 +153,73 @@
       "id": "urban-001",
       "type": "flagship",
       "title": "Colombo Mixed-Use Waterfront Block",
-      "location": "Colombo",
-      "investment": "USD 48 Mn",
-      "irr": "16%",
-      "landArea": "21 Acres",
-      "summary": "Integrated commercial, residential, and public realm development.",
-      "overview": "A phased urban block that combines offices, residences, retail, and public spaces in a transit-accessible district.",
-      "highlights": ["Multi-asset revenue streams", "High-demand urban location", "Phased development model"],
-      "financialSnapshot": ["Revenue model: lease + sales mix", "Expected payback: 7-8 years"],
+      "subTitle": "Integrated commercial, residential, and public realm development.",
+      "description": "A phased urban block that combines offices, residences, retail, and public spaces in a transit-accessible district.",
       "images": ["assets/img/Sectors/urban.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Colombo"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 48 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "16%"
+        },
+        {
+          "label": "Land Area",
+          "value": "21 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Multi-asset revenue streams",
+        "High-demand urban location",
+        "Phased development model",
+        "Revenue model: lease + sales mix",
+        "Expected payback: 7-8 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     },
     {
       "id": "urban-002",
       "type": "standard",
       "title": "Smart Mobility Hub",
-      "location": "Kandy",
-      "investment": "USD 20 Mn",
-      "irr": "14%",
-      "landArea": "12 Acres",
-      "summary": "Intermodal center with EV charging, parking, and digital wayfinding.",
-      "overview": "A mobility-focused asset that improves transit efficiency while unlocking adjacent commercial value.",
-      "highlights": ["Intermodal integration", "Digital mobility systems", "Commercial activation potential"],
-      "financialSnapshot": ["Revenue model: transit + retail fees", "Expected payback: 8 years"],
+      "subTitle": "Intermodal center with EV charging, parking, and digital wayfinding.",
+      "description": "A mobility-focused asset that improves transit efficiency while unlocking adjacent commercial value.",
       "images": ["assets/img/Sectors/urban.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Kandy"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 20 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "14%"
+        },
+        {
+          "label": "Land Area",
+          "value": "12 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Intermodal integration",
+        "Digital mobility systems",
+        "Commercial activation potential",
+        "Revenue model: transit + retail fees",
+        "Expected payback: 8 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     }
   ],
   "ict": [
@@ -100,31 +227,73 @@
       "id": "ict-001",
       "type": "flagship",
       "title": "Tier-III Data Center Campus",
-      "location": "Western Province",
-      "investment": "USD 26 Mn",
-      "irr": "18%",
-      "landArea": "14 Acres",
-      "summary": "Carrier-neutral colocation and cloud-ready infrastructure.",
-      "overview": "A resilient data infrastructure asset designed to meet enterprise, cloud, and regional disaster-recovery demand.",
-      "highlights": ["Tier-III standards", "Carrier-neutral ecosystem", "Scalable modular architecture"],
-      "financialSnapshot": ["Revenue model: racks + managed services", "Expected payback: 5-6 years"],
+      "subTitle": "Carrier-neutral colocation and cloud-ready infrastructure.",
+      "description": "A resilient data infrastructure asset designed to meet enterprise, cloud, and regional disaster-recovery demand.",
       "images": ["assets/img/Sectors/ICT.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Western Province"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 26 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "18%"
+        },
+        {
+          "label": "Land Area",
+          "value": "14 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Tier-III standards",
+        "Carrier-neutral ecosystem",
+        "Scalable modular architecture",
+        "Revenue model: racks + managed services",
+        "Expected payback: 5-6 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     },
     {
       "id": "ict-002",
       "type": "standard",
       "title": "Regional Technology Park",
-      "location": "Kurunegala",
-      "investment": "USD 40 Mn",
-      "irr": "17%",
-      "landArea": "30 Acres",
-      "summary": "Plug-and-play facilities for BPO, software, and innovation labs.",
-      "overview": "A multi-tenant technology zone for digital services, startup incubation, and advanced capability centers.",
-      "highlights": ["Campus-style development", "Talent pipeline integration", "Export-oriented service demand"],
-      "financialSnapshot": ["Revenue model: lease + utility services", "Expected payback: 6-7 years"],
+      "subTitle": "Plug-and-play facilities for BPO, software, and innovation labs.",
+      "description": "A multi-tenant technology zone for digital services, startup incubation, and advanced capability centers.",
       "images": ["assets/img/Sectors/ICT.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Kurunegala"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 40 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "17%"
+        },
+        {
+          "label": "Land Area",
+          "value": "30 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Campus-style development",
+        "Talent pipeline integration",
+        "Export-oriented service demand",
+        "Revenue model: lease + utility services",
+        "Expected payback: 6-7 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     }
   ],
   "education": [
@@ -132,31 +301,73 @@
       "id": "edu-001",
       "type": "flagship",
       "title": "International Knowledge City",
-      "location": "Colombo",
-      "investment": "USD 150 Mn",
-      "irr": "18%",
-      "landArea": "65 Acres",
-      "summary": "Integrated higher education district with student living, labs, and innovation spaces.",
-      "overview": "A large-scale knowledge ecosystem bringing together universities, R&D facilities, student services, and private-sector collaboration hubs.",
-      "highlights": ["Multi-institution model", "Research and innovation integration", "Regional student attraction strategy"],
-      "financialSnapshot": ["Revenue model: tuition + ancillary assets", "Expected payback: 8-10 years"],
+      "subTitle": "Integrated higher education district with student living, labs, and innovation spaces.",
+      "description": "A large-scale knowledge ecosystem bringing together universities, R&D facilities, student services, and private-sector collaboration hubs.",
       "images": ["assets/img/Sectors/Education.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Colombo"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 150 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "18%"
+        },
+        {
+          "label": "Land Area",
+          "value": "65 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Multi-institution model",
+        "Research and innovation integration",
+        "Regional student attraction strategy",
+        "Revenue model: tuition + ancillary assets",
+        "Expected payback: 8-10 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     },
     {
       "id": "edu-002",
       "type": "standard",
       "title": "Technical Institute Development",
-      "location": "Kandy",
-      "investment": "USD 25 Mn",
-      "irr": "16%",
-      "landArea": "22 Acres",
-      "summary": "Industry-aligned vocational campus for high-demand technical disciplines.",
-      "overview": "A competency-based training center linked with employers in manufacturing, ICT, and engineering services.",
-      "highlights": ["Employer-led curriculum", "Certification pathways", "Apprenticeship integration"],
-      "financialSnapshot": ["Revenue model: tuition + training contracts", "Expected payback: 6-7 years"],
+      "subTitle": "Industry-aligned vocational campus for high-demand technical disciplines.",
+      "description": "A competency-based training center linked with employers in manufacturing, ICT, and engineering services.",
       "images": ["assets/img/Sectors/Education.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Kandy"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 25 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "16%"
+        },
+        {
+          "label": "Land Area",
+          "value": "22 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Employer-led curriculum",
+        "Certification pathways",
+        "Apprenticeship integration",
+        "Revenue model: tuition + training contracts",
+        "Expected payback: 6-7 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     }
   ],
   "transport": [
@@ -164,31 +375,73 @@
       "id": "trans-001",
       "type": "flagship",
       "title": "Inland Logistics Zone",
-      "location": "Hambantota",
-      "investment": "USD 33 Mn",
-      "irr": "17%",
-      "landArea": "40 Acres",
-      "summary": "Warehousing, cold storage, and customs-enabled distribution hub.",
-      "overview": "A strategic inland logistics complex supporting multimodal cargo consolidation and efficient trade movement.",
-      "highlights": ["Customs-enabled operations", "Cold and dry storage mix", "Port corridor connectivity"],
-      "financialSnapshot": ["Revenue model: storage + handling charges", "Expected payback: 6 years"],
+      "subTitle": "Warehousing, cold storage, and customs-enabled distribution hub.",
+      "description": "A strategic inland logistics complex supporting multimodal cargo consolidation and efficient trade movement.",
       "images": ["assets/img/Sectors/Transportation.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Hambantota"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 33 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "17%"
+        },
+        {
+          "label": "Land Area",
+          "value": "40 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Customs-enabled operations",
+        "Cold and dry storage mix",
+        "Port corridor connectivity",
+        "Revenue model: storage + handling charges",
+        "Expected payback: 6 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     },
     {
       "id": "trans-002",
       "type": "standard",
       "title": "Rail Freight Terminal Modernization",
-      "location": "Colombo",
-      "investment": "USD 22 Mn",
-      "irr": "15%",
-      "landArea": "16 Acres",
-      "summary": "Container handling and scheduling upgrades for faster freight throughput.",
-      "overview": "Terminal modernization project designed to improve turnaround times and cargo reliability for trade operators.",
-      "highlights": ["Digital scheduling tools", "Container handling upgrades", "Rail-road transfer efficiency"],
-      "financialSnapshot": ["Revenue model: throughput fees", "Expected payback: 7 years"],
+      "subTitle": "Container handling and scheduling upgrades for faster freight throughput.",
+      "description": "Terminal modernization project designed to improve turnaround times and cargo reliability for trade operators.",
       "images": ["assets/img/Sectors/Transportation.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Colombo"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 22 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "15%"
+        },
+        {
+          "label": "Land Area",
+          "value": "16 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Digital scheduling tools",
+        "Container handling upgrades",
+        "Rail-road transfer efficiency",
+        "Revenue model: throughput fees",
+        "Expected payback: 7 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     }
   ],
   "aviation": [
@@ -196,31 +449,73 @@
       "id": "avi-001",
       "type": "flagship",
       "title": "Aircraft MRO Facility Upgrade",
-      "location": "Katunayake",
-      "investment": "USD 28 Mn",
-      "irr": "16%",
-      "landArea": "19 Acres",
-      "summary": "Expansion of maintenance, repair, and overhaul capacity for regional fleets.",
-      "overview": "A technical services platform to capture regional MRO demand and improve turnaround capacity for airline operators.",
-      "highlights": ["Regional fleet servicing", "High-value technical capability", "Phased hangar expansion"],
-      "financialSnapshot": ["Revenue model: service contracts", "Expected payback: 7 years"],
+      "subTitle": "Expansion of maintenance, repair, and overhaul capacity for regional fleets.",
+      "description": "A technical services platform to capture regional MRO demand and improve turnaround capacity for airline operators.",
       "images": ["assets/img/Sectors/Aviation.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Katunayake"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 28 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "16%"
+        },
+        {
+          "label": "Land Area",
+          "value": "19 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Regional fleet servicing",
+        "High-value technical capability",
+        "Phased hangar expansion",
+        "Revenue model: service contracts",
+        "Expected payback: 7 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     },
     {
       "id": "avi-002",
       "type": "standard",
       "title": "Air Cargo Digital Terminal",
-      "location": "Bandaranaike International Airport",
-      "investment": "USD 17 Mn",
-      "irr": "15%",
-      "landArea": "11 Acres",
-      "summary": "Digitized terminal systems with integrated cold-chain handling.",
-      "overview": "A cargo modernization project focused on visibility, compliance automation, and faster perishable goods movement.",
-      "highlights": ["Smart cargo workflows", "Cold-chain integration", "Time-sensitive export support"],
-      "financialSnapshot": ["Revenue model: cargo handling + digital fees", "Expected payback: 6-7 years"],
+      "subTitle": "Digitized terminal systems with integrated cold-chain handling.",
+      "description": "A cargo modernization project focused on visibility, compliance automation, and faster perishable goods movement.",
       "images": ["assets/img/Sectors/Aviation.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Bandaranaike International Airport"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 17 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "15%"
+        },
+        {
+          "label": "Land Area",
+          "value": "11 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Smart cargo workflows",
+        "Cold-chain integration",
+        "Time-sensitive export support",
+        "Revenue model: cargo handling + digital fees",
+        "Expected payback: 6-7 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     }
   ],
   "manufacturing": [
@@ -228,31 +523,73 @@
       "id": "manu-001",
       "type": "flagship",
       "title": "Light Engineering Cluster",
-      "location": "Ragama",
-      "investment": "USD 21 Mn",
-      "irr": "16%",
-      "landArea": "24 Acres",
-      "summary": "Shared tooling, prototyping, and quality labs for engineering SMEs.",
-      "overview": "A cluster-based industrial platform that improves productivity and export capability for precision engineering firms.",
-      "highlights": ["Shared industrial services", "SME scaling pathways", "Precision manufacturing focus"],
-      "financialSnapshot": ["Revenue model: lease + shared service fees", "Expected payback: 7 years"],
+      "subTitle": "Shared tooling, prototyping, and quality labs for engineering SMEs.",
+      "description": "A cluster-based industrial platform that improves productivity and export capability for precision engineering firms.",
       "images": ["assets/img/Sectors/Manufacturing.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Ragama"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 21 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "16%"
+        },
+        {
+          "label": "Land Area",
+          "value": "24 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Shared industrial services",
+        "SME scaling pathways",
+        "Precision manufacturing focus",
+        "Revenue model: lease + shared service fees",
+        "Expected payback: 7 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     },
     {
       "id": "manu-002",
       "type": "standard",
       "title": "Sustainable Packaging Industrial Park",
-      "location": "Kalutara",
-      "investment": "USD 25 Mn",
-      "irr": "17%",
-      "landArea": "20 Acres",
-      "summary": "Circular-material packaging production ecosystem.",
-      "overview": "An industrial park designed for sustainable packaging manufacturing with integrated utilities and export facilitation.",
-      "highlights": ["Green manufacturing proposition", "Shared infrastructure", "Export-ready operations"],
-      "financialSnapshot": ["Revenue model: tenancy + utility services", "Expected payback: 6-7 years"],
+      "subTitle": "Circular-material packaging production ecosystem.",
+      "description": "An industrial park designed for sustainable packaging manufacturing with integrated utilities and export facilitation.",
       "images": ["assets/img/Sectors/Manufacturing.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Kalutara"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 25 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "17%"
+        },
+        {
+          "label": "Land Area",
+          "value": "20 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Green manufacturing proposition",
+        "Shared infrastructure",
+        "Export-ready operations",
+        "Revenue model: tenancy + utility services",
+        "Expected payback: 6-7 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     }
   ],
   "renewable": [
@@ -260,31 +597,73 @@
       "id": "re-001",
       "type": "flagship",
       "title": "Solar Park Development",
-      "location": "Pooneryn",
-      "investment": "USD 45 Mn",
-      "irr": "14%",
-      "landArea": "75 Acres",
-      "summary": "Utility-scale solar generation with grid tie-in and balancing systems.",
-      "overview": "A large-scale solar development designed for dependable generation and long-term power offtake potential.",
-      "highlights": ["Utility-scale deployment", "Grid integration design", "Battery-ready architecture"],
-      "financialSnapshot": ["Revenue model: power purchase agreements", "Expected payback: 9-10 years"],
+      "subTitle": "Utility-scale solar generation with grid tie-in and balancing systems.",
+      "description": "A large-scale solar development designed for dependable generation and long-term power offtake potential.",
       "images": ["assets/img/Sectors/Renewable.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Pooneryn"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 45 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "14%"
+        },
+        {
+          "label": "Land Area",
+          "value": "75 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Utility-scale deployment",
+        "Grid integration design",
+        "Battery-ready architecture",
+        "Revenue model: power purchase agreements",
+        "Expected payback: 9-10 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     },
     {
       "id": "re-002",
       "type": "standard",
       "title": "Onshore Wind Farm Expansion",
-      "location": "Mannar",
-      "investment": "USD 52 Mn",
-      "irr": "15%",
-      "landArea": "90 Acres",
-      "summary": "Wind installation and transmission support infrastructure.",
-      "overview": "A grid-connected wind expansion project targeting stable generation profiles and scalable phase-wise deployment.",
-      "highlights": ["Strong wind resource zone", "Transmission integration", "Phased construction roadmap"],
-      "financialSnapshot": ["Revenue model: long-term power sales", "Expected payback: 8-9 years"],
+      "subTitle": "Wind installation and transmission support infrastructure.",
+      "description": "A grid-connected wind expansion project targeting stable generation profiles and scalable phase-wise deployment.",
       "images": ["assets/img/Sectors/Renewable.webp"],
-      "brochure": "#"
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Mannar"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 52 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "15%"
+        },
+        {
+          "label": "Land Area",
+          "value": "90 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Strong wind resource zone",
+        "Transmission integration",
+        "Phased construction roadmap",
+        "Revenue model: long-term power sales",
+        "Expected payback: 8-9 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
     }
   ]
 }
