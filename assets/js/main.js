@@ -117,10 +117,12 @@ function initSite() {
     const minutesElement = countDownItem.querySelector('.count-minutes');
     const secondsElement = countDownItem.querySelector('.count-seconds');
 
-    if (daysElement) daysElement.innerHTML = days;
-    if (hoursElement) hoursElement.innerHTML = hours;
-    if (minutesElement) minutesElement.innerHTML = minutes;
-    if (secondsElement) secondsElement.innerHTML = seconds;
+    const formatCount = (value) => String(value).padStart(2, '0');
+
+    if (daysElement) daysElement.innerHTML = formatCount(days);
+    if (hoursElement) hoursElement.innerHTML = formatCount(hours);
+    if (minutesElement) minutesElement.innerHTML = formatCount(minutes);
+    if (secondsElement) secondsElement.innerHTML = formatCount(seconds);
 
   }
 

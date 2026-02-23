@@ -983,7 +983,13 @@ section,
   box-shadow: 0 4px 15px
     color-mix(in srgb, var(--default-color), transparent 90%);
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
-  min-width: 80px;
+  width: 92px;
+  height: 92px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero .countdown-wrapper .countdown > div h3 {
@@ -1009,8 +1015,9 @@ section,
   }
 
   .hero .countdown-wrapper .countdown > div {
-    min-width: 60px;
-    padding: 1rem 0.75rem;
+    width: 72px;
+    height: 72px;
+    padding: 0.75rem 0.5rem;
   }
 
   .hero .countdown-wrapper .countdown > div h3 {
