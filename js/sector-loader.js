@@ -4,9 +4,9 @@
 
   try {
     const [templateRes, sectorsRes, projectsRes] = await Promise.all([
-      fetch('templates/sector-template.html'),
-      fetch('data/sectors.json'),
-      fetch('data/projects.json')
+      fetch('/templates/sector-template.html'),
+      fetch('/data/sectors.json'),
+      fetch('/data/projects.json')
     ]);
 
     const [template, sectors, projects] = await Promise.all([
@@ -27,8 +27,24 @@
       if (el) el.textContent = value || '';
     };
 
+    const resolveAssetPath = (path) => {
+      if (!path) return '';
+      if (path.startsWith('/') || path.startsWith('http://') || path.startsWith('https://') || path.startsWith('data:')) {
+        return path;
+      }
+      return `/${path}`;
+    };
+
+    const resolveLink = (path) => {
+      if (!path || path === '#') return path || '#';
+      if (path.startsWith('/') || path.startsWith('http://') || path.startsWith('https://') || path.startsWith('mailto:') || path.startsWith('tel:')) {
+        return path;
+      }
+      return `/${path}`;
+    };
+
     const heroImage = document.getElementById('sectorHeroImage');
-    heroImage.src = sector.heroImage;
+    heroImage.src = resolveAssetPath(sector.heroImage);
     heroImage.alt = sector.name;
 
     setText('sectorName', sector.name);
@@ -52,13 +68,13 @@ if (sector.officer) {
   setText('officerEmail', officer.email);
 
   const img = document.getElementById('officerImage');
-  if (img) img.src = officer.image || '';
+  if (img) img.src = resolveAssetPath(officer.image);
 
   const consult = document.getElementById('consultationLink');
-  if (consult) consult.href = officer.consultationLink || '#';
+  if (consult) consult.href = resolveLink(officer.consultationLink || '#');
 
   const report = document.getElementById('sectorReportLink');
-  if (report) report.href = officer.reportLink || '#';
+  if (report) report.href = resolveLink(officer.reportLink || '#');
 }
 
     if (sector.seo?.title) document.title = sector.seo.title;
@@ -109,7 +125,7 @@ if (sector.officer) {
       const toCard = (project) => `
         <div class="col-12 col-md-6">
           <article class="card h-100 border-0 shadow-sm slif-project-card fade-in-up">
-            <img src="${project.images?.[0] || sector.heroImage}" loading="lazy" class="card-img-top" alt="${project.title}">
+            <img src="${resolveAssetPath(project.images?.[0] || sector.heroImage)}" loading="lazy" class="card-img-top" alt="${project.title}">
             <div class="card-body d-flex flex-column">
               <span class="badge text-bg-light border mb-2 text-uppercase">${project.type}</span>
               <h4 class="h6 mb-2">${project.title}</h4>
@@ -117,7 +133,7 @@ if (sector.officer) {
               <p class="small mb-1"><strong>Investment:</strong> ${project.investment}</p>
               <p class="small mb-3"><strong>Expected IRR:</strong> ${project.irr || 'N/A'}</p>
               <p class="text-muted small mb-3">${project.summary || ''}</p>
-              <a class="mt-auto btn btn-sm btn-outline-primary slif-project-link" href="project.html?id=${project.id}">View details <i class="bi bi-arrow-right-short"></i></a>
+              <a class="mt-auto btn btn-sm btn-outline-primary slif-project-link" href="/project.html?id=${project.id}">View details <i class="bi bi-arrow-right-short"></i></a>
             </div>
           </article>
         </div>

@@ -1,40 +1,27 @@
 # Sector and Project Data Management
 
-This site now supports a **single reusable sector page** and a **single reusable project page**.
+This site uses centralized data and templates to avoid duplicating sector or project markup.
 
 ## Pages
-- `sector.html?id=<sector-id>` renders one sector and all related projects.
-- `project.html?sector=<sector-id>&project=<project-id>` renders one project.
+- `/sectors/index.html` lists all sectors.
+- `/sectors/sector.html?sector=<sector-id>` renders one sector and its projects.
+- `/sectors/<sector-id>.html` redirects to the sector detail page.
+- `/project.html?id=<project-id>` renders one project.
 
-## Where to update content
-Update only this file:
-- `assets/js/sector-projects-data.js`
+## Templates
+- `templates/sector-template.html`
+- `templates/project-template.html`
 
-## Data format
-Each sector has:
-- `id`
-- `name`
-- `summary`
-- `heroImage`
-- `stats[]`
-- `projects[]`
+## Data sources
+- `data/sectors.json` contains sector metadata.
+- `data/projects.json` contains project details grouped by sector.
 
-Each project has:
-- `id`
-- `name`
-- `location`
-- `investment`
-- `stage`
-- `description`
+## Add a new sector
+1. Add a new key inside `data/sectors.json` (example: `fisheries`).
+2. Add the sector's projects inside `data/projects.json` under the same key.
+3. Add a redirect page at `sectors/fisheries.html` (copy an existing redirect) or link directly to `/sectors/sector.html?sector=fisheries`.
 
-## How to add a new sector
-1. Add a new object inside `sectors` in `assets/js/sector-projects-data.js`.
-2. Use a unique `id` (example: `fisheries`).
-3. Add a link from any page using: `sector.html?id=fisheries`.
-
-## How to add/update projects
-1. Open the relevant sector object.
-2. Add/edit/remove items inside `projects`.
-3. Ensure each project has a unique `id` within that sector.
-
-This approach makes it easy to maintain 20+ projects without creating 20 separate HTML page structures.
+## Add or update projects
+1. Open the sector entry in `data/projects.json`.
+2. Add/edit/remove items inside that sector array.
+3. Ensure each project has a unique `id` across all sectors.

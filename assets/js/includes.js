@@ -23,19 +23,31 @@
     const navLinks = document.querySelectorAll("#navmenu a");
     if (!navLinks.length) return;
 
-    const current = window.location.pathname.split("/").pop() || "index.html";
+    const normalizePath = (path) => {
+      if (!path || path === "/") return "/index.html";
+      if (path.endsWith("/")) return `${path}index.html`;
+      if (!path.includes(".")) return `${path}/index.html`;
+      return path;
+    };
+
+    const currentPath = normalizePath(window.location.pathname);
 
     navLinks.forEach((link) => {
       const href = link.getAttribute("href");
-      if (!href) return;
+      if (!href || href.startsWith("#")) return;
 
-      const [linkPath, linkHash] = href.split("#");
-      const normalizedPath = linkPath || current;
+      let linkUrl;
+      try {
+        linkUrl = new URL(href, document.baseURI);
+      } catch (error) {
+        return;
+      }
 
-      const isSamePage = normalizedPath === current;
-      const isHomeLink = current === "index.html" && href === "index.html";
+      const linkPath = normalizePath(linkUrl.pathname);
+      const isSamePage = linkPath === currentPath;
+      const hasHash = Boolean(linkUrl.hash);
 
-      if ((isSamePage && !linkHash) || isHomeLink) {
+      if (isSamePage && !hasHash) {
         link.classList.add("active");
         link.setAttribute("aria-current", "page");
       }
