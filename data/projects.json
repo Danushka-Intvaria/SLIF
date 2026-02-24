@@ -1,186 +1,78 @@
 {
-  "agriculture": [
-    {
-      "id": "agri-001",
-      "type": "flagship",
-      "title": "Integrated Cold Chain Network",
-      "subTitle": "High-value agriculture, modern processing, and export-ready supply chains.",
-      "description": "A strategic portfolio of infrastructure projects designed to modernize Sri Lanka's agricultural value chains, enhance export competitiveness, and drive inclusive rural development.",
-      "images": ["assets/img/Sectors/agriculture.webp"],
-      "video": "assets/video/agriculture.mp4",
-      "stats": [
-        {
-          "label": "Location",
-          "value": "Iranawila, Puttalam District"
-        },
-        {
-          "label": "Investment",
-          "value": "$18 Mn"
-        },
-        {
-          "label": "Timeline",
-          "value": "36 months"
-        },
-        {
-          "label": "Est. Return",
-          "value": "18-20% APR"
-        }
-      ],
-      "keyHighlights": [
-        "Rich agricultural base with high-value crops including tea, spices, coconut, fruits, and vegetables",
-        "Strategic access to India, the Middle East, Europe, and Africa for processed food exports",
-        "Strong brand and export potential with preferential trade access such as EU GSP+, UK DCTS, and regional FTAs",
-        "Skilled and cost-competitive talent pool for quality control, processing, and agri supply-chain operations",
-        "Improving logistics, cold storage, and distribution networks supporting lower post-harvest losses",
-        "Growing sustainability and traceability alignment for premium global markets"
-      ],
-      "brochure": "#",
-      "moreInfo": "#"
-    },
-    {
-      "id": "agri-002",
-      "type": "standard",
-      "title": "Value-Added Spice Processing Park",
-      "subTitle": "Processing and export hub for premium spices and extracts.",
-      "description": "Integrated grading, extraction, packaging, and traceability systems for high-value spice exports.",
-      "images": ["assets/img/Sectors/agriculture.webp"],
-      "video": "",
-      "stats": [
-        {
-          "label": "Location",
-          "value": "Kandy"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 11 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "15%"
-        },
-        {
-          "label": "Land Area",
-          "value": "18 Acres"
-        }
-      ],
-      "keyHighlights": [
-        "Shared quality labs",
-        "Brand-ready export packaging",
-        "Traceability platform",
-        "Revenue model: processing + export margins",
-        "Expected payback: 6-7 years"
-      ],
-      "brochure": "#",
-      "moreInfo": "#"
-    }
-  ],
+  "agriculture": [],
+
   "tourism": [
     {
       "id": "tour-001",
       "type": "flagship",
-      "title": "Eco-Lodge Cluster Development",
-      "subTitle": "Low-impact eco-lodges linked to community tourism experiences.",
-      "description": "A sustainability-driven resort cluster with curated activities and local enterprise participation.",
+      "title": "Theme Park Development – Nuwara Eliya",
+      "subTitle": "Sri Lanka’s Next Iconic Hill-Country Leisure Destination",
+      "description": "A US$75 million world-class theme park with an 80-room boutique hotel developed in three phases to create a premium hill-country attraction.",
       "images": ["assets/img/Sectors/tourisms.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Eastern Province"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 24 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "19%"
-        },
-        {
-          "label": "Land Area",
-          "value": "42 Acres"
-        }
+        { "label": "Location", "value": "Nuwara Eliya" },
+        { "label": "Investment", "value": "USD 75 Mn" },
+        { "label": "Land Area", "value": "10.9 Acres" },
+        { "label": "Expected IRR", "value": "13–15%" }
       ],
       "keyHighlights": [
-        "Nature-integrated design",
-        "Community partnership model",
-        "Year-round experience programming",
-        "Revenue model: room + experience bundles",
-        "Expected payback: 5 years"
+        "Integrated hotel and conference facilities",
+        "Retail & dining revenue streams",
+        "Amusement and attraction income",
+        "30-year lease model",
+        "Tourism circuit integration"
       ],
       "brochure": "#",
       "moreInfo": "#"
     },
     {
       "id": "tour-002",
-      "type": "standard",
-      "title": "Ayurveda Wellness Resort",
-      "subTitle": "International-standard wellness retreat with Ayurveda and rehabilitation programs.",
-      "description": "An integrated wellness destination combining hospitality, medical diagnostics, and preventive care services.",
+      "type": "flagship",
+      "title": "Diyawanna Frolic Island Recreational Hub",
+      "subTitle": "Sri Lanka’s Next Iconic Urban Leisure Asset",
+      "description": "A USD 115 million integrated leisure hub in Battaramulla spanning 27.3 acres of waterfront land.",
       "images": ["assets/img/Sectors/tourisms.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Southern Coast"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 30 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "18%"
-        },
-        {
-          "label": "Land Area",
-          "value": "27 Acres"
-        }
+        { "label": "Location", "value": "Battaramulla" },
+        { "label": "Investment", "value": "USD 115 Mn" },
+        { "label": "Land Area", "value": "27.3 Acres" },
+        { "label": "Expected IRR", "value": "18–22%" }
       ],
       "keyHighlights": [
-        "Medical-wellness positioning",
-        "Premium retreat offerings",
-        "Global market appeal",
-        "Revenue model: stay + treatment packages",
-        "Expected payback: 6 years"
+        "Amusement park and sports facilities",
+        "Adventure and horse riding zones",
+        "Events & corporate revenue streams",
+        "Prime metropolitan location",
+        "Flexible component investment model"
       ],
       "brochure": "#",
       "moreInfo": "#"
     }
   ],
+
   "urban": [
     {
       "id": "urban-001",
       "type": "flagship",
-      "title": "Colombo Mixed-Use Waterfront Block",
-      "subTitle": "Integrated commercial, residential, and public realm development.",
-      "description": "A phased urban block that combines offices, residences, retail, and public spaces in a transit-accessible district.",
+      "title": "Residential Apartment Development – Colombo 10",
+      "subTitle": "Premium Urban Living Investment",
+      "description": "A USD 65 million residential tower project on 3.03 acres of UDA-leased land in Colombo 10.",
       "images": ["assets/img/Sectors/urban.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Colombo"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 48 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "16%"
-        },
-        {
-          "label": "Land Area",
-          "value": "21 Acres"
-        }
+        { "label": "Location", "value": "Colombo 10" },
+        { "label": "Investment", "value": "USD 65 Mn" },
+        { "label": "Land Area", "value": "3.03 Acres" },
+        { "label": "Expected IRR", "value": "12–14%" }
       ],
       "keyHighlights": [
-        "Multi-asset revenue streams",
-        "High-demand urban location",
-        "Phased development model",
-        "Revenue model: lease + sales mix",
-        "Expected payback: 7-8 years"
+        "99-year lease structure",
+        "High rental demand",
+        "Retail and ancillary income",
+        "CBD proximity",
+        "Urban vertical growth model"
       ],
       "brochure": "#",
       "moreInfo": "#"
@@ -188,147 +80,76 @@
     {
       "id": "urban-002",
       "type": "standard",
-      "title": "Smart Mobility Hub",
-      "subTitle": "Intermodal center with EV charging, parking, and digital wayfinding.",
-      "description": "A mobility-focused asset that improves transit efficiency while unlocking adjacent commercial value.",
+      "title": "Mixed Development Portfolio (6 Projects)",
+      "subTitle": "Integrated Urban Development Across Strategic Locations",
+      "description": "Six structured mixed-use projects across Karapitiya, Madola, Kurunegala, Rajagiriya, Kottawa and Kadawatha.",
       "images": ["assets/img/Sectors/urban.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Kandy"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 20 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "14%"
-        },
-        {
-          "label": "Land Area",
-          "value": "12 Acres"
-        }
+        { "label": "Investment Range", "value": "USD 8–20 Mn per Project" },
+        { "label": "Expected IRR", "value": "17–19%" },
+        { "label": "Land Range", "value": "0.36 – 13 Acres" }
       ],
       "keyHighlights": [
-        "Intermodal integration",
-        "Digital mobility systems",
-        "Commercial activation potential",
-        "Revenue model: transit + retail fees",
-        "Expected payback: 8 years"
+        "Commercial and residential integration",
+        "Phased urban regeneration",
+        "High rental growth zones",
+        "Hospitality & living components",
+        "Multiple revenue streams"
       ],
       "brochure": "#",
       "moreInfo": "#"
     }
   ],
+
   "ict": [
     {
       "id": "ict-001",
       "type": "flagship",
-      "title": "Tier-III Data Center Campus",
-      "subTitle": "Carrier-neutral colocation and cloud-ready infrastructure.",
-      "description": "A resilient data infrastructure asset designed to meet enterprise, cloud, and regional disaster-recovery demand.",
+      "title": "Techno Parks – Kurunegala & Galle",
+      "subTitle": "Invest in Sri Lanka’s Emerging Technology Capital",
+      "description": "A USD 100 million development of regional innovation parks with digital infrastructure and export-oriented IT services.",
       "images": ["assets/img/Sectors/ICT.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Western Province"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 26 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "18%"
-        },
-        {
-          "label": "Land Area",
-          "value": "14 Acres"
-        }
+        { "label": "Location", "value": "Kurunegala & Galle" },
+        { "label": "Investment", "value": "USD 100 Mn" },
+        { "label": "Land Area", "value": "17–30 Acres" },
+        { "label": "Expected IRR", "value": "17–18%" }
       ],
       "keyHighlights": [
-        "Tier-III standards",
-        "Carrier-neutral ecosystem",
-        "Scalable modular architecture",
-        "Revenue model: racks + managed services",
-        "Expected payback: 5-6 years"
-      ],
-      "brochure": "#",
-      "moreInfo": "#"
-    },
-    {
-      "id": "ict-002",
-      "type": "standard",
-      "title": "Regional Technology Park",
-      "subTitle": "Plug-and-play facilities for BPO, software, and innovation labs.",
-      "description": "A multi-tenant technology zone for digital services, startup incubation, and advanced capability centers.",
-      "images": ["assets/img/Sectors/ICT.webp"],
-      "video": "",
-      "stats": [
-        {
-          "label": "Location",
-          "value": "Kurunegala"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 40 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "17%"
-        },
-        {
-          "label": "Land Area",
-          "value": "30 Acres"
-        }
-      ],
-      "keyHighlights": [
-        "Campus-style development",
-        "Talent pipeline integration",
-        "Export-oriented service demand",
-        "Revenue model: lease + utility services",
-        "Expected payback: 6-7 years"
+        "IT office towers",
+        "R&D labs",
+        "Training centers",
+        "100% foreign ownership",
+        "Export service growth potential"
       ],
       "brochure": "#",
       "moreInfo": "#"
     }
   ],
+
   "education": [
     {
       "id": "edu-001",
       "type": "flagship",
-      "title": "International Knowledge City",
-      "subTitle": "Integrated higher education district with student living, labs, and innovation spaces.",
-      "description": "A large-scale knowledge ecosystem bringing together universities, R&D facilities, student services, and private-sector collaboration hubs.",
+      "title": "University Town – Sooriyawewa",
+      "subTitle": "Sri Lanka’s First Integrated University Town",
+      "description": "A USD 640 million international university ecosystem on 250 acres in Hambantota.",
       "images": ["assets/img/Sectors/Education.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Colombo"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 150 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "18%"
-        },
-        {
-          "label": "Land Area",
-          "value": "65 Acres"
-        }
+        { "label": "Location", "value": "Hambantota" },
+        { "label": "Investment", "value": "USD 640 Mn" },
+        { "label": "Land Area", "value": "250 Acres" },
+        { "label": "Expected IRR", "value": "15–17%" }
       ],
       "keyHighlights": [
-        "Multi-institution model",
-        "Research and innovation integration",
-        "Regional student attraction strategy",
-        "Revenue model: tuition + ancillary assets",
-        "Expected payback: 8-10 years"
+        "Universities & vocational institutes",
+        "Innovation & R&D hubs",
+        "Student housing & services",
+        "BOI incentives",
+        "Strategic development area"
       ],
       "brochure": "#",
       "moreInfo": "#"
@@ -336,295 +157,147 @@
     {
       "id": "edu-002",
       "type": "standard",
-      "title": "Technical Institute Development",
-      "subTitle": "Industry-aligned vocational campus for high-demand technical disciplines.",
-      "description": "A competency-based training center linked with employers in manufacturing, ICT, and engineering services.",
+      "title": "Keragala University Town",
+      "subTitle": "Five-University Master Planned Campus",
+      "description": "A USD 370 million 125-acre education campus designed to host five leading universities.",
       "images": ["assets/img/Sectors/Education.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Kandy"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 25 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "16%"
-        },
-        {
-          "label": "Land Area",
-          "value": "22 Acres"
-        }
+        { "label": "Location", "value": "Keragala" },
+        { "label": "Investment", "value": "USD 370 Mn" },
+        { "label": "Land Area", "value": "125 Acres" },
+        { "label": "Expected IRR", "value": "15–18%" }
       ],
       "keyHighlights": [
-        "Employer-led curriculum",
-        "Certification pathways",
-        "Apprenticeship integration",
-        "Revenue model: tuition + training contracts",
-        "Expected payback: 6-7 years"
+        "Shared laboratories",
+        "Student accommodation",
+        "Integrated academic ecosystem",
+        "International student attraction",
+        "Long-term lease structure"
       ],
       "brochure": "#",
       "moreInfo": "#"
     }
   ],
+
   "transport": [
     {
       "id": "trans-001",
       "type": "flagship",
-      "title": "Inland Logistics Zone",
-      "subTitle": "Warehousing, cold storage, and customs-enabled distribution hub.",
-      "description": "A strategic inland logistics complex supporting multimodal cargo consolidation and efficient trade movement.",
+      "title": "Logistics & Freight Forwarding – Mattala Airport",
+      "subTitle": "Sri Lanka’s Next Strategic Logistics Frontier",
+      "description": "A 101.3-acre aviation-linked logistics hub integrating warehousing and multimodal connectivity.",
       "images": ["assets/img/Sectors/Transportation.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Hambantota"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 33 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "17%"
-        },
-        {
-          "label": "Land Area",
-          "value": "40 Acres"
-        }
+        { "label": "Location", "value": "Mattala" },
+        { "label": "Land Area", "value": "101.3 Acres" },
+        { "label": "Model", "value": "PPP / BOI Facilitated" }
       ],
       "keyHighlights": [
-        "Customs-enabled operations",
-        "Cold and dry storage mix",
-        "Port corridor connectivity",
-        "Revenue model: storage + handling charges",
-        "Expected payback: 6 years"
-      ],
-      "brochure": "#",
-      "moreInfo": "#"
-    },
-    {
-      "id": "trans-002",
-      "type": "standard",
-      "title": "Rail Freight Terminal Modernization",
-      "subTitle": "Container handling and scheduling upgrades for faster freight throughput.",
-      "description": "Terminal modernization project designed to improve turnaround times and cargo reliability for trade operators.",
-      "images": ["assets/img/Sectors/Transportation.webp"],
-      "video": "",
-      "stats": [
-        {
-          "label": "Location",
-          "value": "Colombo"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 22 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "15%"
-        },
-        {
-          "label": "Land Area",
-          "value": "16 Acres"
-        }
-      ],
-      "keyHighlights": [
-        "Digital scheduling tools",
-        "Container handling upgrades",
-        "Rail-road transfer efficiency",
-        "Revenue model: throughput fees",
-        "Expected payback: 7 years"
+        "Airport-harbor connectivity",
+        "Cold chain & storage",
+        "Warehouse leasing revenue",
+        "Multimodal logistics ecosystem"
       ],
       "brochure": "#",
       "moreInfo": "#"
     }
   ],
+
   "aviation": [
     {
       "id": "avi-001",
       "type": "flagship",
-      "title": "Aircraft MRO Facility Upgrade",
-      "subTitle": "Expansion of maintenance, repair, and overhaul capacity for regional fleets.",
-      "description": "A technical services platform to capture regional MRO demand and improve turnaround capacity for airline operators.",
+      "title": "West Container Terminal II – Colombo Port",
+      "subTitle": "Expanding Global Maritime Connectivity",
+      "description": "A USD 750 million PPP expansion of Colombo Port adding 3 million TEUs capacity.",
       "images": ["assets/img/Sectors/Aviation.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Katunayake"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 28 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "16%"
-        },
-        {
-          "label": "Land Area",
-          "value": "19 Acres"
-        }
+        { "label": "Location", "value": "Colombo Port" },
+        { "label": "Investment", "value": "USD 750 Mn" },
+        { "label": "Capacity", "value": "3 Million TEUs" }
       ],
       "keyHighlights": [
-        "Regional fleet servicing",
-        "High-value technical capability",
-        "Phased hangar expansion",
-        "Revenue model: service contracts",
-        "Expected payback: 7 years"
-      ],
-      "brochure": "#",
-      "moreInfo": "#"
-    },
-    {
-      "id": "avi-002",
-      "type": "standard",
-      "title": "Air Cargo Digital Terminal",
-      "subTitle": "Digitized terminal systems with integrated cold-chain handling.",
-      "description": "A cargo modernization project focused on visibility, compliance automation, and faster perishable goods movement.",
-      "images": ["assets/img/Sectors/Aviation.webp"],
-      "video": "",
-      "stats": [
-        {
-          "label": "Location",
-          "value": "Bandaranaike International Airport"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 17 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "15%"
-        },
-        {
-          "label": "Land Area",
-          "value": "11 Acres"
-        }
-      ],
-      "keyHighlights": [
-        "Smart cargo workflows",
-        "Cold-chain integration",
-        "Time-sensitive export support",
-        "Revenue model: cargo handling + digital fees",
-        "Expected payback: 6-7 years"
+        "Strategic East–West trade route",
+        "PPP structure",
+        "Core terminal operations",
+        "Ancillary services revenue"
       ],
       "brochure": "#",
       "moreInfo": "#"
     }
   ],
+
   "manufacturing": [
     {
       "id": "manu-001",
       "type": "flagship",
-      "title": "Light Engineering Cluster",
-      "subTitle": "Shared tooling, prototyping, and quality labs for engineering SMEs.",
-      "description": "A cluster-based industrial platform that improves productivity and export capability for precision engineering firms.",
+      "title": "Sustainable Synthetic Textile Hub – Eravur",
+      "subTitle": "Integrated Textile Manufacturing Platform",
+      "description": "A USD 65 million integrated synthetic textile hub in the Eravur Textile Zone.",
       "images": ["assets/img/Sectors/Manufacturing.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Ragama"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 21 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "16%"
-        },
-        {
-          "label": "Land Area",
-          "value": "24 Acres"
-        }
+        { "label": "Location", "value": "Eravur" },
+        { "label": "Investment", "value": "USD 65 Mn" },
+        { "label": "Land Area", "value": "15–20 Acres" },
+        { "label": "Expected IRR", "value": "22–25%" }
       ],
       "keyHighlights": [
-        "Shared industrial services",
-        "SME scaling pathways",
-        "Precision manufacturing focus",
-        "Revenue model: lease + shared service fees",
-        "Expected payback: 7 years"
+        "Vertical integration",
+        "Export-focused production",
+        "ESG-compliant manufacturing",
+        "BOI incentives"
       ],
       "brochure": "#",
       "moreInfo": "#"
     },
     {
       "id": "manu-002",
-      "type": "standard",
-      "title": "Sustainable Packaging Industrial Park",
-      "subTitle": "Circular-material packaging production ecosystem.",
-      "description": "An industrial park designed for sustainable packaging manufacturing with integrated utilities and export facilitation.",
+      "type": "flagship",
+      "title": "EV Assembling Hub – Mirijjawila",
+      "subTitle": "South Asia’s Gateway to EV Assembly",
+      "description": "A USD 300 million per plant EV assembly facility with 25,000 unit annual capacity.",
       "images": ["assets/img/Sectors/Manufacturing.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Kalutara"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 25 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "17%"
-        },
-        {
-          "label": "Land Area",
-          "value": "20 Acres"
-        }
+        { "label": "Location", "value": "Hambantota" },
+        { "label": "Investment", "value": "USD 300 Mn per Plant" },
+        { "label": "Capacity", "value": "25,000 Units per Year" },
+        { "label": "Expected IRR", "value": "18–20%" }
       ],
       "keyHighlights": [
-        "Green manufacturing proposition",
-        "Shared infrastructure",
-        "Export-ready operations",
-        "Revenue model: tenancy + utility services",
-        "Expected payback: 6-7 years"
+        "Export-oriented production",
+        "Mirijjawila industrial zone",
+        "ASEAN RHD markets",
+        "Advanced technology platform"
       ],
       "brochure": "#",
       "moreInfo": "#"
     }
   ],
+
   "renewable": [
     {
       "id": "re-001",
       "type": "flagship",
-      "title": "Solar Park Development",
-      "subTitle": "Utility-scale solar generation with grid tie-in and balancing systems.",
-      "description": "A large-scale solar development designed for dependable generation and long-term power offtake potential.",
+      "title": "Pumped Storage Power Plant (PSPP)",
+      "subTitle": "Powering Sri Lanka’s Renewable Future",
+      "description": "A USD 700 million utility-scale pumped storage project commencing 2029.",
       "images": ["assets/img/Sectors/Renewable.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Pooneryn"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 45 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "14%"
-        },
-        {
-          "label": "Land Area",
-          "value": "75 Acres"
-        }
+        { "label": "Investment", "value": "USD 700 Mn" },
+        { "label": "Commence Year", "value": "2029" },
+        { "label": "Project Life", "value": "50+ Years" }
       ],
       "keyHighlights": [
-        "Utility-scale deployment",
-        "Grid integration design",
-        "Battery-ready architecture",
-        "Revenue model: power purchase agreements",
-        "Expected payback: 9-10 years"
+        "Grid stability support",
+        "Long-duration energy storage",
+        "Capacity & ancillary payments",
+        "National renewable integration"
       ],
       "brochure": "#",
       "moreInfo": "#"
@@ -632,35 +305,41 @@
     {
       "id": "re-002",
       "type": "standard",
-      "title": "Onshore Wind Farm Expansion",
-      "subTitle": "Wind installation and transmission support infrastructure.",
-      "description": "A grid-connected wind expansion project targeting stable generation profiles and scalable phase-wise deployment.",
+      "title": "Natural Gas Fired ICE Power Plant",
+      "subTitle": "Driving Returns Through Clean Energy",
+      "description": "A 200 MW natural gas-fired power plant commencing 2026.",
       "images": ["assets/img/Sectors/Renewable.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Mannar"
-        },
-        {
-          "label": "Investment",
-          "value": "USD 52 Mn"
-        },
-        {
-          "label": "Expected IRR",
-          "value": "15%"
-        },
-        {
-          "label": "Land Area",
-          "value": "90 Acres"
-        }
+        { "label": "Investment", "value": "USD 750 Mn" },
+        { "label": "Capacity", "value": "200 MW" },
+        { "label": "Commence Year", "value": "2026" }
       ],
       "keyHighlights": [
-        "Strong wind resource zone",
-        "Transmission integration",
-        "Phased construction roadmap",
-        "Revenue model: long-term power sales",
-        "Expected payback: 8-9 years"
+        "Stable capacity payments",
+        "Energy arbitrage revenue",
+        "Long-term PPA model"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    },
+    {
+      "id": "re-003",
+      "type": "standard",
+      "title": "Natural Gas Fired Aero-Derivative Gas Turbines",
+      "subTitle": "Energizing Tomorrow, Delivering Strong Returns",
+      "description": "A 130 MW high-efficiency gas turbine project commencing 2028.",
+      "images": ["assets/img/Sectors/Renewable.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Investment", "value": "USD 150 Mn" },
+        { "label": "Capacity", "value": "130 MW" },
+        { "label": "Commence Year", "value": "2028" }
+      ],
+      "keyHighlights": [
+        "Long-term power purchase agreements",
+        "Grid reliability payments",
+        "Ancillary services revenue"
       ],
       "brochure": "#",
       "moreInfo": "#"
