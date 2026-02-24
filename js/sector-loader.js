@@ -152,6 +152,175 @@
       )
       .join("");
 
+    const buildCarousel = (project) => {
+      const images = Array.isArray(project.images)
+        ? project.images
+        : project.images
+          ? [project.images]
+          : [];
+      const fallbackImage = sector.heroImage ? [sector.heroImage] : [];
+      const safeImages = images.length ? images : fallbackImage;
+      const hasVideo = Boolean(project.video);
+      const poster = safeImages[0] ? resolveAssetPath(safeImages[0]) : "";
+
+      const items = [];
+
+      if (hasVideo) {
+        items.push(`
+          <div class="carousel-item active">
+            <div class="slif-video-frame slif-media-frame">
+              <video class="slif-project-media-item" controls preload="metadata" playsinline poster="${poster}">
+                <source src="${resolveAssetPath(project.video)}" type="video/mp4">
+              </video>
+              <button type="button" class="slif-video-play" aria-label="Play video">
+                <i class="bi bi-play-fill" aria-hidden="true"></i>
+              </button>
+              <button type="button" class="slif-media-open" data-media-type="video" data-src="${resolveAssetPath(
+                project.video,
+              )}" data-poster="${poster}" data-title="${project.title}">
+                <i class="bi bi-arrows-fullscreen" aria-hidden="true"></i>
+                View
+              </button>
+            </div>
+          </div>
+        `);
+      }
+
+      safeImages.forEach((img, index) => {
+        const isActive = !hasVideo && index === 0;
+        items.push(`
+          <div class="carousel-item${isActive ? " active" : ""}">
+            <div class="slif-media-frame">
+              <img src="${resolveAssetPath(img)}" loading="lazy" class="slif-project-media-item" alt="${project.title}">
+              <button type="button" class="slif-media-open" data-media-type="image" data-src="${resolveAssetPath(
+                img,
+              )}" data-title="${project.title}">
+                <i class="bi bi-arrows-fullscreen" aria-hidden="true"></i>
+                View
+              </button>
+            </div>
+          </div>
+        `);
+      });
+
+      const hasMultiple = items.length > 1;
+      const carouselId = `projectCarousel-${project.id}`;
+
+      return `
+        <div id="${carouselId}" class="carousel slide slif-project-carousel" data-bs-ride="false" data-bs-interval="false" data-bs-wrap="false" data-bs-touch="false">
+          <div class="carousel-inner">
+            ${items.join("")}
+          </div>
+          ${
+            hasMultiple
+              ? `
+          <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#${carouselId}" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          `
+              : ""
+          }
+        </div>
+      `;
+    };
+
+    const wireProjectMedia = () => {
+      document.querySelectorAll(".slif-video-play").forEach((button) => {
+        if (button.dataset.bound) return;
+        button.dataset.bound = "true";
+
+        const frame = button.closest(".slif-video-frame");
+        const video = frame?.querySelector("video");
+        if (!video) return;
+
+        const setPlaying = (isPlaying) => {
+          if (!frame) return;
+          frame.classList.toggle("is-playing", isPlaying);
+        };
+
+        button.addEventListener("click", () => {
+          video.play().catch(() => {});
+          setPlaying(true);
+        });
+
+        video.addEventListener("play", () => setPlaying(true));
+        video.addEventListener("pause", () => setPlaying(false));
+        video.addEventListener("ended", () => setPlaying(false));
+      });
+
+      document
+        .querySelectorAll(".slif-project-carousel")
+        .forEach((carousel) => {
+          if (carousel.dataset.bound) return;
+          carousel.dataset.bound = "true";
+          carousel.addEventListener("slide.bs.carousel", () => {
+            carousel.querySelectorAll("video").forEach((video) => {
+              video.pause();
+              video.currentTime = 0;
+              const frame = video.closest(".slif-video-frame");
+              if (frame) frame.classList.remove("is-playing");
+            });
+          });
+        });
+
+      const modal = document.getElementById("projectMediaModal");
+      const modalBody = modal?.querySelector(".slif-project-media-modal-body");
+      const modalLabel = modal?.querySelector("#projectMediaModalLabel");
+      const modalInstance =
+        modal && window.bootstrap ? new window.bootstrap.Modal(modal) : null;
+
+      if (modal && !modal.dataset.bound) {
+        modal.dataset.bound = "true";
+        modal.addEventListener("hidden.bs.modal", () => {
+          modalBody?.querySelectorAll("video").forEach((video) => {
+            video.pause();
+            video.currentTime = 0;
+          });
+          if (modalBody) modalBody.innerHTML = "";
+        });
+      }
+
+      document.querySelectorAll(".slif-media-open").forEach((button) => {
+        if (button.dataset.bound) return;
+        button.dataset.bound = "true";
+
+        button.addEventListener("click", () => {
+          if (!modalBody || !modalInstance) return;
+          const mediaType = button.dataset.mediaType;
+          const src = button.dataset.src;
+          const poster = button.dataset.poster;
+          const title = button.dataset.title;
+
+          if (!src) return;
+
+          if (modalLabel) {
+            modalLabel.textContent = title
+              ? `${title} Preview`
+              : "Media Preview";
+          }
+
+          if (mediaType === "video") {
+            modalBody.innerHTML = `
+              <video controls preload="metadata" playsinline ${
+                poster ? `poster="${poster}"` : ""
+              }>
+                <source src="${src}" type="video/mp4">
+              </video>
+            `;
+          } else {
+            modalBody.innerHTML = `<img src="${src}" alt="${title || "Project media"}">`;
+          }
+
+          modalInstance.show();
+        });
+      });
+    };
+
     const renderProjects = (filter = "all") => {
       const list =
         filter === "flagship"
@@ -160,29 +329,84 @@
       const flagship = list.filter((project) => project.type === "flagship");
       const standard = list.filter((project) => project.type !== "flagship");
 
-      const toCard = (project) => `
-        <div class="col-12 col-md-6">
-          <article class="card h-100 border-0 shadow-sm slif-project-card fade-in-up">
-            <img src="${resolveAssetPath(project.images?.[0] || sector.heroImage)}" loading="lazy" class="card-img-top" alt="${project.title}">
-            <div class="card-body d-flex flex-column">
-              <span class="badge text-bg-light border mb-2 text-uppercase">${project.type}</span>
-              <h4 class="h6 mb-2">${project.title}</h4>
-              <p class="text-muted small mb-1"><i class="bi bi-geo-alt"></i> ${project.location}</p>
-              <p class="small mb-1"><strong>Investment:</strong> ${project.investment}</p>
-              <p class="small mb-3"><strong>Expected IRR:</strong> ${project.irr || "N/A"}</p>
-              <p class="text-muted small mb-3">${project.summary || ""}</p>
-              <a class="mt-auto btn btn-sm btn-outline-primary slif-project-link" href="/project.html?id=${project.id}">View details <i class="bi bi-arrow-right-short"></i></a>
+      const toCard = (project, variant = "standard") => {
+        const badge =
+          project.type === "flagship" ? "Flagship Project" : "Standard Project";
+        const stats = (project.stats || []).slice(0, 4);
+        const highlights = (project.keyHighlights || []).slice(0, 4);
+        const detailsLink =
+          project.moreInfo && project.moreInfo !== "#"
+            ? resolveLink(project.moreInfo)
+            : "/contact.html";
+
+        return `
+        <article class="slif-project-feature-card fade-in-up ${
+          variant === "flagship" ? "slif-project-feature-card--flagship" : ""
+        }">
+          <div class="slif-project-media">
+            ${buildCarousel(project)}
+            <span class="badge slif-project-badge">${badge}</span>
+          </div>
+          <div class="slif-project-body">
+            <h3 class="slif-project-title">${project.title}</h3>
+            <p class="slif-project-subtitle">${project.subTitle || ""}</p>
+            <p class="slif-project-description">${project.description || ""}</p>
+
+            <div class="slif-project-stats">
+              ${
+                stats.length
+                  ? stats
+                      .map(
+                        (stat) => `
+                <div class="slif-project-stat">
+                  <span class="slif-project-stat-label">${stat.label}</span>
+                  <span class="slif-project-stat-value">${stat.value}</span>
+                </div>
+              `,
+                      )
+                      .join("")
+                  : ""
+              }
             </div>
-          </article>
-        </div>
-      `;
+
+            ${
+              highlights.length
+                ? `
+            <div class="slif-project-divider"></div>
+            <div class="slif-project-highlights">
+              <p class="slif-project-highlights-title">Key Highlights</p>
+              <ul class="slif-project-highlights-list">
+                ${highlights.map((item) => `<li>${item}</li>`).join("")}
+              </ul>
+            </div>
+            `
+                : ""
+            }
+
+            <div class="slif-project-actions">
+              <a class="btn btn-primary" href="${detailsLink}">Contact Investment Team <i class="bi bi-arrow-right-short"></i></a>
+              <a class="btn btn-outline-primary" href="${resolveLink(
+                project.brochure || "#",
+              )}">Download Project Brief</a>
+            </div>
+          </div>
+        </article>
+        `;
+      };
 
       document.getElementById("flagshipProjects").innerHTML = flagship.length
-        ? flagship.map(toCard).join("")
+        ? flagship.map((project) => toCard(project, "flagship")).join("")
         : '<p class="text-muted small mb-0">No projects available.</p>';
       document.getElementById("standardProjects").innerHTML = standard.length
-        ? standard.map(toCard).join("")
+        ? standard
+            .map(
+              (project) =>
+                `<div class="col-12">${toCard(project, "standard")}</div>`,
+            )
+            .join("")
         : '<p class="text-muted small mb-0">No projects available.</p>';
+
+      wireProjectMedia();
     };
 
     renderProjects();
