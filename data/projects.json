@@ -6,8 +6,11 @@
       "title": "Integrated Cold Chain Network",
       "subTitle": "High-value agriculture, modern processing, and export-ready supply chains.",
       "description": "A strategic portfolio of infrastructure projects designed to modernize Sri Lanka's agricultural value chains, enhance export competitiveness, and drive inclusive rural development.",
-      "images": ["assets/img/Sectors/agriculture.webp"],
-      "video": "assets/video/agriculture.mp4",
+      "images": [
+        "assets/img/Sectors/agriculture.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX0UHbWYDTyFy8GKs780CKGFrQ_vvpDjNztyTBg1nj9XeeJ0VieuljLYpvE4SVxxefh0CuYeBNQsAbKk2dInnsvW8GrkpkhejepxZcvw&s=10"
+      ],
+      "video": "/assets/vid/agri.mp4",
       "stats": [
         {
           "label": "Location",
@@ -43,7 +46,49 @@
       "title": "Value-Added Spice Processing Park",
       "subTitle": "Processing and export hub for premium spices and extracts.",
       "description": "Integrated grading, extraction, packaging, and traceability systems for high-value spice exports.",
-      "images": ["assets/img/Sectors/agriculture.webp"],
+      "images": [
+        "assets/img/Sectors/agriculture.webp",
+        "assets/img/Sectors/tourisms.webp"
+      ],
+      "video": "",
+      "stats": [
+        {
+          "label": "Location",
+          "value": "Kandy"
+        },
+        {
+          "label": "Investment",
+          "value": "USD 11 Mn"
+        },
+        {
+          "label": "Expected IRR",
+          "value": "15%"
+        },
+        {
+          "label": "Land Area",
+          "value": "18 Acres"
+        }
+      ],
+      "keyHighlights": [
+        "Shared quality labs",
+        "Brand-ready export packaging",
+        "Traceability platform",
+        "Revenue model: processing + export margins",
+        "Expected payback: 6-7 years"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    },
+    {
+      "id": "agri-003",
+      "type": "standard",
+      "title": "Value-Added Spice Processing Park",
+      "subTitle": "Processing and export hub for premium spices and extracts.",
+      "description": "Integrated grading, extraction, packaging, and traceability systems for high-value spice exports.",
+      "images": [
+        "assets/img/Sectors/agriculture.webp",
+        "assets/img/Sectors/tourisms.webp"
+      ],
       "video": "",
       "stats": [
         {
