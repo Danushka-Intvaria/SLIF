@@ -1,0 +1,571 @@
+.slif-sector-hero,
+.slif-project-hero {
+  position: relative;
+  min-height: clamp(260px, 45vw, 480px);
+  display: flex;
+  align-items: end;
+  color: var(--contrast-color);
+  overflow: hidden;
+}
+
+.slif-sector-hero-image,
+.slif-project-hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slif-sector-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--heading-color), transparent 65%) 0%, color-mix(in srgb, var(--heading-color), transparent 25%) 100%);
+}
+
+.slif-sector-hero-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-top: clamp(1.5rem, 4vw, 3rem);
+  padding-bottom: clamp(1.5rem, 4vw, 3rem);
+}
+
+.slif-kicker {
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: .78rem;
+  opacity: .9;
+}
+
+.slif-sector-page h1,
+.slif-project-page h1 {
+  color: var(--contrast-color);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+}
+
+.slif-sector-page .lead,
+.slif-project-page .lead {
+  font-size: clamp(1rem, 2.1vw, 1.3rem);
+}
+
+:root {
+  --slif-card-border: #90c6fc;
+  --slif-card-border-hover: #0d6dfda1;
+  --slif-card-title: #0a1e3c;
+  --slif-card-muted: #6c757d;
+}
+
+.slif-stat-card,
+.slif-adv-card,
+.slif-fact-card,
+.slif-bullet-card {
+  background: #ffffff;
+  border: 1px solid var(--slif-card-border);
+  border-radius: 16px;
+  padding: 1.1rem;
+  position: relative;
+  transition: all .35s ease;
+}
+
+.slif-stat-card:hover,
+.slif-adv-card:hover,
+.slif-fact-card:hover,
+.slif-bullet-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.08);
+  border-color: var(--slif-card-border-hover);
+}
+
+.slif-card-icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  border: 1px solid #e4e8ef;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  transition: all 0.35s ease;
+  background: #fff;
+}
+
+.slif-card-icon-box i {
+  font-size: 22px;
+  color: var(--accent-color);
+  transition: all 0.35s ease;
+}
+
+.slif-stat-card:hover .slif-card-icon-box,
+.slif-adv-card:hover .slif-card-icon-box,
+.slif-bullet-card:hover .slif-card-icon-box {
+  background: var(--accent-color);
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.35);
+  transform: scale(1.08) rotate(3deg);
+}
+
+.slif-stat-card:hover .slif-card-icon-box i,
+.slif-adv-card:hover .slif-card-icon-box i,
+.slif-bullet-card:hover .slif-card-icon-box i {
+  color: #ffffff;
+}
+
+.slif-stat-value {
+  color: var(--slif-card-title);
+  font-size: clamp(1.15rem, 2.4vw, 1.6rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.slif-stat-label {
+  font-size: .875rem;
+  color: var(--slif-card-muted);
+  margin-bottom: 0;
+}
+
+.slif-bullet-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: .85rem;
+}
+
+.slif-bullet-card,
+.slif-adv-card {
+  display: flex;
+  align-items: start;
+  gap: .75rem;
+}
+
+.slif-bullet-card>div,
+.slif-adv-card>div {
+  flex: 1;
+}
+
+.slif-bullet-card p,
+.slif-adv-card p {
+  color: var(--slif-card-muted);
+}
+
+.slif-hover-arrow {
+  display: inline-flex;
+  margin-top: 8px;
+  color: var(--accent-color);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: all .25s ease;
+}
+
+.slif-bullet-card:hover .slif-hover-arrow,
+.slif-adv-card:hover .slif-hover-arrow {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slif-project-card .card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.slif-project-card {
+  border-radius: 14px;
+  overflow: hidden;
+  transition: all .35s ease;
+}
+
+.slif-project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
+}
+
+.slif-project-link i {
+  transition: transform .2s ease;
+}
+
+.slif-project-card:hover .slif-project-link i {
+  transform: translateX(4px);
+}
+
+.slif-sector-contact {
+  background-color: color-mix(in srgb, var(--accent-color), var(--surface-color) 84%);
+}
+
+.slif-cta-btn {
+  min-height: 44px;
+  padding-inline: 1.1rem;
+  align-items: center;
+}
+
+.slif-detail-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.slif-detail-list li {
+  margin-bottom: .5rem;
+}
+
+.slif-investment-panel {
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 84%);
+  border-radius: 1rem;
+  padding: 1rem;
+  background: var(--surface-color);
+}
+
+.fade-in-up {
+  animation: fadeInUp .35s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .slif-bullet-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+  .slif-investment-panel {
+    position: sticky;
+    top: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+
+  .slif-sector-page section,
+  .slif-project-page section {
+    margin-bottom: 2rem !important;
+  }
+
+  .btn-group .btn {
+    font-size: .85rem;
+    padding: .45rem .65rem;
+  }
+}
+
+/* Glass Card */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08);
+}
+
+/* =================================
+   FLOATING STATS WRAPPER
+================================= */
+
+.slif-stats-wrapper {
+  position: relative;
+  z-index: 3;
+
+  margin-top: -70px;
+  padding: clamp(1.2rem, 4vw, 2.5rem);
+
+  border-radius: 28px;
+
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+/* Desltop hover effect for slif-stats-wrapper */
+@media (hover: hover) and (pointer: fine) {
+  .slif-stats-wrapper:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 35px 100px rgba(0, 0, 0, 0.18);
+  }
+}
+/* Desltop hover effect for slif-stats-wrapper */
+@media (max-width: 992px) {
+  .slif-stats-wrapper {
+    margin-top: -40px;
+    border-radius: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slif-stats-wrapper {
+    margin-top: -25px;
+    border-radius: 18px;
+    padding: 1rem;
+  }
+}
+
+.slif-stat-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+  transition: all .4s ease;
+  border: 1px solid rgba(255, 255, 255, .5);
+}
+
+.slif-stat-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.12);
+}
+
+/* Glass Image Frame */
+.slif-glass-image {
+  background: rgba(255, 255, 255, .5);
+  padding: 12px;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, .12);
+}
+
+/* Modern Section Spacing */
+.slif-section-modern {
+  padding: clamp(2rem, 6vw, 5rem) 0;
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 600;
+}
+
+/* Premium Flagship Card */
+.slif-flagship-card {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .12);
+  transition: all .4s ease;
+}
+
+.slif-flagship-card:hover {
+  transform: translateY(-8px);
+}
+
+.slif-flagship-image {
+  flex: 1 1 50%;
+  min-height: 350px;
+  object-fit: cover;
+}
+
+.slif-flagship-content {
+  flex: 1 1 50%;
+  padding: 2.5rem;
+}
+
+/* Modern Project Cards */
+.slif-project-card {
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, .75);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, .5);
+  transition: all .35s ease;
+}
+
+.slif-project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, .15);
+}
+
+/* Mobile Improvements */
+@media (max-width: 992px) {
+  .slif-stats-wrapper {
+    margin-top: -40px;
+  }
+
+  .slif-flagship-card {
+    flex-direction: column;
+  }
+
+  .slif-flagship-image {
+    min-height: 240px;
+  }
+}
+
+/* ====================================
+   SECTOR OFFICER SECTION
+==================================== */
+
+.slif-sector-officer-wrapper {
+  padding: 3rem 0;
+}
+
+.slif-sector-officer-section {
+  background: #1e3a5f;
+  border-radius: 32px;
+  padding: clamp(3rem, 6vw, 5rem);
+  overflow: hidden;
+}
+
+
+.slif-officer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.slif-officer-left {
+  flex: 1 1 55%;
+  color: #fff;
+}
+
+.slif-officer-left h2 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 600;
+  color: wheat;
+}
+
+.slif-officer-card {
+  flex: 1 1 380px;
+  justify-content: center;
+
+  /* Glass background */
+background: rgba(130, 84, 190, 0.377);
+backdrop-filter: blur(18px) saturate(160%);
+-webkit-backdrop-filter: blur(18px) saturate(160%);
+
+/* Frosted border */
+border: 1px solid rgb(255, 255, 255);
+
+border-radius: 24px;
+padding: 2rem;
+
+/* Depth */
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25),
+inset 0 1px 0 rgba(255, 255, 255, 0.4);
+
+transition: all .4s ease;
+}
+
+.slif-officer-card:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 992px) {
+  .slif-officer-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+.slif-officer-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-color);
+}
+
+@media (max-width: 992px) {
+  .slif-officer-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* ===============================
+   OFFICER LEFT CONTENT
+================================ */
+
+.slif-officer-left {
+  flex: 1 1 55%;
+  color: #fff;
+}
+
+.slif-officer-title {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.slif-officer-desc {
+  padding-left: 15%;
+  padding-right: 15%;
+  opacity: 0.9;
+  font-size: 1rem;
+
+}
+
+/* ===============================
+   BUTTON GROUP (DESKTOP)
+================================ */
+
+.slif-officer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===============================
+   BUTTON IMPROVEMENTS
+================================ */
+
+.slif-cta-btn {
+  min-height: 46px;
+  padding: 0.65rem 1.3rem;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: all .25s ease;
+}
+
+.slif-cta-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ===============================
+   MOBILE OPTIMIZATION
+================================ */
+
+@media (max-width: 992px) {
+
+  .slif-officer-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .slif-officer-left {
+    flex: 1 1 100%;
+  }
+
+  .slif-officer-desc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slif-officer-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slif-officer-actions .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+
+}

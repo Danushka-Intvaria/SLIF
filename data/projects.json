@@ -1,0 +1,348 @@
+{
+  "agriculture": [],
+
+  "tourism": [
+    {
+      "id": "tour-001",
+      "type": "flagship",
+      "title": "Theme Park Development – Nuwara Eliya",
+      "subTitle": "Sri Lanka’s Next Iconic Hill-Country Leisure Destination",
+      "description": "A US$75 million world-class theme park with an 80-room boutique hotel developed in three phases to create a premium hill-country attraction.",
+      "images": ["assets/img/Sectors/tourisms.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Location", "value": "Nuwara Eliya" },
+        { "label": "Investment", "value": "USD 75 Mn" },
+        { "label": "Land Area", "value": "10.9 Acres" },
+        { "label": "Expected IRR", "value": "13–15%" }
+      ],
+      "keyHighlights": [
+        "Integrated hotel and conference facilities",
+        "Retail & dining revenue streams",
+        "Amusement and attraction income",
+        "30-year lease model",
+        "Tourism circuit integration"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    },
+    {
+      "id": "tour-002",
+      "type": "flagship",
+      "title": "Diyawanna Frolic Island Recreational Hub",
+      "subTitle": "Sri Lanka’s Next Iconic Urban Leisure Asset",
+      "description": "A USD 115 million integrated leisure hub in Battaramulla spanning 27.3 acres of waterfront land.",
+      "images": ["assets/img/Sectors/tourisms.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Location", "value": "Battaramulla" },
+        { "label": "Investment", "value": "USD 115 Mn" },
+        { "label": "Land Area", "value": "27.3 Acres" },
+        { "label": "Expected IRR", "value": "18–22%" }
+      ],
+      "keyHighlights": [
+        "Amusement park and sports facilities",
+        "Adventure and horse riding zones",
+        "Events & corporate revenue streams",
+        "Prime metropolitan location",
+        "Flexible component investment model"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    }
+  ],
+
+  "urban": [
+    {
+      "id": "urban-001",
+      "type": "flagship",
+      "title": "Residential Apartment Development – Colombo 10",
+      "subTitle": "Premium Urban Living Investment",
+      "description": "A USD 65 million residential tower project on 3.03 acres of UDA-leased land in Colombo 10.",
+      "images": ["assets/img/Sectors/urban.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Location", "value": "Colombo 10" },
+        { "label": "Investment", "value": "USD 65 Mn" },
+        { "label": "Land Area", "value": "3.03 Acres" },
+        { "label": "Expected IRR", "value": "12–14%" }
+      ],
+      "keyHighlights": [
+        "99-year lease structure",
+        "High rental demand",
+        "Retail and ancillary income",
+        "CBD proximity",
+        "Urban vertical growth model"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    },
+    {
+      "id": "urban-002",
+      "type": "standard",
+      "title": "Mixed Development Portfolio (6 Projects)",
+      "subTitle": "Integrated Urban Development Across Strategic Locations",
+      "description": "Six structured mixed-use projects across Karapitiya, Madola, Kurunegala, Rajagiriya, Kottawa and Kadawatha.",
+      "images": ["assets/img/Sectors/urban.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Investment Range", "value": "USD 8–20 Mn per Project" },
+        { "label": "Expected IRR", "value": "17–19%" },
+        { "label": "Land Range", "value": "0.36 – 13 Acres" }
+      ],
+      "keyHighlights": [
+        "Commercial and residential integration",
+        "Phased urban regeneration",
+        "High rental growth zones",
+        "Hospitality & living components",
+        "Multiple revenue streams"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    }
+  ],
+
+  "ict": [
+    {
+      "id": "ict-001",
+      "type": "flagship",
+      "title": "Techno Parks – Kurunegala & Galle",
+      "subTitle": "Invest in Sri Lanka’s Emerging Technology Capital",
+      "description": "A USD 100 million development of regional innovation parks with digital infrastructure and export-oriented IT services.",
+      "images": ["assets/img/Sectors/ICT.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Location", "value": "Kurunegala & Galle" },
+        { "label": "Investment", "value": "USD 100 Mn" },
+        { "label": "Land Area", "value": "17–30 Acres" },
+        { "label": "Expected IRR", "value": "17–18%" }
+      ],
+      "keyHighlights": [
+        "IT office towers",
+        "R&D labs",
+        "Training centers",
+        "100% foreign ownership",
+        "Export service growth potential"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    }
+  ],
+
+  "education": [
+    {
+      "id": "edu-001",
+      "type": "flagship",
+      "title": "University Town – Sooriyawewa",
+      "subTitle": "Sri Lanka’s First Integrated University Town",
+      "description": "A USD 640 million international university ecosystem on 250 acres in Hambantota.",
+      "images": ["assets/img/Sectors/Education.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Location", "value": "Hambantota" },
+        { "label": "Investment", "value": "USD 640 Mn" },
+        { "label": "Land Area", "value": "250 Acres" },
+        { "label": "Expected IRR", "value": "15–17%" }
+      ],
+      "keyHighlights": [
+        "Universities & vocational institutes",
+        "Innovation & R&D hubs",
+        "Student housing & services",
+        "BOI incentives",
+        "Strategic development area"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    },
+    {
+      "id": "edu-002",
+      "type": "standard",
+      "title": "Keragala University Town",
+      "subTitle": "Five-University Master Planned Campus",
+      "description": "A USD 370 million 125-acre education campus designed to host five leading universities.",
+      "images": ["assets/img/Sectors/Education.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Location", "value": "Keragala" },
+        { "label": "Investment", "value": "USD 370 Mn" },
+        { "label": "Land Area", "value": "125 Acres" },
+        { "label": "Expected IRR", "value": "15–18%" }
+      ],
+      "keyHighlights": [
+        "Shared laboratories",
+        "Student accommodation",
+        "Integrated academic ecosystem",
+        "International student attraction",
+        "Long-term lease structure"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    }
+  ],
+
+  "transport": [
+    {
+      "id": "trans-001",
+      "type": "flagship",
+      "title": "Logistics & Freight Forwarding – Mattala Airport",
+      "subTitle": "Sri Lanka’s Next Strategic Logistics Frontier",
+      "description": "A 101.3-acre aviation-linked logistics hub integrating warehousing and multimodal connectivity.",
+      "images": ["assets/img/Sectors/Transportation.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Location", "value": "Mattala" },
+        { "label": "Land Area", "value": "101.3 Acres" },
+        { "label": "Model", "value": "PPP / BOI Facilitated" }
+      ],
+      "keyHighlights": [
+        "Airport-harbor connectivity",
+        "Cold chain & storage",
+        "Warehouse leasing revenue",
+        "Multimodal logistics ecosystem"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    }
+  ],
+
+  "aviation": [
+    {
+      "id": "avi-001",
+      "type": "flagship",
+      "title": "West Container Terminal II – Colombo Port",
+      "subTitle": "Expanding Global Maritime Connectivity",
+      "description": "A USD 750 million PPP expansion of Colombo Port adding 3 million TEUs capacity.",
+      "images": ["assets/img/Sectors/Aviation.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Location", "value": "Colombo Port" },
+        { "label": "Investment", "value": "USD 750 Mn" },
+        { "label": "Capacity", "value": "3 Million TEUs" }
+      ],
+      "keyHighlights": [
+        "Strategic East–West trade route",
+        "PPP structure",
+        "Core terminal operations",
+        "Ancillary services revenue"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    }
+  ],
+
+  "manufacturing": [
+    {
+      "id": "manu-001",
+      "type": "flagship",
+      "title": "Sustainable Synthetic Textile Hub – Eravur",
+      "subTitle": "Integrated Textile Manufacturing Platform",
+      "description": "A USD 65 million integrated synthetic textile hub in the Eravur Textile Zone.",
+      "images": ["assets/img/Sectors/Manufacturing.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Location", "value": "Eravur" },
+        { "label": "Investment", "value": "USD 65 Mn" },
+        { "label": "Land Area", "value": "15–20 Acres" },
+        { "label": "Expected IRR", "value": "22–25%" }
+      ],
+      "keyHighlights": [
+        "Vertical integration",
+        "Export-focused production",
+        "ESG-compliant manufacturing",
+        "BOI incentives"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    },
+    {
+      "id": "manu-002",
+      "type": "flagship",
+      "title": "EV Assembling Hub – Mirijjawila",
+      "subTitle": "South Asia’s Gateway to EV Assembly",
+      "description": "A USD 300 million per plant EV assembly facility with 25,000 unit annual capacity.",
+      "images": ["assets/img/Sectors/Manufacturing.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Location", "value": "Hambantota" },
+        { "label": "Investment", "value": "USD 300 Mn per Plant" },
+        { "label": "Capacity", "value": "25,000 Units per Year" },
+        { "label": "Expected IRR", "value": "18–20%" }
+      ],
+      "keyHighlights": [
+        "Export-oriented production",
+        "Mirijjawila industrial zone",
+        "ASEAN RHD markets",
+        "Advanced technology platform"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    }
+  ],
+
+  "renewable": [
+    {
+      "id": "re-001",
+      "type": "flagship",
+      "title": "Pumped Storage Power Plant (PSPP)",
+      "subTitle": "Powering Sri Lanka’s Renewable Future",
+      "description": "A USD 700 million utility-scale pumped storage project commencing 2029.",
+      "images": ["assets/img/Sectors/Renewable.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Investment", "value": "USD 700 Mn" },
+        { "label": "Commence Year", "value": "2029" },
+        { "label": "Project Life", "value": "50+ Years" }
+      ],
+      "keyHighlights": [
+        "Grid stability support",
+        "Long-duration energy storage",
+        "Capacity & ancillary payments",
+        "National renewable integration"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    },
+    {
+      "id": "re-002",
+      "type": "standard",
+      "title": "Natural Gas Fired ICE Power Plant",
+      "subTitle": "Driving Returns Through Clean Energy",
+      "description": "A 200 MW natural gas-fired power plant commencing 2026.",
+      "images": ["assets/img/Sectors/Renewable.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Investment", "value": "USD 750 Mn" },
+        { "label": "Capacity", "value": "200 MW" },
+        { "label": "Commence Year", "value": "2026" }
+      ],
+      "keyHighlights": [
+        "Stable capacity payments",
+        "Energy arbitrage revenue",
+        "Long-term PPA model"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    },
+    {
+      "id": "re-003",
+      "type": "standard",
+      "title": "Natural Gas Fired Aero-Derivative Gas Turbines",
+      "subTitle": "Energizing Tomorrow, Delivering Strong Returns",
+      "description": "A 130 MW high-efficiency gas turbine project commencing 2028.",
+      "images": ["assets/img/Sectors/Renewable.webp"],
+      "video": "",
+      "stats": [
+        { "label": "Investment", "value": "USD 150 Mn" },
+        { "label": "Capacity", "value": "130 MW" },
+        { "label": "Commence Year", "value": "2028" }
+      ],
+      "keyHighlights": [
+        "Long-term power purchase agreements",
+        "Grid reliability payments",
+        "Ancillary services revenue"
+      ],
+      "brochure": "#",
+      "moreInfo": "#"
+    }
+  ]
+}

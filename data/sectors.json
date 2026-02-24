@@ -1,0 +1,389 @@
+{
+  "agriculture": {
+    "name": "Agriculture & Agro-Processing",
+    "tagline": "Sri Lanka as a sustainable, value-added agri and food processing hub.",
+    "heroImage": "assets/img/Sectors/agriculture.webp",
+    "overview": "Sri Lanka's Agriculture and Agro-Processing sector offers strong investment potential through rich biodiversity, favorable agro-climatic conditions, and a long export legacy. Year-round cultivation, growing value addition, and export-oriented processing make the sector a competitive destination for long-term investors.",
+    "stats": [
+      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "GDP Contribution", "value": "7-8%" },
+      { "label": "Land Used for Agriculture", "value": "42%" }
+    ],
+    "whyInvest": [
+      "Rich agricultural base with high-value crops including tea, spices, coconut, fruits, and vegetables",
+      "Strategic access to India, the Middle East, Europe, and Africa for processed food exports",
+      "Strong brand and export potential with preferential trade access such as EU GSP+, UK DCTS, and regional FTAs",
+      "Skilled and cost-competitive talent pool for quality control, processing, and agri supply-chain operations",
+      "Improving logistics, cold storage, and distribution networks supporting lower post-harvest losses",
+      "Growing sustainability and traceability alignment for premium global markets"
+    ],
+    "advantages": [
+      "BOI-backed fiscal incentives including customs duty and PAL/CESS relief during implementation",
+      "Accelerated allowances (100-150%, up to 200% in eligible regions) and extended loss carry-forward",
+      "Fast-track approvals, visa support, and 100% foreign ownership for agro-processing projects"
+    ],
+    "cta": {
+      "title": "Build high-value agribusiness in Sri Lanka",
+      "description": "Engage with SLIF and BOI for end-to-end support on project structuring, approvals, incentives, and market access."
+    },
+    "seo": {
+      "title": "Agriculture & Agro-Processing | SLIF",
+      "description": "Explore agriculture and agro-processing investment opportunities in Sri Lanka with BOI-supported facilitation."
+    },
+    "officer": {
+      "name": "Alexander Sterling",
+      "title": "Sector Lead Specialist",
+      "specialization": "Leading Higher Education & Vocational Projects",
+      "phone": "+94 11 234 5678",
+      "email": "alexander.s@invest-srilanka.com",
+      "image": "assets/img/team/alexander.webp",
+      "consultationLink": "#",
+      "reportLink": "assets/reports/education-sector.pdf",
+      "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
+    }
+  },
+  "tourism": {
+    "name": "Tourism & Leisure",
+    "tagline": "Sri Lanka as a year-round, diversified tourism destination.",
+    "heroImage": "assets/img/Sectors/tourisms.webp",
+    "overview": "Sri Lanka's tourism sector combines strong destination appeal, cultural depth, and resilient recovery momentum. With record arrivals in 2025 and continued policy support through visa simplification and infrastructure upgrades, the country presents high-potential opportunities across hospitality, leisure, MICE, and tourism services.",
+    "stats": [
+      { "label": "Investment Opportunities", "value": "USD 1.5 Bn" },
+      { "label": "Tourist Arrivals", "value": "2.4 Mn" },
+      { "label": "Average Stay", "value": "12 Nights" }
+    ],
+    "whyInvest": [
+      "Compact destination mix with beaches, highlands, heritage sites, wildlife parks, and wellness offerings",
+      "Year-round tourism flows supported by dual monsoon seasons across different regions",
+      "Strong global brand recognition and broad source-market demand across Asia, Europe, and GCC",
+      "Investor-friendly framework with BOI facilitation, structured approvals, and tourism-focused support",
+      "Rising demand for cultural, eco, and experience-led travel with long-term expansion potential",
+      "Well-trained English-speaking hospitality workforce supported by tourism institutes"
+    ],
+    "advantages": [
+      "BOI fiscal support including customs duty and PAL/CESS relief for eligible projects",
+      "Tourism-specific CESS exemption on furniture imports for qualifying investments",
+      "Fast-track approvals, visa assistance, 100% foreign ownership, and full profit repatriation"
+    ],
+    "cta": {
+      "title": "Invest in Sri Lanka's next tourism growth cycle",
+      "description": "Partner with SLIF to develop high-impact tourism assets with BOI-backed facilitation and implementation support."
+    },
+    "seo": {
+      "title": "Tourism & Leisure | SLIF",
+      "description": "Discover tourism and leisure investment opportunities in Sri Lanka across hospitality, experiences, and destination infrastructure."
+    },
+    "officer": {
+      "name": "Alexander Sterling",
+      "title": "Sector Lead Specialist",
+      "specialization": "Leading Higher Education & Vocational Projects",
+      "phone": "+94 11 234 5678",
+      "email": "alexander.s@invest-srilanka.com",
+      "image": "assets/img/team/alexander.webp",
+      "consultationLink": "#",
+      "reportLink": "assets/reports/education-sector.pdf",
+      "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
+    }
+  },
+  "urban": {
+    "name": "Urban, Residential & Mixed-Use Development",
+    "tagline": "Shaping future cities through integrated urban living.",
+    "heroImage": "assets/img/Sectors/urban.webp",
+    "overview": "Sri Lanka's urban development sector offers long-term opportunities driven by urban migration, rising middle-income demand, and integrated city planning. The pipeline spans high-density residential, mixed-use communities, commercial hubs, and smart urban infrastructure supported by regeneration initiatives and private participation.",
+    "stats": [
+      { "label": "Investment Opportunities", "value": "USD 1.0 Bn" },
+      { "label": "Construction Sector Growth", "value": "12.2%" },
+      { "label": "GDP Contribution", "value": "6.0%" }
+    ],
+    "whyInvest": [
+      "Rapid urbanization is increasing demand for apartments, serviced units, and integrated communities",
+      "Growing middle-class purchasing power supports modern housing and lifestyle-led developments",
+      "Transport and connectivity investments are improving accessibility and property value potential",
+      "Demand is rising for smart, sustainable, and mixed-use developments with premium tenant appeal",
+      "Large untapped demand remains for modern living spaces, co-living, and township formats",
+      "Strong professional ecosystem in architecture, engineering, construction, and real-estate services"
+    ],
+    "advantages": [
+      "BOI-supported fiscal incentives for capital imports and implementation-phase cost relief",
+      "Accelerated tax allowances and extended loss carry-forward for qualifying projects",
+      "Fast-track approvals, 100% foreign ownership, full repatriation, and visa assistance"
+    ],
+    "cta": {
+      "title": "Shape future-ready urban assets in Sri Lanka",
+      "description": "Work with SLIF and BOI to structure integrated residential and mixed-use projects with scalable long-term value."
+    },
+    "seo": {
+      "title": "Urban, Residential & Mixed-Use Development | SLIF",
+      "description": "Review Sri Lanka urban development opportunities including mixed-use, residential, and city-scale infrastructure projects."
+    },
+    "officer": {
+      "name": "Alexander Sterling",
+      "title": "Sector Lead Specialist",
+      "specialization": "Leading Higher Education & Vocational Projects",
+      "phone": "+94 11 234 5678",
+      "email": "alexander.s@invest-srilanka.com",
+      "image": "assets/img/team/alexander.webp",
+      "consultationLink": "#",
+      "reportLink": "assets/reports/education-sector.pdf",
+      "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
+    }
+  },
+  "ict": {
+    "name": "ICT, Innovation & Tech Park Development",
+    "tagline": "Sri Lanka as a regional digital innovation and technology hub.",
+    "heroImage": "assets/img/Sectors/ICT.webp",
+    "overview": "Sri Lanka's ICT sector is a high-growth export engine supported by a skilled English-proficient workforce, digital infrastructure, and a growing startup ecosystem. With strong export momentum and national digital priorities, the country offers a compelling platform for technology services, innovation parks, and advanced digital infrastructure.",
+    "stats": [
+      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Skilled Professionals", "value": "175,000+" },
+      { "label": "Tech Companies & Startups", "value": "500+ / 1,000+" }
+    ],
+    "whyInvest": [
+      "Strategic location and time-zone alignment for ITES, BPO, and software exports to global markets",
+      "Large skilled and cost-competitive workforce with continuous graduate supply in ICT fields",
+      "Consistent ICT export growth and strong demand across cloud, fintech, and software services",
+      "Mature connectivity base with near-universal digital access and expanding fiber plus 4G/5G networks",
+      "Emerging innovation ecosystem in fintech, healthtech, e-commerce, and cloud solutions",
+      "Improving cyber security and data standards aligned with international digital practices"
+    ],
+    "advantages": [
+      "BOI facilitation for digital investments, including implementation-phase duty and tax relief",
+      "Concessionary 15% CIT for eligible service exports plus accelerated depreciation benefits",
+      "Fast-track approvals, 100% foreign ownership, repatriation support, and investor visa assistance"
+    ],
+    "cta": {
+      "title": "Scale digital growth from Sri Lanka",
+      "description": "Connect with SLIF and BOI to launch or expand technology ventures across ICT services, innovation, and digital infrastructure."
+    },
+    "seo": {
+      "title": "ICT, Innovation & Tech Park Development | SLIF",
+      "description": "Explore Sri Lanka ICT investment opportunities in tech parks, digital services, innovation ecosystems, and export-oriented IT growth."
+    },
+    "officer": {
+      "name": "Alexander Sterling",
+      "title": "Sector Lead Specialist",
+      "specialization": "Leading Higher Education & Vocational Projects",
+      "phone": "+94 11 234 5678",
+      "email": "alexander.s@invest-srilanka.com",
+      "image": "assets/img/team/alexander.webp",
+      "consultationLink": "#",
+      "reportLink": "assets/reports/education-sector.pdf",
+      "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
+    }
+  },
+  "education": {
+    "name": "Higher Education & Vocational Education",
+    "tagline": "Sri Lanka: South Asia's emerging education and skills hub.",
+    "heroImage": "assets/img/Sectors/Education.webp",
+    "overview": "Sri Lanka offers strong education-sector potential through high literacy, significant unmet demand, and competitive operating economics. The country is well positioned for private higher education, vocational training, and transnational education models with BOI support and scalable project pathways.",
+    "stats": [
+      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Annual Higher Education Demand", "value": "100,000+" },
+      { "label": "Annual Vocational Demand", "value": "100,000+" }
+    ],
+    "whyInvest": [
+      "Strong unmet demand as large numbers of qualified students cannot access public pathways each year",
+      "Cost-competitive setup and operations compared with major regional education hubs",
+      "Skilled academic and training base across STEM, ICT, healthcare, management, and applied sciences",
+      "English-medium delivery supports international curricula, dual degrees, and global partnerships",
+      "Regional catchment potential across South Asia, Maldives, the Middle East, and Africa",
+      "Education is a policy priority with BOI-enabled flexibility for higher foreign participation"
+    ],
+    "advantages": [
+      "Priority areas include international campuses, TVET, healthcare training, EdTech, and applied skills institutes",
+      "BOI can approve foreign ownership above the general 40% education limit on eligible projects",
+      "Fast-track approvals, fiscal incentives, repatriation support, and investor visa facilitation"
+    ],
+    "cta": {
+      "title": "Build the next generation of education capacity",
+      "description": "Partner with SLIF and BOI to develop scalable education and skills projects aligned with regional demand."
+    },
+    "seo": {
+      "title": "Higher Education & Vocational Education | SLIF",
+      "description": "Explore education and vocational investment opportunities in Sri Lanka including campuses, TVET, and transnational models."
+    },
+    "officer": {
+      "name": "Alexander Sterling",
+      "title": "Sector Lead Specialist",
+      "specialization": "Leading Higher Education & Vocational Projects",
+      "phone": "+94 11 234 5678",
+      "email": "alexander.s@invest-srilanka.com",
+      "image": "assets/img/team/alexander.webp",
+      "consultationLink": "#",
+      "reportLink": "assets/reports/education-sector.pdf",
+      "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
+    }
+  },
+  "transport": {
+    "name": "Transport & Logistics",
+    "tagline": "Strengthening regional supply chains through smart logistics infrastructure.",
+    "heroImage": "assets/img/Sectors/Transportation.webp",
+    "overview": "Sri Lanka's Transport and Logistics sector is a core trade enabler with strong growth in freight, warehousing, and multimodal distribution. With rising e-commerce demand, high market value, and infrastructure upgrades, the sector offers scalable opportunities across domestic and regional supply-chain platforms.",
+    "stats": [
+      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Market Value (2025)", "value": "USD 7.78 Bn" },
+      { "label": "Growth Potential", "value": "4.3% CAGR" }
+    ],
+    "whyInvest": [
+      "Strategic Indian Ocean position with multimodal connectivity across ports, airports, road, and rail",
+      "Strong volume growth from trade expansion, port throughput, and domestic logistics demand",
+      "Robust infrastructure base with ongoing upgrades in expressways, logistics hubs, and digital systems",
+      "Rising demand from manufacturing, agriculture, healthcare, tourism, and e-commerce value chains",
+      "Skilled workforce and competitive operating costs improve long-term investment margins",
+      "Decade-long growth potential supported by trade liberalization and supply-chain modernization"
+    ],
+    "advantages": [
+      "BOI incentives include concessionary CIT for eligible service exports and capital import relief",
+      "Accelerated depreciation allowances and extended loss carry-forward for qualifying projects",
+      "Fast-track approvals with ownership flexibility and streamlined investor facilitation"
+    ],
+    "cta": {
+      "title": "Scale logistics performance in a regional gateway market",
+      "description": "Work with SLIF and BOI to structure high-impact transport and logistics investments across warehousing, freight, and integrated networks."
+    },
+    "seo": {
+      "title": "Transport & Logistics | SLIF",
+      "description": "Discover transport and logistics investment opportunities in Sri Lanka across warehousing, freight, multimodal links, and supply-chain infrastructure."
+    },
+    "officer": {
+      "name": "Alexander Sterling",
+      "title": "Sector Lead Specialist",
+      "specialization": "Leading Higher Education & Vocational Projects",
+      "phone": "+94 11 234 5678",
+      "email": "alexander.s@invest-srilanka.com",
+      "image": "assets/img/team/alexander.webp",
+      "consultationLink": "#",
+      "reportLink": "assets/reports/education-sector.pdf",
+      "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
+    }
+  },
+  "aviation": {
+    "name": "Aviation, Ports & Maritime Infrastructure",
+    "tagline": "Invest at the crossroads of global trade in Sri Lanka's ports, airports, and maritime infrastructure.",
+    "heroImage": "assets/img/Sectors/Aviation.webp",
+    "overview": "Sri Lanka's aviation, ports, and maritime sector is central to regional trade and mobility across the Indian Ocean. Record port throughput, rising passenger traffic, and strategic connectivity create long-horizon opportunities in terminals, cargo, maintenance, training, and multimodal infrastructure.",
+    "stats": [
+      { "label": "Investment Opportunities", "value": "USD 2.2 Bn" },
+      { "label": "Port Throughput (2025)", "value": "8.29 Mn TEUs" },
+      { "label": "Airport Traffic (2025)", "value": "10 Mn+" }
+    ],
+    "whyInvest": [
+      "Prime location on East-West trade routes with efficient access to regional and global markets",
+      "High-performing port ecosystem with expansion potential in container, bulk, and industrial cargo",
+      "Expanding aviation connectivity driving demand for airport infrastructure and service platforms",
+      "Rising trade and cargo volumes requiring modern shipping, storage, and distribution systems",
+      "Greenfield and brownfield expansion opportunities across terminals, logistics parks, and services",
+      "Skilled workforce and established support industries reduce implementation and operating friction"
+    ],
+    "advantages": [
+      "BOI-backed fiscal incentives on construction materials and capital goods during implementation",
+      "Accelerated allowances and long loss carry-forward windows for eligible infrastructure projects",
+      "Fast-track approvals, repatriation support, and high foreign participation (sector-specific limits apply)"
+    ],
+    "cta": {
+      "title": "Participate in Sri Lanka's next logistics and connectivity expansion",
+      "description": "Partner with SLIF and BOI to unlock aviation, port, and maritime infrastructure opportunities with regional scale."
+    },
+    "seo": {
+      "title": "Aviation, Ports & Maritime Infrastructure | SLIF",
+      "description": "Explore Sri Lanka investment opportunities in airports, ports, maritime services, and multimodal trade infrastructure."
+    },
+    "officer": {
+      "name": "Alexander Sterling",
+      "title": "Sector Lead Specialist",
+      "specialization": "Leading Higher Education & Vocational Projects",
+      "phone": "+94 11 234 5678",
+      "email": "alexander.s@invest-srilanka.com",
+      "image": "assets/img/team/alexander.webp",
+      "consultationLink": "#",
+      "reportLink": "assets/reports/education-sector.pdf",
+      "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
+    }
+  },
+  "manufacturing": {
+    "name": "Manufacturing",
+    "tagline": "Sri Lanka as a competitive, export-oriented manufacturing hub in South Asia.",
+    "heroImage": "assets/img/Sectors/Manufacturing.webp",
+    "overview": "Sri Lanka's manufacturing sector is a major contributor to GDP and exports, with established strength in apparel and growing diversification into electronics, pharmaceuticals, food processing, and engineering. Strategic location, trade access, and BOI-backed facilitation support scalable and resilient industrial growth.",
+    "stats": [
+      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Annual Exports", "value": "USD 13.6 Bn" },
+      { "label": "Year-on-Year Growth", "value": "6.3%" }
+    ],
+    "whyInvest": [
+      "Strategic location on major shipping lanes with efficient access to key regional and global markets",
+      "Skilled, trainable workforce with strengths across apparel, electronics, and process manufacturing",
+      "Preferential market access through FTAs, EU GSP+, UK DCTS, and regional trade arrangements",
+      "Established industrial ecosystem with export zones, sector clusters, and multinational presence",
+      "Rising demand for sustainable and value-added products across multiple subsectors",
+      "Supportive policy push for export growth and sector diversification beyond traditional segments"
+    ],
+    "advantages": [
+      "BOI incentives for both capital and operational cost reduction, including import-duty relief on eligible inputs",
+      "Accelerated tax allowances and extended loss carry-forward to improve long-term project returns",
+      "Fast-track approvals, 100% foreign ownership, full repatriation, and visa facilitation"
+    ],
+    "cta": {
+      "title": "Scale export manufacturing from Sri Lanka",
+      "description": "Engage with SLIF and BOI to evaluate industrial projects across advanced and value-added manufacturing segments."
+    },
+    "seo": {
+      "title": "Manufacturing | SLIF",
+      "description": "Review manufacturing investment opportunities in Sri Lanka across export-oriented and diversified industrial segments."
+    },
+    "officer": {
+      "name": "Alexander Sterling",
+      "title": "Sector Lead Specialist",
+      "specialization": "Leading Higher Education & Vocational Projects",
+      "phone": "+94 11 234 5678",
+      "email": "alexander.s@invest-srilanka.com",
+      "image": "assets/img/team/alexander.webp",
+      "consultationLink": "#",
+      "reportLink": "assets/reports/education-sector.pdf",
+      "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
+    }
+  },
+  "renewable": {
+    "name": "Renewable Energy & Sustainable Utilities",
+    "tagline": "Sri Lanka as a clean energy and sustainable utilities investment destination.",
+    "heroImage": "assets/img/Sectors/Renewable.webp",
+    "overview": "Sri Lanka's renewable energy sector offers long-term growth through ambitious transition targets, expanding power demand, and policy-backed project pipelines. With strong solar, wind, hydro, and biomass resources and BOI-supported facilitation, the market is positioned for scalable clean infrastructure investment.",
+    "stats": [
+      { "label": "Investment Opportunities", "value": "USD 1.0 Bn" },
+      { "label": "Renewables in Generation", "value": "45-50%" },
+      { "label": "2030 Renewable Target", "value": "70%" }
+    ],
+    "whyInvest": [
+      "Abundant renewable resource base across solar, wind corridors, hydro, and biomass potential",
+      "Clear national transition pathway with decarbonization targets and long-term planning visibility",
+      "Strong PPP and private participation potential in generation, storage, grid, and utility services",
+      "Rising electricity demand from industrialization, urbanization, and digital-economy growth",
+      "Strong ESG alignment and climate-finance relevance for global sustainable capital",
+      "Emerging upside in storage, electric mobility infrastructure, green hydrogen, and smart-grid technologies"
+    ],
+    "advantages": [
+      "BOI-supported fiscal incentives and import relief for eligible clean-energy investments",
+      "Long-term PPAs and policy frameworks that improve investment certainty and bankability",
+      "Fast-track approvals, 100% foreign ownership, repatriation support, and investor visa assistance"
+    ],
+    "cta": {
+      "title": "Invest in Sri Lanka's clean energy transition",
+      "description": "Partner with SLIF and BOI to develop bankable renewable and sustainable utility projects with long-term growth potential."
+    },
+    "seo": {
+      "title": "Renewable Energy & Sustainable Utilities | SLIF",
+      "description": "Explore renewable energy and sustainable utility investment opportunities in Sri Lanka across solar, wind, storage, and grid-linked infrastructure."
+    },
+    "officer": {
+      "name": "Alexander Sterling",
+      "title": "Sector Lead Specialist",
+      "specialization": "Leading Higher Education & Vocational Projects",
+      "phone": "+94 11 234 5678",
+      "email": "alexander.s@invest-srilanka.com",
+      "image": "assets/img/team/alexander.webp",
+      "consultationLink": "#",
+      "reportLink": "assets/reports/education-sector.pdf",
+      "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
+    }
+  }
+}
