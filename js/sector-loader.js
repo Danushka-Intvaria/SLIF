@@ -109,7 +109,7 @@
     statsWrap.innerHTML = (sector.stats || [])
       .map(
         (stat, index) => `
-      <div class="col-6 col-lg-4">
+      <div class="col-5 col-lg-3">
         <article class="slif-stat-card h-100 fade-in-up">
           <span class="slif-card-icon-box" aria-hidden="true"><i class="bi ${cardIcons[index % cardIcons.length]}"></i></span>
           <p class="slif-stat-value mb-1">${stat.value}</p>

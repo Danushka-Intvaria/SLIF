@@ -7,7 +7,8 @@
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 500 Mn" },
       { "label": "GDP Contribution", "value": "7-8%" },
-      { "label": "Land Used for Agriculture", "value": "42%" }
+      { "label": "Land Used for Agriculture", "value": "42%" },
+      { "label": "Agro-Processing Export Growth", "value": "8.5% CAGR" }
     ],
     "whyInvest": [
       "Rich agricultural base with high-value crops including tea, spices, coconut, fruits, and vegetables",
@@ -50,7 +51,8 @@
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 1.5 Bn" },
       { "label": "Tourist Arrivals", "value": "2.4 Mn" },
-      { "label": "Average Stay", "value": "12 Nights" }
+      { "label": "Average Stay", "value": "12 Nights" },
+      { "label": "Tourism GDP Contribution", "value": "5-6%" }
     ],
     "whyInvest": [
       "Compact destination mix with beaches, highlands, heritage sites, wildlife parks, and wellness offerings",
@@ -93,7 +95,8 @@
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 1.0 Bn" },
       { "label": "Construction Sector Growth", "value": "12.2%" },
-      { "label": "GDP Contribution", "value": "6.0%" }
+      { "label": "GDP Contribution", "value": "6.0%" },
+      { "label": "Urban Population Growth", "value": "2.5% CAGR" }
     ],
     "whyInvest": [
       "Rapid urbanization is increasing demand for apartments, serviced units, and integrated communities",
@@ -136,7 +139,8 @@
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 500 Mn" },
       { "label": "Skilled Professionals", "value": "175,000+" },
-      { "label": "Tech Companies & Startups", "value": "500+ / 1,000+" }
+      { "label": "Tech Companies & Startups", "value": "500+ / 1,000+" },
+      { "label": "ICT Export Growth", "value": "15% CAGR" }
     ],
     "whyInvest": [
       "Strategic location and time-zone alignment for ITES, BPO, and software exports to global markets",
@@ -179,7 +183,11 @@
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 500 Mn" },
       { "label": "Annual Higher Education Demand", "value": "100,000+" },
-      { "label": "Annual Vocational Demand", "value": "100,000+" }
+      { "label": "Annual Vocational Demand", "value": "100,000+" },
+      {
+        "label": "Skilled Workforce",
+        "value": "1.5 Mn+ (STEM, ICT, Healthcare)"
+      }
     ],
     "whyInvest": [
       "Strong unmet demand as large numbers of qualified students cannot access public pathways each year",
@@ -222,7 +230,8 @@
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 500 Mn" },
       { "label": "Market Value (2025)", "value": "USD 7.78 Bn" },
-      { "label": "Growth Potential", "value": "4.3% CAGR" }
+      { "label": "Growth Potential", "value": "4.3% CAGR" },
+      { "label": "E-commerce Growth", "value": "20% CAGR" }
     ],
     "whyInvest": [
       "Strategic Indian Ocean position with multimodal connectivity across ports, airports, road, and rail",
@@ -265,7 +274,8 @@
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 2.2 Bn" },
       { "label": "Port Throughput (2025)", "value": "8.29 Mn TEUs" },
-      { "label": "Airport Traffic (2025)", "value": "10 Mn+" }
+      { "label": "Airport Traffic (2025)", "value": "10 Mn+" },
+      { "label": "Maritime Trade Growth", "value": "5-6% CAGR" }
     ],
     "whyInvest": [
       "Prime location on East-West trade routes with efficient access to regional and global markets",
@@ -308,7 +318,11 @@
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 500 Mn" },
       { "label": "Annual Exports", "value": "USD 13.6 Bn" },
-      { "label": "Year-on-Year Growth", "value": "6.3%" }
+      { "label": "Year-on-Year Growth", "value": "6.3%" },
+      {
+        "label": "Key Subsectors",
+        "value": "Apparel, Electronics, Food Processing, Pharmaceuticals"
+      }
     ],
     "whyInvest": [
       "Strategic location on major shipping lanes with efficient access to key regional and global markets",
@@ -351,7 +365,8 @@
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 1.0 Bn" },
       { "label": "Renewables in Generation", "value": "45-50%" },
-      { "label": "2030 Renewable Target", "value": "70%" }
+      { "label": "2030 Renewable Target", "value": "70%" },
+      { "label": "Electricity Demand Growth", "value": "5-6% CAGR" }
     ],
     "whyInvest": [
       "Abundant renewable resource base across solar, wind corridors, hydro, and biomass potential",
