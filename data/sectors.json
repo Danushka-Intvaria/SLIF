@@ -5,10 +5,10 @@
     "heroImage": "assets/img/Sectors/agriculture.webp",
     "overview": "Sri Lanka's Agriculture and Agro-Processing sector offers strong investment potential through rich biodiversity, favorable agro-climatic conditions, and a long export legacy. Year-round cultivation, growing value addition, and export-oriented processing make the sector a competitive destination for long-term investors.",
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Investment Opportunities", "value": "USD 130 Mn" },
       { "label": "GDP Contribution", "value": "7-8%" },
       { "label": "Land Used for Agriculture", "value": "42%" },
-      { "label": "Agro-Processing Export Growth", "value": "8.5% CAGR" }
+      { "label": "National Workforce Share", "value": "27%" }
     ],
     "whyInvest": [
       "Rich agricultural base with high-value crops including tea, spices, coconut, fruits, and vegetables",
@@ -49,10 +49,10 @@
     "heroImage": "assets/img/Sectors/tourisms.webp",
     "overview": "Sri Lanka's tourism sector combines strong destination appeal, cultural depth, and resilient recovery momentum. With record arrivals in 2025 and continued policy support through visa simplification and infrastructure upgrades, the country presents high-potential opportunities across hospitality, leisure, MICE, and tourism services.",
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 1.5 Bn" },
-      { "label": "Tourist Arrivals", "value": "2.4 Mn" },
+      { "label": "Investment Opportunities", "value": "USD 450 Mn" },
+      { "label": "Tourist Arrivals (2025)", "value": "2.4 Mn" },
       { "label": "Average Stay", "value": "12 Nights" },
-      { "label": "Tourism GDP Contribution", "value": "5-6%" }
+      { "label": "YoY Growth", "value": "15%" }
     ],
     "whyInvest": [
       "Compact destination mix with beaches, highlands, heritage sites, wildlife parks, and wellness offerings",
@@ -93,10 +93,10 @@
     "heroImage": "assets/img/Sectors/urban.webp",
     "overview": "Sri Lanka's urban development sector offers long-term opportunities driven by urban migration, rising middle-income demand, and integrated city planning. The pipeline spans high-density residential, mixed-use communities, commercial hubs, and smart urban infrastructure supported by regeneration initiatives and private participation.",
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 1.0 Bn" },
+      { "label": "Investment Opportunities", "value": "USD 160 Mn" },
       { "label": "Construction Sector Growth", "value": "12.2%" },
       { "label": "GDP Contribution", "value": "6.0%" },
-      { "label": "Urban Population Growth", "value": "2.5% CAGR" }
+      { "label": "YoY Increase", "value": "128.4%" }
     ],
     "whyInvest": [
       "Rapid urbanization is increasing demand for apartments, serviced units, and integrated communities",
@@ -137,10 +137,10 @@
     "heroImage": "assets/img/Sectors/ICT.webp",
     "overview": "Sri Lanka's ICT sector is a high-growth export engine supported by a skilled English-proficient workforce, digital infrastructure, and a growing startup ecosystem. With strong export momentum and national digital priorities, the country offers a compelling platform for technology services, innovation parks, and advanced digital infrastructure.",
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Investment Opportunities", "value": "USD 200 Mn" },
       { "label": "Skilled Professionals", "value": "175,000+" },
       { "label": "Tech Companies & Startups", "value": "500+ / 1,000+" },
-      { "label": "ICT Export Growth", "value": "15% CAGR" }
+      { "label": "YoY Export Growth", "value": "8-10%" }
     ],
     "whyInvest": [
       "Strategic location and time-zone alignment for ITES, BPO, and software exports to global markets",
@@ -181,12 +181,12 @@
     "heroImage": "assets/img/Sectors/Education.webp",
     "overview": "Sri Lanka offers strong education-sector potential through high literacy, significant unmet demand, and competitive operating economics. The country is well positioned for private higher education, vocational training, and transnational education models with BOI support and scalable project pathways.",
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Investment Opportunities", "value": "USD 1000 Mn" },
       { "label": "Annual Higher Education Demand", "value": "100,000+" },
       { "label": "Annual Vocational Demand", "value": "100,000+" },
       {
-        "label": "Skilled Workforce",
-        "value": "1.5 Mn+ (STEM, ICT, Healthcare)"
+        "label": "Literacy Rate",
+        "value": "92%"
       }
     ],
     "whyInvest": [
@@ -228,10 +228,10 @@
     "heroImage": "assets/img/Sectors/Transportation.webp",
     "overview": "Sri Lanka's Transport and Logistics sector is a core trade enabler with strong growth in freight, warehousing, and multimodal distribution. With rising e-commerce demand, high market value, and infrastructure upgrades, the sector offers scalable opportunities across domestic and regional supply-chain platforms.",
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Investment Opportunities", "value": "USD 385 Mn" },
       { "label": "Market Value (2025)", "value": "USD 7.78 Bn" },
       { "label": "Growth Potential", "value": "4.3% CAGR" },
-      { "label": "E-commerce Growth", "value": "20% CAGR" }
+      { "label": "E-commerce Growth", "value": "42%" }
     ],
     "whyInvest": [
       "Strategic Indian Ocean position with multimodal connectivity across ports, airports, road, and rail",
@@ -272,10 +272,10 @@
     "heroImage": "assets/img/Sectors/Aviation.webp",
     "overview": "Sri Lanka's aviation, ports, and maritime sector is central to regional trade and mobility across the Indian Ocean. Record port throughput, rising passenger traffic, and strategic connectivity create long-horizon opportunities in terminals, cargo, maintenance, training, and multimodal infrastructure.",
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 2.2 Bn" },
+      { "label": "Investment Opportunities", "value": "USD 750 Mn" },
       { "label": "Port Throughput (2025)", "value": "8.29 Mn TEUs" },
       { "label": "Airport Traffic (2025)", "value": "10 Mn+" },
-      { "label": "Maritime Trade Growth", "value": "5-6% CAGR" }
+      { "label": "Airline Destinations", "value": "72" }
     ],
     "whyInvest": [
       "Prime location on East-West trade routes with efficient access to regional and global markets",
@@ -317,11 +317,11 @@
     "overview": "Sri Lanka's manufacturing sector is a major contributor to GDP and exports, with established strength in apparel and growing diversification into electronics, pharmaceuticals, food processing, and engineering. Strategic location, trade access, and BOI-backed facilitation support scalable and resilient industrial growth.",
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 500 Mn" },
-      { "label": "Annual Exports", "value": "USD 13.6 Bn" },
-      { "label": "Year-on-Year Growth", "value": "6.3%" },
+      { "label": "Annual Exports (2025)", "value": "USD 13.6 Bn" },
+      { "label": "YoY Growth", "value": "6.3%" },
       {
-        "label": "Key Subsectors",
-        "value": "Apparel, Electronics, Food Processing, Pharmaceuticals"
+        "label": "National Workforce Share",
+        "value": "26%"
       }
     ],
     "whyInvest": [
@@ -363,8 +363,8 @@
     "heroImage": "assets/img/Sectors/Renewable.webp",
     "overview": "Sri Lanka's renewable energy sector offers long-term growth through ambitious transition targets, expanding power demand, and policy-backed project pipelines. With strong solar, wind, hydro, and biomass resources and BOI-supported facilitation, the market is positioned for scalable clean infrastructure investment.",
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 1.0 Bn" },
-      { "label": "Renewables in Generation", "value": "45-50%" },
+      { "label": "Investment Opportunities", "value": "USD 1,880 Mn" },
+      { "label": "National Power Generation Share", "value": "45-50%" },
       { "label": "2030 Renewable Target", "value": "70%" },
       { "label": "Electricity Demand Growth", "value": "5-6% CAGR" }
     ],
