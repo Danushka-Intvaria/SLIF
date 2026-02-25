@@ -5,6 +5,7 @@ window.SECTOR_PROJECTS_DATA = {
       name: 'Agriculture & Agro-Processing',
       summary: 'High-value agriculture, modern processing, and export-ready supply chains.',
       heroImage: 'assets/img/Sectors/agriculture.webp',
+      image: 'assets/img/Sectors/agriculture.webp',
       stats: [
         { label: 'Planned Projects', value: '3' },
         { label: 'Export Focus', value: 'High' },
@@ -42,6 +43,7 @@ window.SECTOR_PROJECTS_DATA = {
       name: 'Tourism & Leisure',
       summary: 'Experiential tourism projects across eco, wellness, and heritage themes.',
       heroImage: 'assets/img/Sectors/tourisms.webp',
+      image: 'assets/img/Sectors/tourisms.webp',
       stats: [
         { label: 'Planned Projects', value: '3' },
         { label: 'Target Markets', value: 'Global' },
@@ -79,6 +81,7 @@ window.SECTOR_PROJECTS_DATA = {
       name: 'Urban Development & Real Estate',
       summary: 'Smart urban growth through mixed-use, transit-led, and resilient city projects.',
       heroImage: 'assets/img/Sectors/urban.webp',
+      image: 'assets/img/Sectors/urban.webp',
       stats: [
         { label: 'Planned Projects', value: '3' },
         { label: 'PPP Potential', value: 'High' },
@@ -116,6 +119,7 @@ window.SECTOR_PROJECTS_DATA = {
       name: 'ICT, Innovation & Tech Park Development',
       summary: 'Digital infrastructure, innovation ecosystems, and export-led technology services.',
       heroImage: 'assets/img/Sectors/ICT.webp',
+      image: 'assets/img/Sectors/ICT.webp',
       stats: [
         { label: 'Planned Projects', value: '3' },
         { label: 'Talent Base', value: 'Growing' },
@@ -153,6 +157,7 @@ window.SECTOR_PROJECTS_DATA = {
       name: 'Higher Education & Vocational Education',
       summary: 'Market-driven higher and technical education aligned with future workforce demand.',
       heroImage: 'assets/img/Sectors/Education.webp',
+      image: 'assets/img/Sectors/Education.webp',
       stats: [
         { label: 'Planned Projects', value: '3' },
         { label: 'Annual Demand', value: '200,000+' },
@@ -190,6 +195,7 @@ window.SECTOR_PROJECTS_DATA = {
       name: 'Transport & Logistics',
       summary: 'Port-centric logistics and multimodal upgrades to improve trade competitiveness.',
       heroImage: 'assets/img/Sectors/Transportation.webp',
+      image: 'assets/img/Sectors/Transportation.webp',
       stats: [
         { label: 'Planned Projects', value: '3' },
         { label: 'Logistics Role', value: 'Regional' },
@@ -227,6 +233,7 @@ window.SECTOR_PROJECTS_DATA = {
       name: 'Aviation & Aerospace Services',
       summary: 'Airport-linked business, MRO, cargo, and passenger service expansion.',
       heroImage: 'assets/img/Sectors/Aviation.webp',
+      image: 'assets/img/Sectors/Aviation.webp',
       stats: [
         { label: 'Planned Projects', value: '2' },
         { label: 'Regional Access', value: 'Strong' },
@@ -256,6 +263,7 @@ window.SECTOR_PROJECTS_DATA = {
       name: 'Manufacturing & Industrial Zones',
       summary: 'Value-added manufacturing, export processing, and modern industrial infrastructure.',
       heroImage: 'assets/img/Sectors/Manufacturing.webp',
+      image: 'assets/img/Sectors/Manufacturing.webp',
       stats: [
         { label: 'Planned Projects', value: '2' },
         { label: 'Export Orientation', value: 'High' },
@@ -285,6 +293,7 @@ window.SECTOR_PROJECTS_DATA = {
       name: 'Renewable Energy',
       summary: 'Utility-scale and distributed clean energy investments.',
       heroImage: 'assets/img/Sectors/Renewable.webp',
+      image: 'assets/img/Sectors/Renewable.webp',
       stats: [
         { label: 'Planned Projects', value: '2' },
         { label: 'Grid Integration', value: 'Priority' },
