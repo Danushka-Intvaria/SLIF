@@ -44,6 +44,25 @@
       return `/${path}`;
     };
 
+    const renderOverview = (overview) => {
+      const wrap = document.getElementById("sectorOverview");
+      if (!wrap) return;
+
+      const paragraphs = Array.isArray(overview) ? overview : [overview];
+      const cleaned = paragraphs.filter((text) => Boolean(text));
+
+      wrap.innerHTML = "";
+
+      if (!cleaned.length) return;
+
+      cleaned.forEach((text, index) => {
+        const p = document.createElement("p");
+        p.textContent = text;
+        p.className = index === cleaned.length - 1 ? "mb-0" : "mb-3";
+        wrap.appendChild(p);
+      });
+    };
+
     const resolveLink = (path) => {
       if (!path || path === "#") return path || "#";
       if (
@@ -64,7 +83,7 @@
 
     setText("sectorName", sector.name);
     setText("sectorTagline", sector.tagline);
-    setText("sectorOverview", sector.overview);
+    renderOverview(sector.overview);
     setText("sectorCtaTitle", sector.cta?.title);
     setText("sectorCtaDescription", sector.cta?.description);
 
@@ -83,7 +102,16 @@
       setText("officerEmail", officer.email);
 
       const img = document.getElementById("officerImage");
-      if (img) img.src = resolveAssetPath(officer.image);
+      if (img) {
+        const fallbackImage = "assets/img/person/person-m-8.webp";
+        const resolvedFallback = resolveAssetPath(fallbackImage);
+        img.src = resolveAssetPath(officer.image || fallbackImage);
+        img.alt = officer.name || "Sector officer";
+        img.onerror = () => {
+          img.onerror = null;
+          img.src = resolvedFallback;
+        };
+      }
 
       const consult = document.getElementById("consultationLink");
       if (consult) consult.href = resolveLink(officer.consultationLink || "#");
@@ -394,17 +422,30 @@
         `;
       };
 
-      document.getElementById("flagshipProjects").innerHTML = flagship.length
+      const emptyMessage = `
+        <div class="col-12">
+          <div class="text-center py-5">
+            <p class="text-muted mb-0">No projects available.</p>
+          </div>
+        </div>
+      `;
+      const hasFlagship = flagship.length > 0;
+      const hasStandard = standard.length > 0;
+      const showEmpty = !hasFlagship && !hasStandard;
+
+      document.getElementById("flagshipProjects").innerHTML = hasFlagship
         ? flagship.map((project) => toCard(project, "flagship")).join("")
-        : '<p class="text-muted small mb-0">No projects available.</p>';
-      document.getElementById("standardProjects").innerHTML = standard.length
+        : "";
+      document.getElementById("standardProjects").innerHTML = hasStandard
         ? standard
             .map(
               (project) =>
                 `<div class="col-12">${toCard(project, "standard")}</div>`,
             )
             .join("")
-        : '<p class="text-muted small mb-0">No projects available.</p>';
+        : showEmpty
+          ? emptyMessage
+          : "";
 
       wireProjectMedia();
     };
