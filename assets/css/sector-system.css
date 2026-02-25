@@ -205,7 +205,9 @@
 }
 
 .slif-sector-contact {
-  background-color: color-mix(in srgb, var(--accent-color), var(--surface-color) 84%);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
 }
 
 .slif-cta-btn {
@@ -655,19 +657,20 @@
 }
 
 .slif-sector-officer-section {
-  background: #1e3a5f;
+  background: linear-gradient(135deg, #102743 0%, #1b3f6a 55%, #1e4c7b 100%);
   border-radius: 32px;
   padding: clamp(3rem, 6vw, 5rem);
   overflow: hidden;
+  color: #f5f7ff;
+  box-shadow: 0 25px 60px rgba(9, 20, 44, 0.35);
 }
 
 
 .slif-officer-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.9fr);
+  gap: clamp(2rem, 4vw, 3.5rem);
   align-items: center;
-  justify-content: space-between;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -676,64 +679,54 @@
 .slif-officer-left {
   flex: 1 1 55%;
   color: #fff;
+  text-align: left;
+  max-width: 620px;
 }
 
 .slif-officer-left h2 {
   font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 600;
-  color: wheat;
+  color: #f9f3df;
+  letter-spacing: 0.2px;
 }
 
 .slif-officer-card {
   flex: 1 1 380px;
   justify-content: center;
+  justify-self: end;
+  width: 100%;
+  max-width: 420px;
 
-  /* Glass background */
-background: rgba(130, 84, 190, 0.377);
-backdrop-filter: blur(18px) saturate(160%);
--webkit-backdrop-filter: blur(18px) saturate(160%);
-
-/* Frosted border */
-border: 1px solid rgb(255, 255, 255);
-
-border-radius: 24px;
-padding: 2rem;
-
-/* Depth */
-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25),
-inset 0 1px 0 rgba(255, 255, 255, 0.4);
-
-transition: all .4s ease;
+  background: rgba(255, 255, 255, 0.96);
+  color: #1b2b3f;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 18px 40px rgba(6, 18, 38, 0.35);
+  transition: all .35s ease;
 }
 
 .slif-officer-card:hover {
   transform: translateY(-8px);
   box-shadow:
-    0 20px 60px rgba(0, 0, 0, 0.35),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    0 28px 70px rgba(6, 18, 38, 0.45);
 }
 
-@media (min-width: 992px) {
-  .slif-officer-card {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.slif-officer-card hr {
+  border-color: rgba(27, 43, 63, 0.15);
 }
 
+.slif-officer-card .text-muted {
+  color: #5e6a7a !important;
+}
 
 .slif-officer-img {
-  width: 65px;
-  height: 65px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid var(--accent-color);
-}
-
-@media (max-width: 992px) {
-  .slif-officer-wrapper {
-    flex-direction: column;
-    text-align: center;
-  }
+  border: 3px solid color-mix(in srgb, var(--accent-color), #ffffff 40%);
+  background: #e7ebf4;
 }
 
 /* ===============================
@@ -752,11 +745,10 @@ transition: all .4s ease;
 }
 
 .slif-officer-desc {
-  padding-left: 15%;
-  padding-right: 15%;
-  opacity: 0.9;
+  margin: 0;
+  opacity: 0.85;
   font-size: 1rem;
-
+  color: rgba(245, 247, 255, 0.85);
 }
 
 /* ===============================
@@ -768,7 +760,7 @@ transition: all .4s ease;
   flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /* ===============================
@@ -794,12 +786,17 @@ transition: all .4s ease;
 @media (max-width: 992px) {
 
   .slif-officer-wrapper {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     text-align: center;
   }
 
   .slif-officer-left {
     flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .slif-officer-card {
+    justify-self: center;
   }
 
   .slif-officer-desc {

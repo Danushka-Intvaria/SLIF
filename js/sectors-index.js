@@ -24,7 +24,9 @@
 
     grid.innerHTML = entries.map(([key, sector]) => {
       const name = sector?.name || key;
-      const tagline = sector?.tagline || sector?.overview || '';
+      const overview = sector?.overview;
+      const overviewText = Array.isArray(overview) ? overview[0] : overview;
+      const tagline = sector?.tagline || overviewText || '';
       const image = resolveAssetPath(sector?.heroImage);
       const link = `/sectors/${key}.html`;
       const baseStats = Array.isArray(sector?.stats) ? sector.stats.slice(0, 4) : [];
