@@ -436,6 +436,11 @@
   box-shadow: 0 25px 60px rgba(0, 0, 0, .15);
 }
 
+#flagshipProjects {
+  display: grid;
+  gap: 1.5rem;
+}
+
 /* Project Feature Card */
 .slif-project-feature-card {
   display: flex;
