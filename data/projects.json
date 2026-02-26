@@ -8,7 +8,7 @@
       "title": "Theme Park Development – Nuwara Eliya",
       "subTitle": "Sri Lanka’s Next Iconic Hill-Country Leisure Destination",
       "description": "A US$75 million world-class theme park with an 80-room boutique hotel developed in three phases to create a premium hill-country attraction.",
-      "images": ["assets/img/Sectors/tourisms.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/TourismProject_1.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Nuwara Eliya" },
@@ -32,7 +32,7 @@
       "title": "Diyawanna Frolic Island Recreational Hub",
       "subTitle": "Sri Lanka’s Next Iconic Urban Leisure Asset",
       "description": "A USD 115 million integrated leisure hub in Battaramulla spanning 27.3 acres of waterfront land.",
-      "images": ["assets/img/Sectors/tourisms.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/TourismProject_2.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Battaramulla" },
@@ -56,7 +56,7 @@
       "title": "Majestic Kandy Hotel Development",
       "subTitle": "A Landmark Hospitality Investment in Sri Lanka’s Cultural Capital",
       "description": "A USD 75 million heritage-compliant 5-star hotel development located in central Kandy on a 3-acre prime leasehold. The project features 85 luxury keys including Deluxe Rooms, Heritage Suites, Pool Villas, and Presidential Residences within a two-storey pavilion design respecting sacred height limits. Positioned in Sri Lanka’s UNESCO cultural capital, the project offers a protected luxury hospitality asset under a 99-year lease structure.",
-      "images": ["assets/img/Sectors/tourisms.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/TourismProject_3.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Central Kandy, Sri Lanka" },
@@ -87,7 +87,7 @@
       "title": "Sri Lanka Cruise Line Development",
       "subTitle": "Asia’s Central Hub for Cruise Tourism Growth",
       "description": "A USD 70 million investment opportunity to launch a world-class cruise line operating around Sri Lanka, linking Colombo, Galle, Trincomalee, and Jaffna (Kankesanthurai Port). The project captures the spirit of island luxury and maritime adventure, leveraging BOI incentives and rising inbound tourism to generate sustainable growth and long-term investor returns.",
-      "images": ["assets/img/Sectors/tourisms.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/TourismProject_4.webp"],
       "video": "",
       "stats": [
         {
@@ -119,7 +119,7 @@
       "title": "Cinema City – Integrated Film & Studio Tourism Hub",
       "subTitle": "Sri Lanka’s Next Global Creative Economy Anchor",
       "description": "A USD 119 million investment to develop Asia’s integrated film production and studio tourism hub spanning 406 acres under a 30-year BOI lease. Positioned to serve rapidly expanding OTT and film markets, the project combines cost-efficient production infrastructure, diversified tourism revenue streams, and BOI-backed incentives to deliver stable long-term returns.",
-      "images": ["assets/img/Sectors/tourisms.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/TourismProject_5.webp"],
       "video": "",
       "stats": [
         {
@@ -160,7 +160,7 @@
       "title": "Makumbura Mixed-Use Commercial Development – Kottawa",
       "subTitle": "A Modern Office & Commercial Hub at Makumbura",
       "description": "A USD 18 million BOI-facilitated mixed-use commercial development located on a prime 1.18-acre UDA-owned land parcel in Makumbura, Kottawa. The project integrates Grade-A office space, retail, co-working facilities, and commuter-focused services to capture high-growth suburban commercial demand with diversified revenue streams.",
-      "images": ["assets/img/Sectors/urban.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/UrbanProject_1.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Makumbura, Kottawa" },
@@ -185,7 +185,7 @@
       "title": "Madola Eco-Resort & Residential Mixed Development",
       "subTitle": "Sustainable Eco-Tourism & Lifestyle Investment in Avissawella",
       "description": "A USD 15 million BOI-facilitated eco-resort and residential mixed development located on 12.9 acres of UDA-owned land in Madola, Avissawella. The project integrates 22 premium eco-villas and 18 residential bungalows within a low-density, environmentally sensitive master plan.",
-      "images": ["assets/img/Sectors/tourisms.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/UrbanProject_2.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Madola, Avissawella" },
@@ -213,7 +213,7 @@
       "title": "Techno Parks – Kurunegala & Galle",
       "subTitle": "Invest in Sri Lanka’s Emerging Technology Capital",
       "description": "A USD 100 million development of regional innovation parks with digital infrastructure and export-oriented IT services.",
-      "images": ["assets/img/Sectors/ICT.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/ICT.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Kurunegala & Galle" },
@@ -240,8 +240,8 @@
       "title": "University Town – Sooriyawewa",
       "subTitle": "Sri Lanka’s First Integrated University Town",
       "description": "A USD 640 million international university ecosystem on 250 acres in Hambantota.",
-      "images": ["assets/img/Sectors/Education.webp"],
-      "video": "",
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/Edu2.webp"],
+      "video": "https://media.srilankainvestmentforum.com/slifmedia/videos/Sooriyawewa.webm",
       "stats": [
         { "label": "Location", "value": "Hambantota" },
         { "label": "Investment", "value": "USD 640 Mn" },
@@ -264,8 +264,8 @@
       "title": "Keragala University Town",
       "subTitle": "Five-University Master Planned Campus",
       "description": "A USD 370 million 125-acre education campus designed to host five leading universities.",
-      "images": ["assets/img/Sectors/Education.webp"],
-      "video": "",
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/EduProject_2.webp"],
+      "video": "https://media.srilankainvestmentforum.com/slifmedia/videos/Keragala.webm",
       "stats": [
         { "label": "Location", "value": "Keragala" },
         { "label": "Investment", "value": "USD 370 Mn" },
@@ -291,7 +291,7 @@
       "title": "Logistics & Freight Forwarding – Mattala Airport",
       "subTitle": "Sri Lanka’s Next Strategic Logistics Frontier",
       "description": "A 101.3-acre aviation-linked logistics hub integrating warehousing and multimodal connectivity.",
-      "images": ["assets/img/Sectors/Transportation.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/Transportation.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Mattala" },
@@ -316,7 +316,7 @@
       "title": "West Container Terminal II – Colombo Port",
       "subTitle": "Expanding Global Maritime Connectivity",
       "description": "A USD 750 million PPP expansion of Colombo Port adding 3 million TEUs capacity.",
-      "images": ["assets/img/Sectors/Aviation.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/Aviation.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Colombo Port" },
@@ -341,7 +341,7 @@
       "title": "Sustainable Synthetic Textile Hub – Eravur",
       "subTitle": "Integrated Textile Manufacturing Platform",
       "description": "A USD 65 million integrated synthetic textile hub in the Eravur Textile Zone.",
-      "images": ["assets/img/Sectors/Manufacturing.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/ManufactProject_1.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Eravur" },
@@ -364,7 +364,7 @@
       "title": "EV Assembling Hub – Mirijjawila",
       "subTitle": "South Asia’s Gateway to EV Assembly",
       "description": "A USD 300 million per plant EV assembly facility with 25,000 unit annual capacity.",
-      "images": ["assets/img/Sectors/Manufacturing.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/ManufactProject_2.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Hambantota" },
@@ -390,7 +390,7 @@
       "title": "Pumped Storage Power Plant (PSPP)",
       "subTitle": "Powering Sri Lanka’s Renewable Future",
       "description": "A USD 700 million utility-scale pumped storage project commencing 2029.",
-      "images": ["assets/img/Sectors/Renewable.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/RenewProject_1.webp"],
       "video": "",
       "stats": [
         { "label": "Investment", "value": "USD 700 Mn" },
@@ -412,7 +412,7 @@
       "title": "Natural Gas Fired ICE Power Plant",
       "subTitle": "Driving Returns Through Clean Energy",
       "description": "A 200 MW natural gas-fired power plant commencing 2026.",
-      "images": ["assets/img/Sectors/Renewable.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/RenewProject_2.webp"],
       "video": "",
       "stats": [
         { "label": "Investment", "value": "USD 750 Mn" },
@@ -433,7 +433,7 @@
       "title": "Natural Gas Fired Aero-Derivative Gas Turbines",
       "subTitle": "Energizing Tomorrow, Delivering Strong Returns",
       "description": "A 130 MW high-efficiency gas turbine project commencing 2028.",
-      "images": ["assets/img/Sectors/Renewable.webp"],
+      "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/RenewProject_2.webp"],
       "video": "",
       "stats": [
         { "label": "Investment", "value": "USD 150 Mn" },
