@@ -81,6 +81,34 @@
     heroImage.src = resolveAssetPath(sector.heroImage);
     heroImage.alt = sector.name;
 
+    const overviewImage = document.getElementById("sectorOverviewImage");
+    if (overviewImage) {
+      const frame = document.getElementById("sectorOverviewImageFrame");
+      const overviewSrc = resolveAssetPath(
+        sector.image || sector.heroImage || "",
+      );
+      const fallbackSrc = resolveAssetPath("assets/img/herobg.png");
+
+      const clearLoading = () => {
+        if (frame) frame.classList.remove("is-loading");
+      };
+
+      overviewImage.onload = () => clearLoading();
+      overviewImage.onerror = () => {
+        if (overviewImage.dataset.fallbackApplied === "true") {
+          clearLoading();
+          return;
+        }
+        overviewImage.dataset.fallbackApplied = "true";
+        overviewImage.src = fallbackSrc;
+      };
+
+      overviewImage.src = overviewSrc;
+      overviewImage.alt = sector.name
+        ? `${sector.name} overview`
+        : "Sector overview";
+    }
+
     setText("sectorName", sector.name);
     setText("sectorTagline", sector.tagline);
     renderOverview(sector.overview);

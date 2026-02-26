@@ -348,6 +348,37 @@
   border-radius: 20px;
   backdrop-filter: blur(8px);
   box-shadow: 0 25px 60px rgba(0, 0, 0, .12);
+  position: relative;
+  overflow: hidden;
+}
+
+.slif-glass-image.is-loading::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgba(230, 235, 242, .6) 0%,
+    rgba(245, 248, 252, .9) 45%,
+    rgba(230, 235, 242, .6) 100%
+  );
+  background-size: 200% 100%;
+  animation: slif-shimmer 1.2s ease-in-out infinite;
+  z-index: 1;
+}
+
+.slif-glass-image.is-loading img {
+  opacity: 0;
+}
+
+@keyframes slif-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
 }
 
 /* Modern Section Spacing */
@@ -358,6 +389,10 @@
 .section-title {
   font-size: clamp(1.5rem, 3vw, 2.2rem);
   font-weight: 600;
+}
+
+#sectorOverview p {
+  text-align: justify;
 }
 
 /* Premium Flagship Card */
