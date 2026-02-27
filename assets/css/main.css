@@ -224,7 +224,7 @@ h6 {
   position: relative;
   min-height: clamp(260px, 40vw, 420px);
 
-  background-image: url('/assets/img/Sectors/hero-sectors.webp'); /* change path */
+  background-image: url("/assets/img/Sectors/hero-sectors.webp"); /* change path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -264,21 +264,19 @@ h6 {
 
 .slif-page-hero .breadcrumbs li {
   display: inline;
-  color: rgba(255,255,255,.85);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .slif-page-hero .breadcrumbs li a {
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
 }
 
 .slif-page-hero .breadcrumbs li + li::before {
   content: " / ";
-  color: rgba(255,255,255,.6);
+  color: rgba(255, 255, 255, 0.6);
   padding: 0 6px;
 }
-
-
 
 /*--------------------------------------------------------------
 # Sector Card
@@ -954,7 +952,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  padding-top: 150px;
+  padding-top: 80px;
   background-image: url("https://media.srilankainvestmentforum.com/slifmedia/images/herobg.webp");
   background-size: cover;
   background-position: center;
@@ -1463,15 +1461,46 @@ section,
 }
 
 .about .cta-section {
+  position: relative;
+  overflow: hidden;
   background: linear-gradient(
     135deg,
-    var(--surface-color),
-    color-mix(in srgb, var(--accent-color), transparent 95%)
+    color-mix(in srgb, #0b1c3d, var(--accent-color) 15%),
+    color-mix(in srgb, #142a63, var(--accent-color) 35%)
   );
-  padding: 4rem 3rem;
-  border-radius: 24px;
+  padding: 3.5rem 3rem;
+  border-radius: 20px;
   margin-top: 4rem;
-  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);
+  border: 1px solid color-mix(in srgb, #62dbff, var(--accent-color) 40%);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, #67e4ff, transparent 70%),
+    0 18px 45px color-mix(in srgb, #07122a, transparent 45%),
+    inset 0 0 28px color-mix(in srgb, #40b6ff, transparent 88%);
+  color: var(--contrast-color);
+}
+
+.about .cta-section::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background:
+    radial-gradient(
+      circle at top left,
+      color-mix(in srgb, #6fe6ff, transparent 70%),
+      transparent 55%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      color-mix(in srgb, var(--accent-color), transparent 75%),
+      transparent 60%
+    );
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.about .cta-section > * {
+  position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
@@ -1484,7 +1513,7 @@ section,
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: var(--heading-color);
+  color: var(--contrast-color);
 }
 
 @media (max-width: 768px) {
@@ -1493,10 +1522,11 @@ section,
   }
 }
 
-.about .cta-section p {
-  font-size: 1.1rem;
+.about .cta-section h4 {
+  font-size: 1.3rem;
   margin-bottom: 2rem;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-top: 2rem;
+  color: color-mix(in srgb, var(--contrast-color), transparent 15%);
 }
 
 .about .cta-section .cta-buttons {
@@ -1529,13 +1559,14 @@ section,
 
 .about .cta-section .cta-buttons .btn.btn-outline {
   background: transparent;
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  color: var(--contrast-color);
+  border-color: color-mix(in srgb, var(--contrast-color), transparent 35%);
 }
 
 .about .cta-section .cta-buttons .btn.btn-outline:hover {
-  background: var(--accent-color);
+  background: color-mix(in srgb, var(--contrast-color), transparent 85%);
   color: var(--contrast-color);
+  border-color: var(--contrast-color);
   transform: translateY(-2px);
 }
 

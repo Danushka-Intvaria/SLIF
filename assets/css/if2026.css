@@ -1,0 +1,224 @@
+/* Investment Forum 2026 Section */
+#if2026-section {
+  position: relative;
+  padding: 3.5rem 3rem;
+  border-radius: 24px;
+  color: var(--contrast-color);
+  background:
+    radial-gradient(
+      circle at top left,
+      color-mix(in srgb, var(--accent-color), transparent 75%),
+      transparent 55%
+    ),
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, #0a1733, var(--accent-color) 20%),
+      color-mix(in srgb, #0c2b5a, var(--accent-color) 35%)
+    );
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 70%);
+  box-shadow:
+    0 18px 45px color-mix(in srgb, #07122a, transparent 45%),
+    inset 0 0 30px color-mix(in srgb, var(--accent-color), transparent 90%);
+  overflow: hidden;
+}
+
+#if2026-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at bottom right,
+    color-mix(in srgb, #63d8ff, transparent 80%),
+    transparent 60%
+  );
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+#if2026-section .if2026-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+#if2026-section h2,
+#if2026-section h3,
+#if2026-section h4 {
+  color: var(--contrast-color);
+}
+
+.about.section + .about.section {
+  padding-top: 0;
+}
+
+.about .features-grid.if2026-stack {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#if2026-section .if2026-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+#if2026-section .if2026-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid color-mix(in srgb, var(--contrast-color), transparent 70%);
+  background: color-mix(in srgb, #0f2146, transparent 40%);
+  color: var(--contrast-color);
+  padding: 0.65rem 1.8rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+#if2026-section .if2026-tab.active,
+#if2026-section .if2026-tab:hover {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  border-color: var(--accent-color);
+  box-shadow: 0 10px 25px
+    color-mix(in srgb, var(--accent-color), transparent 65%);
+}
+
+#if2026-section .if2026-content {
+  display: none;
+  animation: if2026-fade 0.4s ease-in-out;
+}
+
+#if2026-section .if2026-content.active {
+  display: block;
+}
+
+#if2026-section .if2026-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+#if2026-section .if2026-sub {
+  text-align: center;
+  color: color-mix(in srgb, var(--contrast-color), transparent 25%);
+  margin-bottom: 2.25rem;
+}
+
+#if2026-section .if2026-card {
+  background: color-mix(in srgb, var(--contrast-color), transparent 92%);
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.9rem;
+  border-left: 4px solid var(--accent-color);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px
+    color-mix(in srgb, #07122a, transparent 75%);
+}
+
+#if2026-section .if2026-highlight {
+  background: linear-gradient(
+    120deg,
+    color-mix(in srgb, var(--accent-color), transparent 65%),
+    color-mix(in srgb, #63d8ff, transparent 78%)
+  );
+  padding: 1.25rem 1.5rem;
+  border-radius: 14px;
+  margin: 1.5rem 0 1.75rem;
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 70%);
+}
+
+#if2026-section .if2026-highlight h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+}
+
+#if2026-section .if2026-highlight ul {
+  padding-left: 1.1rem;
+  margin: 0;
+}
+
+#if2026-section .if2026-sectors h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#if2026-section .if2026-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+#if2026-section .if2026-grid > div {
+  background: color-mix(in srgb, var(--contrast-color), transparent 94%);
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid color-mix(in srgb, var(--contrast-color), transparent 85%);
+}
+
+#if2026-section .if2026-grid strong {
+  display: block;
+  margin-bottom: 0.65rem;
+  color: color-mix(in srgb, var(--contrast-color), transparent 5%);
+}
+
+#if2026-section .if2026-venue-box {
+  background: color-mix(in srgb, var(--contrast-color), transparent 92%);
+  padding: 1.75rem;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid color-mix(in srgb, var(--contrast-color), transparent 85%);
+}
+
+#if2026-section .if2026-map-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem;
+  padding: 0.75rem 1.6rem;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+#if2026-section .if2026-map-btn:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 12%);
+  box-shadow: 0 10px 24px
+    color-mix(in srgb, var(--accent-color), transparent 70%);
+}
+
+@keyframes if2026-fade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  #if2026-section {
+    padding: 2.75rem 1.5rem;
+  }
+
+  #if2026-section .if2026-title {
+    font-size: 1.75rem;
+  }
+
+  #if2026-section .if2026-tab {
+    width: 100%;
+    justify-content: center;
+  }
+}
