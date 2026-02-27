@@ -216,6 +216,69 @@ h6 {
     order: 3;
   }
 }
+/* ===============================
+   PAGE HERO WITH BACKGROUND
+================================ */
+
+.slif-page-hero {
+  position: relative;
+  min-height: clamp(260px, 40vw, 420px);
+
+  background-image: url('/assets/img/Sectors/hero-sectors.webp'); /* change path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+/* Dark overlay for readability */
+.slif-page-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0.35) 100%
+  );
+  z-index: 1;
+}
+
+/* Keep content above overlay */
+.slif-page-hero .heading,
+.slif-page-hero .breadcrumbs {
+  position: relative;
+  z-index: 2;
+}
+
+/* Breadcrumb styling */
+.slif-page-hero .breadcrumbs ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slif-page-hero .breadcrumbs li {
+  display: inline;
+  color: rgba(255,255,255,.85);
+}
+
+.slif-page-hero .breadcrumbs li a {
+  color: rgba(255,255,255,.9);
+  text-decoration: none;
+}
+
+.slif-page-hero .breadcrumbs li + li::before {
+  content: " / ";
+  color: rgba(255,255,255,.6);
+  padding: 0 6px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Sector Card
