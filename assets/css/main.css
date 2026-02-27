@@ -216,6 +216,69 @@ h6 {
     order: 3;
   }
 }
+/* ===============================
+   PAGE HERO WITH BACKGROUND
+================================ */
+
+.slif-page-hero {
+  position: relative;
+  min-height: clamp(260px, 40vw, 420px);
+
+  background-image: url('/assets/img/Sectors/hero-sectors.webp'); /* change path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+/* Dark overlay for readability */
+.slif-page-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0.35) 100%
+  );
+  z-index: 1;
+}
+
+/* Keep content above overlay */
+.slif-page-hero .heading,
+.slif-page-hero .breadcrumbs {
+  position: relative;
+  z-index: 2;
+}
+
+/* Breadcrumb styling */
+.slif-page-hero .breadcrumbs ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slif-page-hero .breadcrumbs li {
+  display: inline;
+  color: rgba(255,255,255,.85);
+}
+
+.slif-page-hero .breadcrumbs li a {
+  color: rgba(255,255,255,.9);
+  text-decoration: none;
+}
+
+.slif-page-hero .breadcrumbs li + li::before {
+  content: " / ";
+  color: rgba(255,255,255,.6);
+  padding: 0 6px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Sector Card
@@ -223,50 +286,119 @@ h6 {
 
 /* Sector Card Hover */
 .sector-card {
-  transition: all 0.35s ease;
+  border-radius: 18px;
   overflow: hidden;
+  background: var(--surface-color);
+  box-shadow: 0 14px 30px rgba(17, 24, 39, 0.1);
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
 .sector-card:hover {
-  transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(17, 24, 39, 0.18);
 }
 
 /* Image Wrapper */
-.sector-img {
+.sector-media {
   position: relative;
   overflow: hidden;
+  height: 220px;
 }
 
-.sector-img img {
+.sector-media img {
   width: 100%;
-  height: 230px;
+  height: 100%;
   object-fit: cover;
   transition: transform 0.6s ease;
 }
 
-.sector-card:hover .sector-img img {
-  transform: scale(1.08);
+.sector-card:hover .sector-media img {
+  transform: scale(1.06);
 }
 
 /* Dark Overlay */
 .sector-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.2));
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5));
+}
+
+.sector-title-wrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 18px;
+  z-index: 2;
 }
 
 /* Overlay Title */
 .sector-title {
-  position: absolute;
-  bottom: 18px;
-  left: 18px;
-  right: 18px;
+  margin: 0;
   color: #fff;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.3;
-  z-index: 2;
+  text-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+.sector-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 22px 22px;
+}
+
+.sector-tagline {
+  margin: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  min-height: 44px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sector-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 18px;
+}
+
+.sector-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sector-stat-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--default-color), transparent 45%);
+}
+
+.sector-stat-value {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.sector-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 8px;
+  margin-top: auto;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
 }
 
 /*--------------------------------------------------------------
@@ -772,7 +904,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -823,7 +955,7 @@ section,
 --------------------------------------------------------------*/
 .hero {
   padding-top: 150px;
-  background-image: url("../img/herobg.png");
+  background-image: url("https://media.srilankainvestmentforum.com/slifmedia/images/herobg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3381,413 +3513,6 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Buy Tickets Section
---------------------------------------------------------------*/
-.buy-tickets {
-  background-color: color-mix(
-    in srgb,
-    var(--background-color),
-    var(--surface-color) 5%
-  );
-}
-
-.buy-tickets .ticket-form-wrapper {
-  background-color: var(--surface-color);
-  border-radius: 12px;
-  padding: 40px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-}
-
-.buy-tickets .event-info {
-  text-align: center;
-  border-bottom: 2px solid
-    color-mix(in srgb, var(--accent-color), transparent 80%);
-  padding-bottom: 30px;
-}
-
-.buy-tickets .event-info h3 {
-  color: var(--heading-color);
-  margin-bottom: 20px;
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-.buy-tickets .event-info .event-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.buy-tickets .event-info .event-meta span {
-  display: flex;
-  align-items: center;
-  color: var(--default-color);
-  font-size: 14px;
-}
-
-.buy-tickets .event-info .event-meta span i {
-  color: var(--accent-color);
-  margin-right: 8px;
-  font-size: 16px;
-}
-
-@media (max-width: 768px) {
-  .buy-tickets .event-info .event-meta {
-    flex-direction: column;
-    gap: 15px;
-  }
-}
-
-.buy-tickets .ticket-types {
-  margin-bottom: 40px;
-}
-
-.buy-tickets .ticket-types h4 {
-  color: var(--heading-color);
-  margin-bottom: 25px;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.buy-tickets .ticket-types .ticket-option {
-  margin-bottom: 20px;
-}
-
-.buy-tickets .ticket-types .ticket-option input[type="radio"] {
-  display: none;
-}
-
-.buy-tickets .ticket-types .ticket-option .ticket-label {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  background-color: var(--surface-color);
-}
-
-.buy-tickets .ticket-types .ticket-option .ticket-label:hover {
-  border-color: color-mix(in srgb, var(--accent-color), transparent 50%);
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.buy-tickets
-  .ticket-types
-  .ticket-option
-  input[type="radio"]:checked
-  + .ticket-label {
-  border-color: var(--accent-color);
-  background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
-  box-shadow: 0 5px 20px
-    color-mix(in srgb, var(--accent-color), transparent 80%);
-}
-
-.buy-tickets .ticket-types .ticket-option .ticket-info {
-  flex: 1;
-}
-
-.buy-tickets .ticket-types .ticket-option .ticket-info .ticket-name {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--heading-color);
-  margin-bottom: 8px;
-}
-
-.buy-tickets .ticket-types .ticket-option .ticket-info .ticket-description {
-  color: var(--default-color);
-  font-size: 14px;
-  margin-bottom: 12px;
-}
-
-.buy-tickets .ticket-types .ticket-option .ticket-info .ticket-benefits {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.buy-tickets .ticket-types .ticket-option .ticket-info .ticket-benefits span {
-  font-size: 12px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  padding: 4px 8px;
-  border-radius: 4px;
-}
-
-.buy-tickets .ticket-types .ticket-option .ticket-price {
-  text-align: right;
-}
-
-.buy-tickets .ticket-types .ticket-option .ticket-price .original-price {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  text-decoration: line-through;
-  font-size: 14px;
-  display: block;
-  margin-bottom: 4px;
-}
-
-.buy-tickets .ticket-types .ticket-option .ticket-price .current-price {
-  color: var(--accent-color);
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-@media (max-width: 768px) {
-  .buy-tickets .ticket-types .ticket-option .ticket-label {
-    flex-direction: column;
-    text-align: center;
-    gap: 15px;
-  }
-
-  .buy-tickets .ticket-types .ticket-option .ticket-benefits {
-    justify-content: center;
-  }
-}
-
-.buy-tickets .ticket-form .form-group {
-  margin-bottom: 25px;
-}
-
-.buy-tickets .ticket-form .form-group label {
-  color: var(--heading-color);
-  font-weight: 500;
-  margin-bottom: 8px;
-  display: block;
-  font-size: 14px;
-}
-
-.buy-tickets .ticket-form .form-group input[type="text"],
-.buy-tickets .ticket-form .form-group input[type="email"],
-.buy-tickets .ticket-form .form-group input[type="tel"],
-.buy-tickets .ticket-form .form-group select,
-.buy-tickets .ticket-form .form-group textarea {
-  color: var(--default-color);
-  background-color: var(--surface-color);
-  font-size: 14px;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  border-radius: 8px;
-  padding: 12px 16px;
-  width: 100%;
-  transition: all 0.3s ease;
-}
-
-.buy-tickets .ticket-form .form-group input[type="text"]:focus,
-.buy-tickets .ticket-form .form-group input[type="email"]:focus,
-.buy-tickets .ticket-form .form-group input[type="tel"]:focus,
-.buy-tickets .ticket-form .form-group select:focus,
-.buy-tickets .ticket-form .form-group textarea:focus {
-  border-color: var(--accent-color);
-  outline: none;
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-color), transparent 90%);
-}
-
-.buy-tickets .ticket-form .form-group input[type="text"]::placeholder,
-.buy-tickets .ticket-form .form-group input[type="email"]::placeholder,
-.buy-tickets .ticket-form .form-group input[type="tel"]::placeholder,
-.buy-tickets .ticket-form .form-group select::placeholder,
-.buy-tickets .ticket-form .form-group textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.buy-tickets .ticket-form .form-group select {
-  appearance: none;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
-  background-position: right 12px center;
-  background-repeat: no-repeat;
-  background-size: 16px;
-  padding-right: 40px;
-}
-
-.buy-tickets .pricing-summary {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
-  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
-  border-radius: 10px;
-  padding: 25px;
-  margin: 30px 0;
-}
-
-.buy-tickets .pricing-summary h5 {
-  color: var(--heading-color);
-  margin-bottom: 20px;
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-.buy-tickets .pricing-summary .summary-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 12px;
-  color: var(--default-color);
-}
-
-.buy-tickets .pricing-summary .summary-row.total {
-  margin-top: 15px;
-  padding-top: 15px;
-  border-top: 2px solid color-mix(in srgb, var(--accent-color), transparent 70%);
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--heading-color);
-}
-
-.buy-tickets .pricing-summary .summary-row.total .total-price {
-  color: var(--accent-color);
-  font-size: 1.3rem;
-  font-weight: 700;
-}
-
-.buy-tickets .pricing-summary .tax-note {
-  font-size: 12px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  text-align: center;
-  margin-top: 15px;
-  font-style: italic;
-}
-
-.buy-tickets .terms-checkbox,
-.buy-tickets .newsletter-checkbox {
-  margin-bottom: 20px;
-}
-
-.buy-tickets .terms-checkbox input[type="checkbox"],
-.buy-tickets .newsletter-checkbox input[type="checkbox"] {
-  margin-right: 10px;
-}
-
-.buy-tickets .terms-checkbox label,
-.buy-tickets .newsletter-checkbox label {
-  color: var(--default-color);
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.buy-tickets .terms-checkbox label a,
-.buy-tickets .newsletter-checkbox label a {
-  color: var(--accent-color);
-  text-decoration: none;
-}
-
-.buy-tickets .terms-checkbox label a:hover,
-.buy-tickets .newsletter-checkbox label a:hover {
-  text-decoration: underline;
-}
-
-.buy-tickets .form-submit {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.buy-tickets .form-submit .btn-submit {
-  background: linear-gradient(
-    135deg,
-    var(--accent-color),
-    color-mix(in srgb, var(--accent-color), #000 15%)
-  );
-  color: var(--contrast-color);
-  border: none;
-  padding: 16px 40px;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 250px;
-}
-
-.buy-tickets .form-submit .btn-submit:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px
-    color-mix(in srgb, var(--accent-color), transparent 70%);
-}
-
-.buy-tickets .form-submit .btn-submit:active {
-  transform: translateY(0);
-}
-
-.buy-tickets .security-info {
-  margin-top: 40px;
-  text-align: center;
-  border-top: 1px solid
-    color-mix(in srgb, var(--default-color), transparent 90%);
-  padding-top: 30px;
-}
-
-.buy-tickets .security-info .security-badges {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 25px;
-}
-
-.buy-tickets .security-info .security-badges .badge-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  font-size: 14px;
-}
-
-.buy-tickets .security-info .security-badges .badge-item i {
-  color: var(--accent-color);
-  font-size: 18px;
-}
-
-.buy-tickets .security-info .payment-methods {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.buy-tickets .security-info .payment-methods .payment-label {
-  color: var(--default-color);
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.buy-tickets .security-info .payment-methods .payment-icons {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.buy-tickets .security-info .payment-methods .payment-icons i {
-  color: var(--accent-color);
-  font-size: 24px;
-}
-
-.buy-tickets .security-info .payment-methods .payment-icons .payment-text {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-  font-size: 13px;
-}
-
-@media (max-width: 768px) {
-  .buy-tickets .security-info .security-badges {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .buy-tickets .security-info .payment-methods {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  .buy-tickets .ticket-form-wrapper {
-    padding: 25px 20px;
-  }
-}
-
-/*--------------------------------------------------------------
 # Venue 2 Section
 --------------------------------------------------------------*/
 .venue-2 .venue-card {
@@ -5029,19 +4754,6 @@ section,
 # sector-Education Section
 --------------------------------------------------------------*/
 
-.hero-section {
-  position: relative;
-  background: url("https://images.unsplash.com/photo-1562774053-701939374585")
-    center/cover no-repeat;
-  padding: 90px 0 110px;
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(1, 10, 24, 0.75);
-}
-
 /* STAT CARDS */
 .stat-card {
   background: rgba(255, 255, 255, 0.12); /* translucent glass */
@@ -5273,199 +4985,4 @@ footer {
   box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
   transform: translateY(-4px);
   transition: all 0.3s ease;
-}
-
-/*--------------------------------------------------------------
-# sector-Education project Page
---------------------------------------------------------------*/
-
-.hero-section-project {
-  position: relative;
-  background: url("https://images.unsplash.com/photo-1562774053-701939374585")
-    center/cover no-repeat;
-  padding: 90px 0 110px;
-}
-
-.hero-overlay-project {
-  position: absolute;
-  inset: 0;
-  background: rgba(1, 10, 24, 0.75);
-}
-
-/* ===== Scoped Styling ===== */
-#if2026-spotlight {
-  background: linear-gradient(135deg, #071c3a, #0b2b57);
-  padding: 70px 20px;
-  text-align: center;
-  font-family: var(--heading-font);
-}
-
-#if2026-spotlight .if2026-spotlight-box {
-  max-width: 900px;
-  margin: auto;
-  background: rgba(255, 255, 255, 0.05);
-  border: 2px solid #00c2ff;
-  border-radius: 12px;
-  padding: 50px 30px;
-  box-shadow: 0 0 25px rgba(0, 194, 255, 0.25);
-  backdrop-filter: blur(6px);
-  animation: if2026Glow 3s ease-in-out infinite alternate;
-}
-
-#if2026-spotlight .if2026-spotlight-title {
-  font-size: 32px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 20px;
-  letter-spacing: 0.5px;
-}
-
-#if2026-spotlight .if2026-spotlight-sub {
-  font-size: 20px;
-  color: white;
-  font-weight: 600;
-  margin: 0;
-}
-
-@keyframes if2026Glow {
-  from {
-    box-shadow: 0 0 15px rgba(0, 194, 255, 0.2);
-  }
-  to {
-    box-shadow: 0 0 35px rgba(0, 194, 255, 0.5);
-  }
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  #if2026-spotlight .if2026-spotlight-title {
-    font-size: 24px;
-  }
-  #if2026-spotlight .if2026-spotlight-sub {
-    font-size: 16px;
-  }
-}
-
-/* venue agenda scoped */
-
-#if2026-section {
-  background: linear-gradient(135deg, #071c3a, #0b2b57);
-  padding: 60px 20px;
-  color: #ffffff;
-  font-family: var(--heading-font);
-}
-
-#if2026-section .if2026-wrapper {
-  max-width: 1100px;
-  margin: auto;
-}
-
-#if2026-section .if2026-tabs {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-#if2026-section .if2026-tab {
-  background: transparent;
-  border: 2px solid #00c2ff;
-  color: #00c2ff;
-  padding: 12px 30px;
-  margin: 0 10px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: 0.3s ease;
-}
-
-#if2026-section .if2026-tab.active,
-#if2026-section .if2026-tab:hover {
-  background: #00c2ff;
-  color: #071c3a;
-}
-
-#if2026-section .if2026-content {
-  display: none;
-  animation: fadeIn 0.5s ease-in-out;
-}
-
-#if2026-section .if2026-content.active {
-  display: block;
-}
-
-#if2026-section .if2026-title {
-  text-align: center;
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-#if2026-section .if2026-sub {
-  text-align: center;
-  color: #a0d8ff;
-  margin-bottom: 40px;
-}
-
-#if2026-section .if2026-card {
-  background: rgba(255, 255, 255, 0.08);
-  padding: 18px;
-  margin-bottom: 15px;
-  border-left: 4px solid #00c2ff;
-  border-radius: 6px;
-}
-
-#if2026-section .if2026-highlight {
-  background: rgba(0, 194, 255, 0.15);
-  padding: 20px;
-  border-radius: 6px;
-  margin-bottom: 20px;
-}
-
-#if2026-section .if2026-highlight ul {
-  padding-left: 20px;
-}
-
-#if2026-section .if2026-sectors h3 {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-#if2026-section .if2026-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
-}
-
-#if2026-section .if2026-grid strong {
-  color: #00c2ff;
-}
-
-#if2026-section .if2026-venue-box {
-  background: rgba(255, 255, 255, 0.08);
-  padding: 30px;
-  text-align: center;
-  border-radius: 8px;
-}
-
-#if2026-section .if2026-map-btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 25px;
-  background: #00c2ff;
-  color: #071c3a;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: 0.3s;
-}
-
-#if2026-section .if2026-map-btn:hover {
-  background: #ffffff;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }

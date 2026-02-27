@@ -2,12 +2,17 @@
   "agriculture": {
     "name": "Agriculture & Agro-Processing",
     "tagline": "Sri Lanka as a sustainable, value-added agri and food processing hub.",
-    "heroImage": "assets/img/Sectors/agriculture.webp",
-    "overview": "Sri Lanka's Agriculture and Agro-Processing sector offers strong investment potential through rich biodiversity, favorable agro-climatic conditions, and a long export legacy. Year-round cultivation, growing value addition, and export-oriented processing make the sector a competitive destination for long-term investors.",
+    "heroImage": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/agriculture.webp",
+    "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOverview/sector-image-02.webp",
+    "overview": [
+      "Sri Lanka’s Agriculture & Agro-Processing sector offers compelling investment opportunities driven by rich biodiversity, favorable agro-climatic conditions, and a strong legacy of global agricultural exports. The country’s ability to cultivate a wide range of crops year-round,combined with increasing emphasis on value addition, processing, and sustainable practices. positions Sri Lanka as a competitive agri-investment destination.",
+      "With growing global demand for high-quality, traceable, and sustainably produced food products, Sri Lanka is transitioning from primary agriculture to export-oriented agro-processing, supported by BOI facilitation, infrastructure development, and investor-friendly policies."
+    ],
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Investment Opportunities", "value": "USD 130 Mn" },
       { "label": "GDP Contribution", "value": "7-8%" },
-      { "label": "Land Used for Agriculture", "value": "42%" }
+      { "label": "Land Used for Agriculture", "value": "42%" },
+      { "label": "National Workforce Share", "value": "27%" }
     ],
     "whyInvest": [
       "Rich agricultural base with high-value crops including tea, spices, coconut, fruits, and vegetables",
@@ -31,26 +36,30 @@
       "description": "Explore agriculture and agro-processing investment opportunities in Sri Lanka with BOI-supported facilitation."
     },
     "officer": {
-      "name": "Alexander Sterling",
-      "title": "Sector Lead Specialist",
-      "specialization": "Leading Higher Education & Vocational Projects",
-      "phone": "+94 11 234 5678",
-      "email": "alexander.s@invest-srilanka.com",
-      "image": "assets/img/team/alexander.webp",
+      "name": "Mr. Sudath Jayasekera",
+      "title": "Deputy Director",
+      "specialization": "Food Processing & Agriculture Related project",
+      "phone": "011-2427108",
+      "email": "sudathj@boi.lk",
+      "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOfficer/Sudathj.webp",
       "consultationLink": "#",
-      "reportLink": "assets/reports/education-sector.pdf",
+      "reportLink": "#",
       "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
     }
   },
   "tourism": {
     "name": "Tourism & Leisure",
     "tagline": "Sri Lanka as a year-round, diversified tourism destination.",
-    "heroImage": "assets/img/Sectors/tourisms.webp",
-    "overview": "Sri Lanka's tourism sector combines strong destination appeal, cultural depth, and resilient recovery momentum. With record arrivals in 2025 and continued policy support through visa simplification and infrastructure upgrades, the country presents high-potential opportunities across hospitality, leisure, MICE, and tourism services.",
+    "heroImage": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/tourisms.webp",
+    "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOverview/sector-image-03.webp",
+    "overview": [
+      "Sri Lanka’s tourism sector is one of the most attractive investment opportunities in South Asia, combining stunning natural beauty, rich cultural heritage, and a rapidly recovering tourism economy. Known globally as the “Pearl of the Indian Ocean,” the country offers diverse experiences—from pristine beaches and scenic highlands to UNESCO heritage sites, wildlife sanctuaries, and emerging wellness and eco-tourism destinations. Following the post-2022 recovery, Sri Lanka achieved a record-breaking 2.33 million international tourist arrivals in 2025, the highest ever in its history, generating around USD 3.17 billion in tourism revenue and driving employment and regional economic growth. Supported by government initiatives such as visa simplification, infrastructure development, global marketing, and investor facilitation, Sri Lanka presents strong opportunities across hospitality, leisure, MICE, and tourism services, making it a premium and competitive destination for tourism investment"
+    ],
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 1.5 Bn" },
-      { "label": "Tourist Arrivals", "value": "2.4 Mn" },
-      { "label": "Average Stay", "value": "12 Nights" }
+      { "label": "Investment Opportunities", "value": "USD 450 Mn" },
+      { "label": "Tourist Arrivals (2025)", "value": "2.4 Mn" },
+      { "label": "Average Stay", "value": "12 Nights" },
+      { "label": "YoY Growth", "value": "15%" }
     ],
     "whyInvest": [
       "Compact destination mix with beaches, highlands, heritage sites, wildlife parks, and wellness offerings",
@@ -74,26 +83,31 @@
       "description": "Discover tourism and leisure investment opportunities in Sri Lanka across hospitality, experiences, and destination infrastructure."
     },
     "officer": {
-      "name": "Alexander Sterling",
-      "title": "Sector Lead Specialist",
-      "specialization": "Leading Higher Education & Vocational Projects",
-      "phone": "+94 11 234 5678",
-      "email": "alexander.s@invest-srilanka.com",
-      "image": "assets/img/team/alexander.webp",
+      "name": "Ms. Thanuja Kumari Bandara",
+      "title": "Senior Deputy Director",
+      "specialization": "Leading Information Technology, Tourism Education Projects",
+      "phone": "+94 11-2427233",
+      "email": "thanujak@boi.lk",
+      "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOfficer/ThanujaK.webp",
       "consultationLink": "#",
-      "reportLink": "assets/reports/education-sector.pdf",
+      "reportLink": "#",
       "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
     }
   },
   "urban": {
     "name": "Urban, Residential & Mixed-Use Development",
     "tagline": "Shaping future cities through integrated urban living.",
-    "heroImage": "assets/img/Sectors/urban.webp",
-    "overview": "Sri Lanka's urban development sector offers long-term opportunities driven by urban migration, rising middle-income demand, and integrated city planning. The pipeline spans high-density residential, mixed-use communities, commercial hubs, and smart urban infrastructure supported by regeneration initiatives and private participation.",
+    "heroImage": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/urban.webp",
+    "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOverview/sector-image-05.webp",
+    "overview": [
+      "Sri Lanka’s Urban, Residential & Mixed-Use Development sector presents significant opportunities for international investors seeking long-term, stable returns. Rapid urbanization, rising middle-income demographics, and growing demand for integrated living spaces are driving large-scale developments across key cities",
+      "The sector focuses on high-density residential projects, lifestyle-oriented mixed-use developments, commercial hubs, entertainment, and smart urban infrastructure. With government-led urban regeneration initiatives and private-sector partnerships, Sri Lanka is positioning itself as a competitive destination for modern, sustainable city development"
+    ],
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 1.0 Bn" },
+      { "label": "Investment Opportunities", "value": "USD 160 Mn" },
       { "label": "Construction Sector Growth", "value": "12.2%" },
-      { "label": "GDP Contribution", "value": "6.0%" }
+      { "label": "GDP Contribution", "value": "6.0%" },
+      { "label": "YoY Increase", "value": "128.4%" }
     ],
     "whyInvest": [
       "Rapid urbanization is increasing demand for apartments, serviced units, and integrated communities",
@@ -117,12 +131,12 @@
       "description": "Review Sri Lanka urban development opportunities including mixed-use, residential, and city-scale infrastructure projects."
     },
     "officer": {
-      "name": "Alexander Sterling",
-      "title": "Sector Lead Specialist",
-      "specialization": "Leading Higher Education & Vocational Projects",
-      "phone": "+94 11 234 5678",
-      "email": "alexander.s@invest-srilanka.com",
-      "image": "assets/img/team/alexander.webp",
+      "name": "Ms. Amali Rathnayake",
+      "title": "Senior Deputy Director",
+      "specialization": "Leading Infrastructure, Mixed Development Projects",
+      "phone": "+94 11-2427380",
+      "email": " amalir@boi.lk",
+      "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOfficer/AmaliR.webp",
       "consultationLink": "#",
       "reportLink": "assets/reports/education-sector.pdf",
       "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
@@ -131,12 +145,17 @@
   "ict": {
     "name": "ICT, Innovation & Tech Park Development",
     "tagline": "Sri Lanka as a regional digital innovation and technology hub.",
-    "heroImage": "assets/img/Sectors/ICT.webp",
-    "overview": "Sri Lanka's ICT sector is a high-growth export engine supported by a skilled English-proficient workforce, digital infrastructure, and a growing startup ecosystem. With strong export momentum and national digital priorities, the country offers a compelling platform for technology services, innovation parks, and advanced digital infrastructure.",
+    "heroImage": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/ICT.webp",
+    "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOverview/sector-image-04.webp",
+    "overview": [
+      "Sri Lanka’s ICT, Innovation & Tech Park sector is emerging as a high‑growth engine of the economy, underpinned by a skilled, English‑proficient workforce and strong digital fundamentals. The sector currently generates around US$ 1.5 billion in annual export revenue and employs roughly 175,000 skilled professionals, making it one of the country’s most dynamic export‑oriented industries. There are more than 500 tech companies and over 1,000 tech startups actively serving global markets.",
+      "The Government of Sri Lanka has positioned the digital economy as a strategic priority under national plans such as Digital Sri Lanka 2030, targeting US$ 3 billion in ICT export earnings, a 200,000‑strong ICT workforce, and a thriving innovation ecosystem by 2030. Digital technologies now contribute an estimated 4.5 % of GDP, reflecting the increasing role of ICT and digital services across sectors Under the Board of Investment (BOI) framework, ICT and innovation projects receive investment facilitation, incentives, and infrastructure support designed to attract global technology investors, scale high‑value digital services, and establish world‑class tech parks. This supportive environment, combined with competitive operational costs and strategic government initiatives, positions Sri Lanka as a compelling regional hub for digital innovation, technology services, and export‑driven growth"
+    ],
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Investment Opportunities", "value": "USD 200 Mn" },
       { "label": "Skilled Professionals", "value": "175,000+" },
-      { "label": "Tech Companies & Startups", "value": "500+ / 1,000+" }
+      { "label": "Tech Companies & Startups", "value": "500+ / 1,000+" },
+      { "label": "YoY Export Growth", "value": "8-10%" }
     ],
     "whyInvest": [
       "Strategic location and time-zone alignment for ITES, BPO, and software exports to global markets",
@@ -160,26 +179,34 @@
       "description": "Explore Sri Lanka ICT investment opportunities in tech parks, digital services, innovation ecosystems, and export-oriented IT growth."
     },
     "officer": {
-      "name": "Alexander Sterling",
-      "title": "Sector Lead Specialist",
-      "specialization": "Leading Higher Education & Vocational Projects",
-      "phone": "+94 11 234 5678",
-      "email": "alexander.s@invest-srilanka.com",
-      "image": "assets/img/team/alexander.webp",
+      "name": "Ms. Thanuja Kumari Bandara",
+      "title": "Senior Deputy Director",
+      "specialization": "Leading Information Technology, Tourism Education Projects",
+      "phone": "+94 11-2427233",
+      "email": "thanujak@boi.lk",
+      "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOfficer/ThanujaK.webp",
       "consultationLink": "#",
-      "reportLink": "assets/reports/education-sector.pdf",
+      "reportLink": "#",
       "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
     }
   },
   "education": {
     "name": "Higher Education & Vocational Education",
     "tagline": "Sri Lanka: South Asia's emerging education and skills hub.",
-    "heroImage": "assets/img/Sectors/Education.webp",
-    "overview": "Sri Lanka offers strong education-sector potential through high literacy, significant unmet demand, and competitive operating economics. The country is well positioned for private higher education, vocational training, and transnational education models with BOI support and scalable project pathways.",
+    "heroImage": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/Education.webp",
+    "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOverview/sector-image-06.webp",
+    "overview": [
+      "Sri Lanka offers a high-value proposition for education investors, driven by strong domestic and regional demand for higher and vocational education, a skilled workforce, and cost-efficient operations. The country has a literacy rate of 92%, one of the highest in South Asia, yet faces a significant gap in higher and vocational education, creating immediate investment opportunities. State higher education institutions currently enroll 44,000 students, producing over 30,000 graduates annually, while postgraduate programs graduate over 10,000 students per year . Sri Lanka’s strategic location in South Asia and the widespread use of English in education and business support international and transnational education models. Competitive costs for infrastructure, operations, and qualified academic staff further enhance investment viability.",
+      "Under normal law, foreign investment in the education sector is restricted to a maximum 40% shareholding, but the Board of Investment (BOI) can approve higher foreign equity participation, subject to the approval of the Board, for Education sector projects. BOI-facilitated ventures also benefit from duty exemptions on capital equipment, and streamlined approvals, enabling investors to structure flexible and scalable education projects."
+    ],
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Investment Opportunities", "value": "USD 1000 Mn" },
       { "label": "Annual Higher Education Demand", "value": "100,000+" },
-      { "label": "Annual Vocational Demand", "value": "100,000+" }
+      { "label": "Annual Vocational Demand", "value": "100,000+" },
+      {
+        "label": "Literacy Rate",
+        "value": "92%"
+      }
     ],
     "whyInvest": [
       "Strong unmet demand as large numbers of qualified students cannot access public pathways each year",
@@ -203,26 +230,33 @@
       "description": "Explore education and vocational investment opportunities in Sri Lanka including campuses, TVET, and transnational models."
     },
     "officer": {
-      "name": "Alexander Sterling",
-      "title": "Sector Lead Specialist",
-      "specialization": "Leading Higher Education & Vocational Projects",
-      "phone": "+94 11 234 5678",
-      "email": "alexander.s@invest-srilanka.com",
-      "image": "assets/img/team/alexander.webp",
+      "name": "Ms. Thanuja Kumari Bandara",
+      "title": "Senior Deputy Director",
+      "specialization": "Leading Information Technology, Tourism Education Projects",
+      "phone": "+94 11-2427233",
+      "email": "thanujak@boi.lk",
+      "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOfficer/ThanujaK.webp",
       "consultationLink": "#",
-      "reportLink": "assets/reports/education-sector.pdf",
+      "reportLink": "#",
       "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
     }
   },
   "transport": {
     "name": "Transport & Logistics",
     "tagline": "Strengthening regional supply chains through smart logistics infrastructure.",
-    "heroImage": "assets/img/Sectors/Transportation.webp",
-    "overview": "Sri Lanka's Transport and Logistics sector is a core trade enabler with strong growth in freight, warehousing, and multimodal distribution. With rising e-commerce demand, high market value, and infrastructure upgrades, the sector offers scalable opportunities across domestic and regional supply-chain platforms.",
+    "heroImage": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/Transportation.webp",
+    "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOverview/sector-image-07.webp",
+    "overview": [
+      "Sri Lanka’s Transport & Logistics sector is a critical enabler of economic growth, underpinning trade, manufacturing, e‑commerce and regional supply chains while offering significant opportunities for infrastructure investment. Valued at approximately USD 7.78 billion in 2025, the freight and logistics market is expanding rapidly, supported by strategic location advantages along major East-West shipping routes and a dense multimodal transport network. The sector contributes around 2.5 % to national GDP and directly employs tens of thousands of workers, reflecting its importance to the national economy and global trade connectivity.",
+      "Sri Lanka’s well‑developed road network, high port throughput, and growing air freight capacity enable efficient movement of goods across domestic and international routes, positioning the country as a regional logistics and distribution hub. Continued infrastructure enhancements, including expressways, inland transport links and digital trade facilitation systems, are strengthening supply chain efficiency and reducing logistics costs.",
+      "Investment opportunities span modern warehousing, cold storage and fulfillment centers, bonded and distribution facilities, integrated freight services, and multimodal logistics parks serving both domestic and export markets. These opportunities are supported by the Board of Investment of Sri Lanka (BOI), which offers investor facilitation and incentives—such as duty exemptions on capital equipment, and streamlined approvals aimed at attracting capital into strategic logistics and transport infrastructure projects.",
+      "With its strategic geographic location, improving infrastructure, and supportive policy environment, Sri Lanka’s transport and logistics sector provides a compelling platform for investors seeking to participate in the modernization of supply chains and to capitalize on growing regional trade and e‑commerce demand."
+    ],
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 500 Mn" },
+      { "label": "Investment Opportunities", "value": "USD 385 Mn" },
       { "label": "Market Value (2025)", "value": "USD 7.78 Bn" },
-      { "label": "Growth Potential", "value": "4.3% CAGR" }
+      { "label": "Growth Potential", "value": "4.3% CAGR" },
+      { "label": "E-commerce Growth", "value": "42%" }
     ],
     "whyInvest": [
       "Strategic Indian Ocean position with multimodal connectivity across ports, airports, road, and rail",
@@ -246,26 +280,31 @@
       "description": "Discover transport and logistics investment opportunities in Sri Lanka across warehousing, freight, multimodal links, and supply-chain infrastructure."
     },
     "officer": {
-      "name": "Alexander Sterling",
-      "title": "Sector Lead Specialist",
-      "specialization": "Leading Higher Education & Vocational Projects",
-      "phone": "+94 11 234 5678",
-      "email": "alexander.s@invest-srilanka.com",
-      "image": "assets/img/team/alexander.webp",
+      "name": "Mr. Sudath Jayasekera",
+      "title": "Deputy Director",
+      "specialization": "Food Processing & Agriculture Related project",
+      "phone": "011-2427108",
+      "email": "sudathj@boi.lk",
+      "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOfficer/Sudathj.webp",
       "consultationLink": "#",
-      "reportLink": "assets/reports/education-sector.pdf",
+      "reportLink": "#",
       "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
     }
   },
   "aviation": {
     "name": "Aviation, Ports & Maritime Infrastructure",
     "tagline": "Invest at the crossroads of global trade in Sri Lanka's ports, airports, and maritime infrastructure.",
-    "heroImage": "assets/img/Sectors/Aviation.webp",
-    "overview": "Sri Lanka's aviation, ports, and maritime sector is central to regional trade and mobility across the Indian Ocean. Record port throughput, rising passenger traffic, and strategic connectivity create long-horizon opportunities in terminals, cargo, maintenance, training, and multimodal infrastructure.",
+    "heroImage": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/Aviation.webp",
+    "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOverview/sector-image-08.webp",
+    "overview": [
+      "Sri Lanka’s airports, ports, and maritime infrastructure sector is central to the country’s emergence as a regional gateway for trade, tourism, and logistics in the Indian Ocean, offering stable, long-term opportunities for strategic infrastructure investors. The Port of Colombo achieved a record 8.29 million TEUs of container throughput in 2025, demonstrating its role as one of the busiest transshipment hubs in South Asia and a key node on major East-West shipping routes. The port ecosystem continues to expand capacity, modernize operations, and adopt digital solutions, supporting growing cargo volumes and seamless integration with global supply chains. On the aviation front, Sri Lanka’s airports collectively handled 10.2 million passenger movements in 2025, reflecting strong growth in connectivity, air cargo, and aircraft operations, with ongoing expansion and modernization projects to meet rising demand.",
+      "Investment opportunities cover aircraft maintenance and repair facilities, aviation training, cargo logistics platforms, port infrastructure upgrades, and multimodal connectivity projects, all supported by government policies and facilitation through the Board of Investment (BOI). The BOI offers 100% foreign ownership,  duty exemptions on equipment, and streamlined approvals for strategic infrastructure projects, making investment in the sector highly attractive. With its strategic geographic location, improving infrastructure, and supportive regulatory environment, Sri Lanka provides investors a high-potential platform for sustainable growth, enabling participation in the country’s expanding trade, tourism, and regional connectivity initiatives."
+    ],
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 2.2 Bn" },
+      { "label": "Investment Opportunities", "value": "USD 750 Mn" },
       { "label": "Port Throughput (2025)", "value": "8.29 Mn TEUs" },
-      { "label": "Airport Traffic (2025)", "value": "10 Mn+" }
+      { "label": "Airport Traffic (2025)", "value": "10 Mn+" },
+      { "label": "Airline Destinations", "value": "72" }
     ],
     "whyInvest": [
       "Prime location on East-West trade routes with efficient access to regional and global markets",
@@ -289,26 +328,34 @@
       "description": "Explore Sri Lanka investment opportunities in airports, ports, maritime services, and multimodal trade infrastructure."
     },
     "officer": {
-      "name": "Alexander Sterling",
-      "title": "Sector Lead Specialist",
-      "specialization": "Leading Higher Education & Vocational Projects",
-      "phone": "+94 11 234 5678",
-      "email": "alexander.s@invest-srilanka.com",
-      "image": "assets/img/team/alexander.webp",
+      "name": "Ms. Sugandhika Gunaratne",
+      "title": "Assistant Director",
+      "specialization": "Leading Port, Airport, Road, Highway, Hospital Projects",
+      "phone": "+94 11-2427415",
+      "email": "sugandhikag@boi.lk",
+      "image": "bi bi-person-circle",
       "consultationLink": "#",
-      "reportLink": "assets/reports/education-sector.pdf",
+      "reportLink": "#",
       "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
     }
   },
   "manufacturing": {
     "name": "Manufacturing",
     "tagline": "Sri Lanka as a competitive, export-oriented manufacturing hub in South Asia.",
-    "heroImage": "assets/img/Sectors/Manufacturing.webp",
-    "overview": "Sri Lanka's manufacturing sector is a major contributor to GDP and exports, with established strength in apparel and growing diversification into electronics, pharmaceuticals, food processing, and engineering. Strategic location, trade access, and BOI-backed facilitation support scalable and resilient industrial growth.",
+    "heroImage": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/Manufacturing.webp",
+    "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOverview/sector-image-01.webp",
+    "overview": [
+      "Sri Lanka’s manufacturing sector is a vital driver of industrial output and exports, contributing around 25.5% of GDP in 2024 and employing a large portion of the workforce. Key segments include apparel and textiles, rubber-based products, electronics, food & beverage processing, pharmaceuticals, and light engineering, with emerging areas such as automotive components and high-value electronics reflecting diversification beyond traditional strengths. The apparel and textile industry remains the largest export contributor, generating around USD 5.0 billion in 2025 and supplying key markets in the EU, US, and UK. Other segments, including food & beverages, coconut and spice products, and electronics, are expanding, supporting broader export growth and diversification.",
+      "Sri Lanka’s strategic location along major Indian Ocean shipping routes, combined with modern port infrastructure at Colombo and Hambantota, provides efficient access to regional and global markets. Government initiatives aim to leverage this advantage to boost exports and strengthen the sector’s contribution to GDP, supported by preferential trade access to the EU, UK, and South Asia. The Board of Investment (BOI) facilitates manufacturing growth through tax incentives, duty exemptions, and streamlined approvals, alongside sector-focused industrial zones for apparel, pharmaceuticals, and electronics. With resilient export performance, expanding subsectors, and strong policy support, Sri Lanka offers a diversified and investor-friendly manufacturing ecosystem, laying the foundation for sustainable growth and profitable market access."
+    ],
     "stats": [
       { "label": "Investment Opportunities", "value": "USD 500 Mn" },
-      { "label": "Annual Exports", "value": "USD 13.6 Bn" },
-      { "label": "Year-on-Year Growth", "value": "6.3%" }
+      { "label": "Annual Exports (2025)", "value": "USD 13.6 Bn" },
+      { "label": "YoY Growth", "value": "6.3%" },
+      {
+        "label": "National Workforce Share",
+        "value": "26%"
+      }
     ],
     "whyInvest": [
       "Strategic location on major shipping lanes with efficient access to key regional and global markets",
@@ -332,12 +379,12 @@
       "description": "Review manufacturing investment opportunities in Sri Lanka across export-oriented and diversified industrial segments."
     },
     "officer": {
-      "name": "Alexander Sterling",
-      "title": "Sector Lead Specialist",
-      "specialization": "Leading Higher Education & Vocational Projects",
-      "phone": "+94 11 234 5678",
-      "email": "alexander.s@invest-srilanka.com",
-      "image": "assets/img/team/alexander.webp",
+      "name": "Mr. Upul Jayasinghe",
+      "title": "Senior Deputy Director",
+      "specialization": "Leading Rubber, Auto Components, Boat Manufacturing Projects",
+      "phone": "+94 11-2427377",
+      "email": "upulj@boi.lk",
+      "image": "bi bi-person-circle",
       "consultationLink": "#",
       "reportLink": "assets/reports/education-sector.pdf",
       "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
@@ -346,12 +393,17 @@
   "renewable": {
     "name": "Renewable Energy & Sustainable Utilities",
     "tagline": "Sri Lanka as a clean energy and sustainable utilities investment destination.",
-    "heroImage": "assets/img/Sectors/Renewable.webp",
-    "overview": "Sri Lanka's renewable energy sector offers long-term growth through ambitious transition targets, expanding power demand, and policy-backed project pipelines. With strong solar, wind, hydro, and biomass resources and BOI-supported facilitation, the market is positioned for scalable clean infrastructure investment.",
+    "heroImage": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/Renewable.webp",
+    "image": "https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/SectorOverview/sector-image-09.webp",
+    "overview": [
+      "Sri Lanka’s Renewable Energy & Sustainable Utilities sector offers robust long-term investment potential, driven by ambitious energy transition goals, rising electricity demand, and a focus on climate resilience. The government has committed to achieving 70% of electricity generation from renewable sources by 2030, supported by the Public Utilities Commission of Sri Lanka (PUCSL) and the Ministry of Power and Energy. To meet this target, the country plans to add approximately 4,705 MW of solar and 1,825 MW of wind capacity, alongside hydro and biomass projects, reflecting a clear pipeline for investment. Renewable energy already accounts for a significant share of electricity generation, contributing around 60% in 2023, demonstrating tangible progress toward the 2030 goal. Abundant solar, wind, hydro, and biomass resources provide a solid foundation for further expansion, while government-facilitated frameworks, including BOI incentives for private sector participation, ensure a conducive environment for investment in clean energy generation and sustainable utility infrastructure.",
+      "The sector’s growth is further supported by a pipeline of 2,700+ MW of grid-scale renewable projects, many of which are at the provisional or PPA stage, highlighting strong near-term investment opportunities. Expansion is expected to create over 100,000 direct and indirect jobs, contributing to local economic development, while initiatives in the sector target a reduction of more than 20 million tons of CO₂ emissions annually by 2030, aligning with global climate commitments. Policy frameworks, long-term power purchase agreements (PPAs), and BOI facilitation provide investor confidence, while rising fossil fuel costs strengthen the financial viability of renewable projects. Emerging areas such as energy storage, electric mobility infrastructure, and biomass-to-energy solutions are opening new avenues for technology-driven investments. With strategic location, growing industrial demand, and an ambitious sustainability agenda, Sri Lanka presents a highly attractive destination for long-term investments in renewable energy and sustainable utilities."
+    ],
     "stats": [
-      { "label": "Investment Opportunities", "value": "USD 1.0 Bn" },
-      { "label": "Renewables in Generation", "value": "45-50%" },
-      { "label": "2030 Renewable Target", "value": "70%" }
+      { "label": "Investment Opportunities", "value": "USD 1,880 Mn" },
+      { "label": "National Power Generation Share", "value": "45-50%" },
+      { "label": "2030 Renewable Target", "value": "70%" },
+      { "label": "Electricity Demand Growth", "value": "5-6% CAGR" }
     ],
     "whyInvest": [
       "Abundant renewable resource base across solar, wind corridors, hydro, and biomass potential",
@@ -375,14 +427,14 @@
       "description": "Explore renewable energy and sustainable utility investment opportunities in Sri Lanka across solar, wind, storage, and grid-linked infrastructure."
     },
     "officer": {
-      "name": "Alexander Sterling",
-      "title": "Sector Lead Specialist",
-      "specialization": "Leading Higher Education & Vocational Projects",
-      "phone": "+94 11 234 5678",
-      "email": "alexander.s@invest-srilanka.com",
-      "image": "assets/img/team/alexander.webp",
+      "name": "Ms. Arunya De Silva",
+      "title": "Assistant Director",
+      "specialization": "Leading Electrical & Electronic Projects",
+      "phone": "+94 11-2427414",
+      "email": "arunyas@boi.lk",
+      "image": "bi bi-person-circle",
       "consultationLink": "#",
-      "reportLink": "assets/reports/education-sector.pdf",
+      "reportLink": "#",
       "description": "Connect with our investment team to explore opportunities and get personalized support for your investment journey."
     }
   }

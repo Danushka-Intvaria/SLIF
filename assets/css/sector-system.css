@@ -9,18 +9,41 @@
 }
 
 .slif-sector-hero-image,
-.slif-project-hero-image {
+.slif-project-hero-image,
+.slif-project-hero-media {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
+}
+
+.slif-sector-hero-image,
+.slif-project-hero-image {
   object-fit: cover;
+}
+
+.slif-project-hero-media,
+.slif-project-hero-media .carousel,
+.slif-project-hero-media .carousel-inner,
+.slif-project-hero-media .carousel-item {
+  height: 100%;
+}
+
+.slif-project-hero-media-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .slif-sector-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, color-mix(in srgb, var(--heading-color), transparent 65%) 0%, color-mix(in srgb, var(--heading-color), transparent 25%) 100%);
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--heading-color), transparent 65%) 0%,
+    color-mix(in srgb, var(--heading-color), transparent 25%) 100%
+  );
 }
 
 .slif-sector-hero-content {
@@ -33,9 +56,9 @@
 
 .slif-kicker {
   text-transform: uppercase;
-  letter-spacing: .08em;
-  font-size: .78rem;
-  opacity: .9;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  opacity: 0.9;
 }
 
 .slif-sector-page h1,
@@ -65,7 +88,7 @@
   border-radius: 16px;
   padding: 1.1rem;
   position: relative;
-  transition: all .35s ease;
+  transition: all 0.35s ease;
 }
 
 .slif-stat-card:hover,
@@ -118,7 +141,7 @@
 }
 
 .slif-stat-label {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: var(--slif-card-muted);
   margin-bottom: 0;
 }
@@ -126,18 +149,18 @@
 .slif-bullet-grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: .85rem;
+  gap: 0.85rem;
 }
 
 .slif-bullet-card,
 .slif-adv-card {
   display: flex;
   align-items: start;
-  gap: .75rem;
+  gap: 0.75rem;
 }
 
-.slif-bullet-card>div,
-.slif-adv-card>div {
+.slif-bullet-card > div,
+.slif-adv-card > div {
   flex: 1;
 }
 
@@ -152,7 +175,7 @@
   color: var(--accent-color);
   opacity: 0;
   transform: translateY(4px);
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 }
 
 .slif-bullet-card:hover .slif-hover-arrow,
@@ -169,7 +192,7 @@
 .slif-project-card {
   border-radius: 14px;
   overflow: hidden;
-  transition: all .35s ease;
+  transition: all 0.35s ease;
 }
 
 .slif-project-card:hover {
@@ -178,7 +201,7 @@
 }
 
 .slif-project-link i {
-  transition: transform .2s ease;
+  transition: transform 0.2s ease;
 }
 
 .slif-project-card:hover .slif-project-link i {
@@ -186,7 +209,9 @@
 }
 
 .slif-sector-contact {
-  background-color: color-mix(in srgb, var(--accent-color), var(--surface-color) 84%);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
 }
 
 .slif-cta-btn {
@@ -201,7 +226,7 @@
 }
 
 .slif-detail-list li {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .slif-investment-panel {
@@ -212,7 +237,7 @@
 }
 
 .fade-in-up {
-  animation: fadeInUp .35s ease;
+  animation: fadeInUp 0.35s ease;
 }
 
 @keyframes fadeInUp {
@@ -229,7 +254,7 @@
 
 @media (min-width: 768px) {
   .slif-bullet-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -241,15 +266,14 @@
 }
 
 @media (max-width: 767.98px) {
-
   .slif-sector-page section,
   .slif-project-page section {
     margin-bottom: 2rem !important;
   }
 
   .btn-group .btn {
-    font-size: .85rem;
-    padding: .45rem .65rem;
+    font-size: 0.85rem;
+    padding: 0.45rem 0.65rem;
   }
 }
 
@@ -282,7 +306,9 @@
   box-shadow: 0 25px 80px rgba(0, 0, 0, 0.12);
   overflow: hidden;
 
-  transition: transform .4s ease, box-shadow .4s ease;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
 }
 /* Desltop hover effect for slif-stats-wrapper */
 @media (hover: hover) and (pointer: fine) {
@@ -311,8 +337,8 @@
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 18px;
-  transition: all .4s ease;
-  border: 1px solid rgba(255, 255, 255, .5);
+  transition: all 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .slif-stat-card:hover {
@@ -322,11 +348,42 @@
 
 /* Glass Image Frame */
 .slif-glass-image {
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 0.5);
   padding: 12px;
   border-radius: 20px;
   backdrop-filter: blur(8px);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, .12);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.slif-glass-image.is-loading::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgba(230, 235, 242, 0.6) 0%,
+    rgba(245, 248, 252, 0.9) 45%,
+    rgba(230, 235, 242, 0.6) 100%
+  );
+  background-size: 200% 100%;
+  animation: slif-shimmer 1.2s ease-in-out infinite;
+  z-index: 1;
+}
+
+.slif-glass-image.is-loading img {
+  opacity: 0;
+}
+
+@keyframes slif-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
 }
 
 /* Modern Section Spacing */
@@ -339,6 +396,10 @@
   font-weight: 600;
 }
 
+#sectorOverview p {
+  text-align: justify;
+}
+
 /* Premium Flagship Card */
 .slif-flagship-card {
   display: flex;
@@ -346,8 +407,8 @@
   border-radius: 20px;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 30px 80px rgba(0, 0, 0, .12);
-  transition: all .4s ease;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.12);
+  transition: all 0.4s ease;
 }
 
 .slif-flagship-card:hover {
@@ -369,15 +430,246 @@
 .slif-project-card {
   border-radius: 20px;
   overflow: hidden;
-  background: rgba(255, 255, 255, .75);
+  background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, .5);
-  transition: all .35s ease;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.35s ease;
 }
 
 .slif-project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, .15);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+}
+
+#flagshipProjects {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* Project Feature Card */
+.slif-project-feature-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid rgba(32, 64, 128, 0.12);
+  box-shadow: 0 18px 48px rgba(16, 40, 72, 0.12);
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.slif-project-feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 26px 60px rgba(16, 40, 72, 0.16);
+}
+
+.slif-project-media {
+  position: relative;
+  flex: 1 1 48%;
+  min-height: 320px;
+  background: #f2f4f8;
+}
+
+.slif-project-carousel,
+.slif-project-carousel .carousel-inner,
+.slif-project-carousel .carousel-item {
+  height: 100%;
+}
+
+.slif-project-media-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.slif-video-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slif-media-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slif-video-play {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 74px;
+  height: 74px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(15, 39, 71, 0.85);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 2.2rem;
+  box-shadow: 0 14px 30px rgba(15, 39, 71, 0.35);
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+  z-index: 2;
+}
+
+.slif-video-play:hover {
+  transform: scale(1.05);
+}
+
+.slif-video-frame.is-playing .slif-video-play {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.slif-media-open {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5rem 0.75rem;
+  background: rgba(9, 43, 94, 0.92);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  box-shadow: 0 10px 24px rgba(15, 39, 71, 0.28);
+  z-index: 3;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.slif-media-open:hover {
+  transform: translateY(-2px);
+}
+
+.slif-media-modal .modal-header {
+  border-bottom: 1px solid rgba(15, 39, 71, 0.12);
+}
+
+.slif-project-media-modal-body {
+  display: grid;
+  gap: 1rem;
+}
+
+.slif-project-media-modal-body img,
+.slif-project-media-modal-body video {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  border-radius: 14px;
+  background: #000;
+  object-fit: contain;
+}
+
+.slif-project-badge {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 2;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(9, 43, 94, 0.92);
+  color: #fff;
+  border-radius: 999px;
+}
+
+.slif-project-body {
+  flex: 1 1 52%;
+  padding: clamp(1.75rem, 2.5vw, 2.75rem);
+}
+
+.slif-project-title {
+  font-size: clamp(1.3rem, 1.8vw, 1.8rem);
+  margin-bottom: 0.4rem;
+  color: #0f2747;
+}
+
+.slif-project-subtitle {
+  margin-bottom: 1rem;
+  color: #2d4a70;
+  font-weight: 600;
+}
+
+.slif-project-description {
+  color: #5a6c86;
+  margin-bottom: 1.5rem;
+}
+
+.slif-project-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem 1.5rem;
+}
+
+.slif-project-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.slif-project-stat-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b7c96;
+}
+
+.slif-project-stat-value {
+  font-weight: 600;
+  color: #172b4d;
+}
+
+.slif-project-divider {
+  height: 1px;
+  background: rgba(35, 67, 120, 0.12);
+  margin: 1.5rem 0;
+}
+
+.slif-project-highlights-title {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #1c3d6b;
+  margin-bottom: 0.75rem;
+}
+
+.slif-project-highlights-list {
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+  color: #52647f;
+}
+
+.slif-project-highlights-list li {
+  margin-bottom: 0.45rem;
+}
+
+.slif-project-actions {
+  margin-top: 1.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.slif-project-actions .btn {
+  min-height: 44px;
+}
+
+.slif-project-carousel .carousel-control-prev-icon,
+.slif-project-carousel .carousel-control-next-icon {
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));
 }
 
 /* Mobile Improvements */
@@ -393,6 +685,18 @@
   .slif-flagship-image {
     min-height: 240px;
   }
+
+  .slif-project-feature-card {
+    flex-direction: column;
+  }
+
+  .slif-project-media {
+    min-height: 240px;
+  }
+
+  .slif-project-stats {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ====================================
@@ -404,85 +708,73 @@
 }
 
 .slif-sector-officer-section {
-  background: #1e3a5f;
+  background: linear-gradient(135deg, #102743 0%, #1b3f6a 55%, #1e4c7b 100%);
   border-radius: 32px;
   padding: clamp(3rem, 6vw, 5rem);
   overflow: hidden;
+  color: #f5f7ff;
+  box-shadow: 0 25px 60px rgba(9, 20, 44, 0.35);
 }
 
-
 .slif-officer-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.9fr);
+  gap: clamp(2rem, 4vw, 3.5rem);
   align-items: center;
-  justify-content: space-between;
   max-width: 1100px;
   margin: 0 auto;
 }
 
-
 .slif-officer-left {
   flex: 1 1 55%;
   color: #fff;
+  text-align: left;
+  max-width: 620px;
 }
 
 .slif-officer-left h2 {
   font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 600;
-  color: wheat;
+  color: #f9f3df;
+  letter-spacing: 0.2px;
 }
 
 .slif-officer-card {
   flex: 1 1 380px;
   justify-content: center;
+  justify-self: end;
+  width: 100%;
+  max-width: 420px;
 
-  /* Glass background */
-background: rgba(130, 84, 190, 0.377);
-backdrop-filter: blur(18px) saturate(160%);
--webkit-backdrop-filter: blur(18px) saturate(160%);
-
-/* Frosted border */
-border: 1px solid rgb(255, 255, 255);
-
-border-radius: 24px;
-padding: 2rem;
-
-/* Depth */
-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25),
-inset 0 1px 0 rgba(255, 255, 255, 0.4);
-
-transition: all .4s ease;
+  background: rgba(255, 255, 255, 0.96);
+  color: #1b2b3f;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 18px 40px rgba(6, 18, 38, 0.35);
+  transition: all 0.35s ease;
 }
 
 .slif-officer-card:hover {
   transform: translateY(-8px);
-  box-shadow:
-    0 20px 60px rgba(0, 0, 0, 0.35),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 28px 70px rgba(6, 18, 38, 0.45);
 }
 
-@media (min-width: 992px) {
-  .slif-officer-card {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.slif-officer-card hr {
+  border-color: rgba(27, 43, 63, 0.15);
 }
 
+.slif-officer-card .text-muted {
+  color: #5e6a7a !important;
+}
 
 .slif-officer-img {
-  width: 65px;
-  height: 65px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid var(--accent-color);
-}
-
-@media (max-width: 992px) {
-  .slif-officer-wrapper {
-    flex-direction: column;
-    text-align: center;
-  }
+  border: 3px solid color-mix(in srgb, var(--accent-color), #ffffff 40%);
+  background: #e7ebf4;
 }
 
 /* ===============================
@@ -501,11 +793,10 @@ transition: all .4s ease;
 }
 
 .slif-officer-desc {
-  padding-left: 15%;
-  padding-right: 15%;
-  opacity: 0.9;
+  margin: 0;
+  opacity: 0.85;
   font-size: 1rem;
-
+  color: rgba(245, 247, 255, 0.85);
 }
 
 /* ===============================
@@ -517,7 +808,7 @@ transition: all .4s ease;
   flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /* ===============================
@@ -529,7 +820,7 @@ transition: all .4s ease;
   padding: 0.65rem 1.3rem;
   font-weight: 500;
   border-radius: 10px;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 }
 
 .slif-cta-btn:hover {
@@ -541,14 +832,18 @@ transition: all .4s ease;
 ================================ */
 
 @media (max-width: 992px) {
-
   .slif-officer-wrapper {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     text-align: center;
   }
 
   .slif-officer-left {
     flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .slif-officer-card {
+    justify-self: center;
   }
 
   .slif-officer-desc {
@@ -567,5 +862,4 @@ transition: all .4s ease;
     width: 100%;
     max-width: 320px;
   }
-
 }

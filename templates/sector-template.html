@@ -22,16 +22,16 @@
 
     <!-- OVERVIEW -->
     <section class="slif-section-modern">
-      <div class="row align-items-center g-5">
+      <div class="row align-items-start g-5">
 
         <div class="col-lg-6">
           <h2 class="section-title mb-4">Sector Overview</h2>
-          <p id="sectorOverview" class="text-muted"></p>
+          <div id="sectorOverview" class="text-muted"></div>
         </div>
 
         <div class="col-lg-6">
-          <div class="slif-glass-image">
-            <img src="/assets/img/Sectors/Education.webp" class="img-fluid rounded-4" alt="">
+          <div id="sectorOverviewImageFrame" class="slif-glass-image is-loading">
+            <img id="sectorOverviewImage" src="" class="img-fluid rounded-4" alt="" loading="lazy">
           </div>
         </div>
 
@@ -70,11 +70,12 @@
     </section>
 
     <!-- CTA PANEL -->
-    <section class="slif-sector-contact glass-panel p-5 rounded-4 text-center">
+    <section class="slif-sector-contact p-5 rounded-4">
       <!-- SECTOR OFFICER SECTION -->
       <section class="slif-sector-officer-wrapper">
         <div class="container">
           <div class="slif-sector-officer-section">
+            <div class="slif-officer-wrapper">
 
             <!-- LEFT CONTENT -->
             <div class="slif-officer-left">
@@ -94,7 +95,7 @@
                   Download Sector Report
                 </a>
               </div>
-            </div><br>
+            </div>
 
 
             <!-- OFFICER CARD -->
@@ -116,8 +117,22 @@
                 <p class="mb-0"><strong>Email:</strong> <span id="officerEmail"></span></p>
               </div>
             </div>
+            </div>
           </div>
         </div>
       </section>
+  </div>
+</div>
+
+<!-- Project Media Modal -->
+<div class="modal fade" id="projectMediaModal" tabindex="-1" aria-labelledby="projectMediaModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content slif-media-modal">
+      <div class="modal-header">
+        <h5 class="modal-title" id="projectMediaModalLabel">Media Preview</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body slif-project-media-modal-body"></div>
+    </div>
   </div>
 </div>
