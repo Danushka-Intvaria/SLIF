@@ -5,23 +5,23 @@
     {
       "id": "tour-001",
       "type": "flagship",
-      "title": "Theme Park Development - Nuwara Eliya",
+      "title": "Theme Park - Nuwara Eliya",
       "subTitle": "Sri Lanka’s Next Iconic Hill-Country Leisure Destination",
-      "description": "A US$75 million world-class theme park with an 80-room boutique hotel developed in three phases to create a premium hill-country attraction.",
+      "description": "A US$30 million world-class theme park on 10.9 acres. Featuring thrilling rides, family zones and landscaped gardens. Designed in three seamless phases, thispremier hill-country attraction offers year-round fun, luxury stays, and unmatched hospitality in Sri Lankaʼs most scenic destination.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/TourismProject_1.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Nuwara Eliya" },
-        { "label": "Investment", "value": "USD 75 Mn" },
+        { "label": "Investment", "value": "USD 30 Mn" },
         { "label": "Land Area", "value": "10.9 Acres" },
-        { "label": "Expected IRR", "value": "13-15%" }
+        { "label": "Expected IRR", "value": "16-19%" }
       ],
       "keyHighlights": [
-        "Integrated hotel and conference facilities",
-        "Retail & dining revenue streams",
-        "Amusement and attraction income",
-        "30-year lease model",
-        "Tourism circuit integration"
+        "Core theme park attractions",
+        "Prime hill-country location",
+        "Attractive BOI incentives",
+        "30-year lease model"
+        
       ],
       "brochure": "https://media.srilankainvestmentforum.com/slifmedia/pdfs/Themepark.pdf",
       "moreInfo": "#"
@@ -31,7 +31,7 @@
       "type": "flagship",
       "title": "Diyawanna Frolic Island Recreational Hub",
       "subTitle": "Sri Lanka’s Next Iconic Urban Leisure Asset",
-      "description": "A USD 115 million integrated leisure hub in Battaramulla spanning 27.3 acres of waterfront land.",
+      "description": "The Diyawanna Frolic Island Recreational Hub is a USD 115 million the project is structured under two distinct investment option models, offering flexible participation opportunities for strategic investors across development phases and asset components.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/TourismProject_2.webp"],
       "video": "",
       "stats": [
@@ -53,18 +53,16 @@
     {
       "id": "tour-003",
       "type": "flagship",
-      "title": "Majestic Kandy Hotel Development",
+      "title": "Heritage Kandy Hotel",
       "subTitle": "A Landmark Hospitality Investment in Sri Lanka’s Cultural Capital",
-      "description": "A USD 75 million heritage-compliant 5-star hotel development located in central Kandy on a 3-acre prime leasehold. The project features 85 luxury keys including Deluxe Rooms, Heritage Suites, Pool Villas, and Presidential Residences within a two-storey pavilion design respecting sacred height limits. Positioned in Sri Lanka’s UNESCO cultural capital, the project offers a protected luxury hospitality asset under a 99-year lease structure.",
+      "description": "The Heritage Kandy Hotel is a USD 75 million investment on a 3-acre prime leasehold in central Kandy. This heritage-compliant 5-star development features 85 luxury keys, including Deluxe Rooms, Heritage Suites, Pool Villas, and Presidential Residences, all within a two-story pavilion design respecting sacred height limits. Offering a 99- year lease, it delivers a unique, protected luxury asset in Sri Lanka's UNESCO cultural capital.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/TourismProject_3.webp"],
       "video": "",
       "stats": [
         { "label": "Location", "value": "Central Kandy, Sri Lanka" },
         { "label": "Investment", "value": "USD 75 Mn" },
-        { "label": "Land Area", "value": "3 Acres (Prime Leasehold)" },
-        { "label": "Expected IRR", "value": "14-16%" },
-        { "label": "Payback Period", "value": "7-8 Years" },
-        { "label": "Lease Term", "value": "99 Years" }
+        { "label": "Land Area", "value": "3 Acres " },
+        { "label": "Expected IRR", "value": "14-15%" }
       ],
       "keyHighlights": [
         "85 luxury keys including suites, villas and presidential residences",
@@ -86,7 +84,7 @@
       "type": "flagship",
       "title": "Sri Lanka Cruise Line Development",
       "subTitle": "Asia’s Central Hub for Cruise Tourism Growth",
-      "description": "A USD 70 million investment opportunity to launch a world-class cruise line operating around Sri Lanka, linking Colombo, Galle, Trincomalee, and Jaffna (Kankesanthurai Port). The project captures the spirit of island luxury and maritime adventure, leveraging BOI incentives and rising inbound tourism to generate sustainable growth and long-term investor returns.",
+      "description": "Discover a US$80 million investment opportunity to launch a world-class, high-occupancy premium cruise line around Sri Lanka, linking Colombo, Galle, Trincomalee, and Jaffna, capturing the spirit of island luxury and adventure while leveraging BOI incentives and rising inbound tourism for exceptional growth and enduring returns. With curated luxury itineraries and unforgettable coastal experiences, this project is poised to become a flagship offering in Sri Lankaʼs booming tourism sector.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/TourismProject_4.webp"],
       "video": "",
       "stats": [
@@ -94,21 +92,15 @@
           "label": "Route Coverage",
           "value": "Colombo, Galle, Trincomalee & Jaffna"
         },
-        { "label": "Investment", "value": "USD 70 Mn" },
-        { "label": "Expected IRR", "value": "11.8%" },
-        { "label": "Payback Period", "value": "6 Years" }
+        { "label": "Investment", "value": "USD 80 Mn" },
+        { "label": "Expected IRR", "value": "17%" },
+        { "label": "Payback Period", "value": "7 Years" }
       ],
       "keyHighlights": [
         "Exclusive four-port national cruise circuit",
         "Fleet deployment and onboard hospitality ecosystem",
-        "Onboard experiences and loyalty programs",
-        "Asia’s emerging cruise tourism hub positioning",
-        "Fare revenue + onboard ancillary revenue streams",
-        "6-year tax holiday under Strategic Development Project status",
-        "100% foreign ownership permitted",
-        "Full repatriation of capital and profits",
-        "Investor visa and residency facilitation",
-        "BOI-facilitated regulatory coordination"
+        "Attractive BOI incentives",
+        "Asia’s emerging cruise tourism hub positioning"
       ],
       "brochure": "https://media.srilankainvestmentforum.com/slifmedia/pdfs/Cruiseline.pdf",
       "moreInfo": "#"
@@ -118,35 +110,22 @@
       "type": "flagship",
       "title": "Cinema City - Integrated Film & Studio Tourism Hub",
       "subTitle": "Sri Lanka’s Next Global Creative Economy Anchor",
-      "description": "A USD 119 million investment to develop Asia’s integrated film production and studio tourism hub spanning 406 acres under a 30-year BOI lease. Positioned to serve rapidly expanding OTT and film markets, the project combines cost-efficient production infrastructure, diversified tourism revenue streams, and BOI-backed incentives to deliver stable long-term returns.",
+      "description": "A US$119 million investment to develop an integrated film production and studio tourism asset, positioned to serve Asia’s rapidly expanding OTT and film markets. The project combines cost-efficient production infrastructure, diversified tourism revenue, and BOI-backed incentives to deliver stable, long-term returns.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/TourismProject_5.webp"],
       "video": "",
       "stats": [
-        {
-          "label": "Location",
-          "value": "Strategic Development Zone, Sri Lanka"
-        },
+        
         { "label": "Investment", "value": "USD 119 Mn" },
         { "label": "Land Area", "value": "406 Acres" },
-        { "label": "Lease Term", "value": "30-Year BOI Lease" },
-        { "label": "Target IRR", "value": "18-19%" },
-        { "label": "Payback Period", "value": "6-7 Years" }
+        { "label": "Target IRR", "value": "21-22%" },
+        { "label": "Payback Period", "value": "5-6 Years" }
       ],
       "keyHighlights": [
         "Asia’s integrated film & studio tourism hub",
         "Core production infrastructure and studio facilities",
         "Studio tourism & experiential visitor attractions",
-        "Commercial leasing & real estate development",
-        "Hospitality & retail operations",
-        "Education & talent development ecosystem",
-        "25 minutes to BIA Airport",
-        "40 minutes to Colombo Port",
-        "Direct expressway access",
-        "Close proximity to Colombo CBD",
-        "8-year tax holiday under Strategic Development Project status",
-        "100% foreign ownership permitted",
-        "Full repatriation of capital and profits",
-        "BOI-facilitated regulatory coordination"
+        "Attractive BOI incentives"
+        
       ],
       "brochure": "https://media.srilankainvestmentforum.com/slifmedia/pdfs/CinemaCity.pdf",
       "moreInfo": "#"
@@ -157,24 +136,23 @@
     {
       "id": "urban-003",
       "type": "flagship",
-      "title": "Makumbura Mixed-Use Commercial Development - Kottawa",
-      "subTitle": "A Modern Office & Commercial Hub at Makumbura",
-      "description": "A USD 18 million BOI-facilitated mixed-use commercial development located on a prime 1.18-acre UDA-owned land parcel in Makumbura, Kottawa. The project integrates Grade-A office space, retail, co-working facilities, and commuter-focused services to capture high-growth suburban commercial demand with diversified revenue streams.",
+      "title": "Mixed Development",
+      "subTitle": "Live, work, shop, and play in one place — asia’s top investment opportunity.",
+      "description": "This world-class mixed-use development project to be designed to create a vibrant, integrated community, combining residential, commercial, retail, and leisure spaces. With modern homes, offices, shopping destinations, and recreational amenities, it offers structured investment opportunities with attractive return.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/UrbanProject_1.webp"],
       "video": "",
       "stats": [
-        { "label": "Location", "value": "Makumbura, Kottawa" },
-        { "label": "Investment", "value": "USD 18 Mn" },
-        { "label": "Land Area", "value": "1.18 Acres (UDA Land)" },
-        { "label": "Project IRR", "value": "16.5% - 17.8%" },
+        { "label": "Location", "value": "6 strategic high-growth locations" },
+        { "label": "Investment", "value": "USD 8-20 Mn" },
+        { "label": "Land Area", "value": "1-13 Acres" },
+        { "label": "Project IRR", "value": "17% - 19%" },
         { "label": "Payback Period", "value": "7-8 Years" }
       ],
       "keyHighlights": [
-        "Prime location 2 km from Makumbura Multimodal Transport Center",
-        "Diversified revenue from office, retail, co-working & parking",
-        "Strong suburban office demand driven by Colombo decentralisation",
-        "Stabilised yield of 9.5% - 10.5%",
-        "99-year UDA lease with BOI facilitation"
+        "Strategic Multi-Location Development",
+        "Strong BOI Incentives & 100% Foreign Ownership",
+        "Integrated “Live–Work–Shop–Play” Concept",
+        "99-Year Land Lease facility"
       ],
       "brochure": "https://media.srilankainvestmentforum.com/slifmedia/pdfs/MixedDevelopmentFlyer.pdf",
       "moreInfo": "#"
@@ -182,24 +160,22 @@
     {
       "id": "tour-006",
       "type": "flagship",
-      "title": "Madola Eco-Resort & Residential Mixed Development",
-      "subTitle": "Sustainable Eco-Tourism & Lifestyle Investment in Avissawella",
-      "description": "A USD 15 million BOI-facilitated eco-resort and residential mixed development located on 12.9 acres of UDA-owned land in Madola, Avissawella. The project integrates 22 premium eco-villas and 18 residential bungalows within a low-density, environmentally sensitive master plan.",
+      "title": "Residential Apartment",
+      "subTitle": "Building colombo’s next residential landmark",
+      "description": "A new benchmark in urban luxury: Two 42-story towers rising on a 99-year UDA lease in the heart of Colombo 10. This USD 65 million development delivers 420 meticulously designed residences within a complete lifestyle ecosystem, all set in a prime and highly connected location. Unlock exceptional value backed by powerful BOI incentives, positioning this landmark project as a compelling opportunity for discerning investors.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/UrbanProject_2.webp"],
       "video": "",
       "stats": [
-        { "label": "Location", "value": "Madola, Avissawella" },
-        { "label": "Investment", "value": "USD 15 Mn" },
-        { "label": "Land Area", "value": "12.9 Acres (99-Year UDA Lease)" },
-        { "label": "Project IRR", "value": "16.8% - 18.5%" },
-        { "label": "Payback Period", "value": "6-7 Years" }
+        { "label": "Investment", "value": "USD 65 Mn" },
+        { "label": "Land Area", "value": "3.03 Acres" },
+        { "label": "Project IRR", "value": "10%" },
+        { "label": "Payback Period", "value": "4 Years" }
       ],
       "keyHighlights": [
-        "22 premium eco-villas and 18 residential bungalows",
-        "Low-density sustainable master plan (25-30% land coverage)",
-        "Diversified revenue from tourism, residential sales & wellness",
-        "100% foreign ownership with full profit repatriation",
-        "Strong eco-tourism growth and ESG-aligned investment"
+        "Prime Location with Excellent Connectivity",
+        "Design for modern urban living",
+        "Attractive BOI incentives",
+        "99-Year Land Lease facility"
       ],
       "brochure": "https://media.srilankainvestmentforum.com/slifmedia/pdfs/ResidentialApartment.pdf",
       "moreInfo": "#"
@@ -210,9 +186,9 @@
     {
       "id": "ict-001",
       "type": "flagship",
-      "title": "Techno Parks - Kurunegala & Galle",
+      "title": "Techno Parks ",
       "subTitle": "Invest in Sri Lanka’s Emerging Technology Capital",
-      "description": "A USD 100 million development of regional innovation parks with digital infrastructure and export-oriented IT services.",
+      "description": "Sri Lanka presents compelling investment opportunities through the proposed Techno Parks in Kurunegala and Galle under the BOI framework, permitting 100% foreign ownership. Strategically located in key regions, these projects invite investors to establish world-class technology and innovation hubs supported by modern digital infrastructure, competitive cost advantages, full profit repatriation, and access to a growing skilled workforce—positioning them as highly attractive destinations for global IT and knowledge-based enterprises.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/ICT.webp"],
       "video": "",
       "stats": [
@@ -241,7 +217,7 @@
       "subTitle": "Sri Lanka’s First Integrated University Town",
       "description": "A USD 640 million international university ecosystem on 250 acres in Hambantota.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/Edu2.webp"],
-      "video": "https://media.srilankainvestmentforum.com/slifmedia/videos/Sooriyawewa.webm",
+      "video": "",
       "stats": [
         { "label": "Location", "value": "Hambantota" },
         { "label": "Investment", "value": "USD 640 Mn" },
@@ -265,7 +241,7 @@
       "subTitle": "Five-University Master Planned Campus",
       "description": "A USD 370 million 125-acre education campus designed to host five leading universities.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/EduProject_2.webp"],
-      "video": "https://media.srilankainvestmentforum.com/slifmedia/videos/Keragala.webm",
+      "video": "",
       "stats": [
         { "label": "Location", "value": "Keragala" },
         { "label": "Investment", "value": "USD 370 Mn" },
@@ -338,16 +314,16 @@
     {
       "id": "manu-001",
       "type": "flagship",
-      "title": "Sustainable Synthetic Textile Hub - Eravur",
+      "title": "Sustainable Textile Hub",
       "subTitle": "Integrated Textile Manufacturing Platform",
-      "description": "A USD 65 million integrated synthetic textile hub in the Eravur Textile Zone.",
+      "description": "A unique opportunity to establish five state-of-the-art textile manufacturing plants within the Textile Manufacturing Zone located in the Eastern Province, each valued at USD 65 million, positioning the zone as a premier integrated textile hub in Asia. Leveraging Sri Lanka’s USD 5 billion apparel industry, the project will strengthen backward linkages and reduce reliance on imported inputs through vertical integration—from fabric processing and finishing to value-added textile production. The facilities will not only cater to the domestic market but also create significant opportunities for textile exports. With ESG-compliant production and BOI-backed incentives, the initiative will enhance competitiveness, generate regional employment, and deliver sustainable long-term returns while deepening value addition in Sri Lanka’s textile sector.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/ManufactProject_1.webp"],
       "video": "",
       "stats": [
-        { "label": "Location", "value": "Eravur" },
-        { "label": "Investment", "value": "USD 65 Mn" },
+        { "label": "Investment", "value": "USD 55 Mn" },
         { "label": "Land Area", "value": "15-20 Acres" },
-        { "label": "Expected IRR", "value": "22-25%" }
+        { "label": "Expected IRR", "value": "22%" },
+        { "label": "Payback Period", "value": "2-3 Years" }
       ],
       "keyHighlights": [
         "Vertical integration",
@@ -361,21 +337,21 @@
     {
       "id": "manu-002",
       "type": "flagship",
-      "title": "EV Assembling Hub - Mirijjawila",
+      "title": "EV Assembling Hub",
       "subTitle": "South Asia’s Gateway to EV Assembly",
       "description": "A USD 300 million per plant EV assembly facility with 25,000 unit annual capacity.",
       "images": ["https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/ManufactProject_2.webp"],
       "video": "",
       "stats": [
-        { "label": "Location", "value": "Hambantota" },
-        { "label": "Investment", "value": "USD 300 Mn per Plant" },
-        { "label": "Capacity", "value": "25,000 Units per Year" },
-        { "label": "Expected IRR", "value": "18-20%" }
+        { "label": "Investment", "value": "USD 300+ Mn" },
+        { "label": "Capacity", "value": "25,000 units per annum " },
+        { "label": "Expected IRR", "value": "15%" },
+        { "label": "Payback Period", "value": "3 Years" }
       ],
       "keyHighlights": [
-        "Export-oriented production",
-        "Mirijjawila industrial zone",
-        "ASEAN RHD markets",
+        "100% Export-oriented production ",
+        "Dutyfree access to india under ISFTA",
+        "Attractive BOI incentives",
         "Advanced technology platform"
       ],
       "brochure": "https://media.srilankainvestmentforum.com/slifmedia/pdfs/EVAssembly.pdf",
