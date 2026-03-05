@@ -222,9 +222,9 @@ h6 {
 
 .slif-page-hero {
   position: relative;
-  min-height: clamp(260px, 40vw, 420px);
+  min-height: clamp(300px, 45vw, 550px);
 
-  background-image: url("/assets/img/Sectors/hero-sectors.webp"); /* change path */
+  background-image: url("https://media.srilankainvestmentforum.com/slifmedia/images/Sectors/sector-hero-bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -989,6 +989,7 @@ section,
   font-size: 3.2rem;
   font-weight: 700;
   color: var(--heading-color);
+  padding-top: 3rem;
   margin-bottom: 0.5rem;
   line-height: 1.2;
 }
@@ -1001,6 +1002,7 @@ section,
 @media (max-width: 768px) {
   .hero .hero-title {
     font-size: 2.5rem;
+    padding-top: 3rem;
   }
 }
 
