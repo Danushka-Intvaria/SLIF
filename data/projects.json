@@ -308,7 +308,7 @@
       "subTitle": "The Nexus of Colombo’s Maritime Future",
       "description": "The Logistic Center in the area between Colombo International Container Terminals (CICT) & Colombo West International Terminal (CWIT) is a strategically positioned, port-centric development project located within the Port of Colombo. Spanning approximately 10 Acres with an estimated investment of USD 300 million, the project is designed to enhance cargo efficiency and streamline container handling through modern, integrated logistics infrastructure. It offers investors an opportunity to establish a presence near the operational core of some of Colombo’s high-demand container terminals.",
       "images": [
-        "https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/LogisticCenterColomboPort.webp"
+        "https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/LogisticCenterColomboPort2.webp"
       ],
       "video": "",
       "stats": [
@@ -380,8 +380,8 @@
       "id": "log-004",
       "type": "flagship",
       "title": "Multi-Storey Logistic Hub - Bloemendhal",
-      "subTitle": "Asia’s Smart Gateway for Port-Centric Logistics Growth",
-      "description": "The Bloemendhal Logistics Centre is a government-backed project designed to ease container congestion near the Port of Colombo through modernized cargo handling operations. The 5.5-acre multi-storey logistics hub offers investors a USD 50 million opportunity to tap South Asia’s busiest trade routes with integrated port and airport connectivity and BOI incentives.",
+      "subTitle": "Asia’s Smart Gateway for Port-Centric Logistic Growth",
+      "description": "The Bloemendhal Logistic Centre, near the Port of Colombo, is a government- backed project to ease container congestion with modernized cargo handling operations. This 5.5-Acre multi-storey hub proposed to be developed with integrated port and airport access, offers investors a USD 50 million opportunity to tap South Asia’s busiest trade routes, backed by Board of Investment of Sri Lanka (BOI) incentives and strong long-term growth potential.",
       "images": [
         "https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/BloemendhalLogisticsHub.webp"
       ],
@@ -393,9 +393,9 @@
         { "label": "Expected IRR", "value": "20%" }
       ],
       "keyHighlights": [
-        "Port-centric logistics hub near Colombo Port",
+        "Port-centric logistic hub near Colombo Port",
         "Multi-storey cargo handling and warehouse infrastructure",
-        "Strategic location on East-West shipping route",
+        "Colombo Port's strategic location on East-West shipping route",
         "Government-backed project with BOI incentives"
       ],
       "brochure": "#",
@@ -408,8 +408,8 @@
       "id": "avi-001",
       "type": "flagship",
       "title": "West Container Terminal II - Colombo Port",
-      "subTitle": "Expanding Global Maritime Connectivity",
-      "description": "A USD 750 million PPP expansion of Colombo Port adding 3 million TEUs capacity.",
+      "subTitle": "Empowering global trade from the heart of the Indian Ocean",
+      "description": "The West Container Terminal II (WCT-II) at the Port of Colombo is a landmark public-private partnership (PPP) project that underscores Sri Lanka’s commitment to expanding its maritime and logistics capabilities. The project is set to significantly enhance the port’s capacity and operational efficiency, strengthening its role in global shipping networks and regional trade. As one of the most ambitious developments within Colombo Port’s expansion program, WCT-II offers investors a strategic opportunity to participate in a long-term infrastructure partnership that reinforces Sri Lanka’s position as a vital link in international maritime connectivity.",
       "images": [
         "https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/Aviation.webp"
       ],
@@ -417,17 +417,41 @@
       "stats": [
         { "label": "Location", "value": "Colombo Port" },
         { "label": "Investment", "value": "USD 750 Mn" },
-        { "label": "Capacity", "value": "3 Million TEUs" }
+        { "label": "Potential Capacity", "value": "3 Million TEUs" }
       ],
       "keyHighlights": [
-        "Strategic East-West trade route",
+        "Strategic position along the main  East-West trade corridor",
         "PPP structure",
         "Core terminal operations",
-        "Ancillary services revenue"
+        "Ancillary and value-added services revenue"
       ],
       "brochure": "https://media.srilankainvestmentforum.com/slifmedia/pdfs/WestContainerTerminalII.pdf",
       "moreInfo": "#"
-    }
+    },
+    {
+  "id": "avi-002",
+  "type": "flagship",
+  "title": "Aircraft MRO Facility - Mattala International Airport",
+  "subTitle": "Where Public Vision Meets Private Aviation Expertise",
+  "description": "The Mattala Aircraft Maintenance, Repair and Overhaul (MRO) facility is a government-backed initiative designed to position Sri Lanka as a competitive regional hub for aviation maintenance services. Located at Mattala International Airport in Southern Sri Lanka, the project will support both narrow-body and wide-body aircraft maintenance operations across a land area exceeding 66 acres. Developed through a Public–Private Partnership (PPP) framework and supported by BOI incentives, the project offers investors a long-term opportunity to serve the fast-growing Asia-Pacific aviation market while delivering sustainable returns.",
+  "images": [
+    "https://media.srilankainvestmentforum.com/slifmedia/images/ProjectImage/MROFacilityMRIA.webp"
+  ],
+  "video": "",
+  "stats": [
+    { "label": "Location", "value": "Mattala International Airport" },
+    { "label": "Land Area", "value": "66+ Acres" },
+    { "label": "Project Model", "value": "Public–Private Partnership (PPP)" }
+  ],
+  "keyHighlights": [
+    "Aircraft maintenance hub for narrow- and wide-body aircraft",
+    "Strategic location connecting Southeast Asia, Middle East and Australia",
+    "Government-backed project with BOI investment incentives",
+    "Opportunity to serve high-growth Asia-Pacific region"
+  ],
+  "brochure": "https://media.srilankainvestmentforum.com/slifmedia/pdfs/MRO-MRIA.pdf",
+  "moreInfo": "#"
+}
   ],
 
   "manufacturing": [
