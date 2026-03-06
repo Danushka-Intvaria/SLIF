@@ -1,0 +1,152 @@
+{
+  "title": "Speakers",
+  "subtitle": "Distinguished speakers across the forum's key sessions",
+  "sessions": [
+    {
+      "name": "Inaugural Session",
+      "speakers": [
+        {
+          "name": "Hon Prof Anil Jayantha Fernando",
+          "title": "Deputy Minister of Finance and Planning",
+          "company": "Ministry of Finance, Sri Lanka",
+          "image": "assets/img/events/slif-speakers/Anil-Jayantha.png",
+          "alt": "Hon. Prof. Anil Jayantha Fernando"
+        },
+        {
+          "name": "H.E. Carmen Moreno",
+          "title": "EU Ambassador",
+          "company": "EU Delegation",
+          "image": "assets/img/events/slif-speakers/Carmen Moreno.png",
+          "alt": "Carmen Moreno"
+        },
+        {
+          "name": "Hon. Hanif Yusoof",
+          "title": "President's Special Envoy for Foreign Investment & Governor of the Western Province",
+          "company": "Government of Sri Lanka",
+          "image": "assets/img/events/slif-speakers/Hanif-Yusoof.png",
+          "alt": "Hon. Hanif Yusoof"
+        },
+        {
+          "name": "Ms. Armida Salsiah Alisjahban",
+          "title": "Executive Secretary",
+          "company": "ESCAP",
+          "image": "assets/img/events/slif-speakers/Armida Salsiah.png",
+          "alt": "Ms. Armida Salsiah Alisjahban"
+        },
+        {
+          "name": "Shannon Cowlin",
+          "title": "Country Director",
+          "company": "ADB Sri Lanka Resident Mission",
+          "image": "assets/img/events/slif-speakers/Shannon-Cowlin.png",
+          "alt": "Shannon Cowlin"
+        }
+      ]
+    },
+    {
+      "name": "Navigating Sri Lanka's Economic Recovery",
+      "speakers": [
+        {
+          "name": "Dr. Harshana Sooriyapperuma",
+          "title": "Secretary to the Treasury",
+          "company": "Ministry of Finance, Sri Lanka",
+          "image": "assets/img/events/slif-speakers/harshana-sooriyapperuma.png",
+          "alt": "Dr. Harshana Sooriyapperuma"
+        },
+        {
+          "name": "Dr. P. Nandalal Weerasinghe",
+          "title": "Governor",
+          "company": "Central Bank of Sri Lanka",
+          "image": "assets/img/events/slif-speakers/nandalal-weerasinghe.png",
+          "alt": "Dr. P. Nandalal Weerasinghe"
+        },
+        {
+          "name": "Duminda Hulangamuwa",
+          "title": "Senior Economic Adviser to the President",
+          "company": "Government of Sri Lanka",
+          "image": "assets/img/events/slif-speakers/duminda-hulangamuwa.png",
+          "alt": "Duminda Hulangamuwa"
+        },
+        {
+          "name": "Dr. Hans Wijesuriya",
+          "title": "Chief Presidential Advisor on Digital Economy & Chairman, ICTA",
+          "company": "Information and Communication Technology Agency",
+          "image": "assets/img/events/slif-speakers/hans-wijesuriya.png",
+          "alt": "Dr. Hans Wijesuriya"
+        }
+      ]
+    },
+    {
+      "name": "Sri Lanka's Investment Eco System",
+      "speakers": [
+        {
+          "name": "Hon Chathuranga Abeysinghe",
+          "title": "Deputy Minister of Industry and Entrepreneurship Development",
+          "company": "Ministry of industry and Entrepreneurship Development",
+          "image": "assets/img/events/slif-speakers/ChathurangaAbeysinghe.png",
+          "alt": "Hon Chathuranga Abeysinghe"
+        },
+        {
+          "name": "Mr Mangala Wijesinghe",
+          "title": "Chairman",
+          "company": "Export Development Board (EDB)",
+          "image": "assets/img/events/slif-speakers/Mangala-Wijesinghe.png",
+          "alt": "Mr Mangala Wijesinghe"
+        },
+        {
+          "name": "Mr Krishnakumar Thirumalai",
+          "title": "Chief Executive Officer",
+          "company": "Reliance Consumer Products Ltd",
+          "image": "assets/img/events/slif-speakers/krishnakumar-thirumalai.png",
+          "alt": "Mr Krishnakumar Thirumalai"
+        },
+        {
+          "name": "Mr Matt McCollough",
+          "title": "Vice President Sales & Marketing",
+          "company": "Shield Restraint Systems",
+          "image": "assets/img/events/slif-speakers/matt-mccollough.png",
+          "alt": "Mr Matt McCollough"
+        },
+        {
+          "name": "Krishan Balendran",
+          "title": "Chairman",
+          "company": "Ceylon Chamber of Commerce",
+          "image": "assets/img/events/slif-speakers/krishan-balendran.png",
+          "alt": "Krishan Balendran"
+        }
+      ]
+    },
+    {
+      "name": "Shaping the Green Future",
+      "speakers": [
+        {
+          "name": "Prof. K.T.M. Udayanga Hemapala",
+          "title": "Secretary, Ministry of Energy",
+          "company": "Government of Sri Lanka",
+          "image": "assets/img/events/slif-speakers/udayanga-hemapala.png",
+          "alt": "Prof. K.T.M. Udayanga Hemapala"
+        },
+        {
+          "name": "Mr. Morgan Rohel",
+          "title": "Lead Project Manager",
+          "company": "Expertise France",
+          "image": "assets/img/events/slif-speakers/morgan-rohel.png",
+          "alt": "Morgan Rohel"
+        },
+        {
+          "name": "Mr. Thimal Perera",
+          "title": "Chief Executive Officer",
+          "company": "DFCC Bank, Sri Lanka",
+          "image": "assets/img/events/slif-speakers/thimal-perera.png",
+          "alt": "Thimal Perera"
+        },
+        {
+          "name": "Ms. Namita Vikas",
+          "title": "Secretary, Ministry of Energy",
+          "company": "Government of Sri Lanka",
+          "image": "assets/img/events/slif-speakers/udayanga-hemapala.png",
+          "alt": "Prof. K.T.M. Udayanga Hemapala"
+        }
+      ]
+    }
+  ]
+}

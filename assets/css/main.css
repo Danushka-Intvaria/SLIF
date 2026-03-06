@@ -153,12 +153,29 @@ h6 {
   background: color-mix(in srgb, var(--surface-color) 70%, transparent 50%);
   transition: all 0.5s;
   position: relative;
+  gap: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
   backdrop-filter: blur(14px) saturate(140%);
   -webkit-backdrop-filter: blur(14px) saturate(140%);
+}
+
+.header .getstarted-container {
+  gap: 14px;
+  margin-left: 12px;
+  flex-shrink: 0;
+}
+
+.header .getstarted-text {
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--heading-color);
+  white-space: nowrap;
 }
 
 .header .logo {
@@ -198,18 +215,36 @@ h6 {
 }
 
 .header .btn-getstarted {
-  margin: 0 5px 0 30px;
+  margin: 0;
+  white-space: nowrap;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1450px) {
+  .header .getstarted-text {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
   .header .logo {
     order: 1;
   }
 
-  .header .btn-getstarted {
+  .header .header-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    gap: 12px;
+  }
+
+  .header .getstarted-container {
     order: 2;
-    margin: 0 15px 0 0;
-    padding: 6px 15px;
+    margin-left: auto;
+    gap: 0;
+  }
+
+  .header .btn-getstarted {
+    padding: 10px 14px;
+    font-size: 13px;
   }
 
   .header .navmenu {

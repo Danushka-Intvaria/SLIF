@@ -15,6 +15,7 @@ This site uses centralized data and templates to avoid duplicating sector or pro
 ## Data sources
 - `data/sectors.json` contains sector metadata.
 - `data/projects.json` contains project details grouped by sector.
+- `data/speakers.json` contains all homepage speaker sessions and speaker cards.
 
 ## Add a new sector
 1. Add a new key inside `data/sectors.json` (example: `fisheries`).
@@ -25,3 +26,9 @@ This site uses centralized data and templates to avoid duplicating sector or pro
 1. Open the sector entry in `data/projects.json`.
 2. Add/edit/remove items inside that sector array.
 3. Ensure each project has a unique `id` across all sectors.
+
+## Add or update speakers
+1. Open `data/speakers.json`.
+2. Update `title` / `subtitle` for the section heading if needed.
+3. Add/edit/remove sessions under `sessions`.
+4. Add/edit/remove speaker entries under each session's `speakers` array.
