@@ -20,26 +20,79 @@ function initSite() {
    * Mobile nav toggle
    */
   const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
+  const navmenu = document.querySelector('#navmenu');
+  const navmenuList = navmenu ? navmenu.querySelector('ul') : null;
+  const pageBody = document.body;
 
-  function mobileNavToogle() {
-    document.querySelector('body').classList.toggle('mobile-nav-active');
-    mobileNavToggleBtn.classList.toggle('bi-list');
-    mobileNavToggleBtn.classList.toggle('bi-x');
-  }
+  const setMobileNavState = (isOpen) => {
+    pageBody.classList.toggle('mobile-nav-active', isOpen);
+    if (!mobileNavToggleBtn) return;
+    mobileNavToggleBtn.classList.toggle('bi-list', !isOpen);
+    mobileNavToggleBtn.classList.toggle('bi-x', isOpen);
+    mobileNavToggleBtn.setAttribute('aria-expanded', String(isOpen));
+    mobileNavToggleBtn.setAttribute(
+      'aria-label',
+      isOpen ? 'Close navigation menu' : 'Open navigation menu'
+    );
+
+    // Defensive visibility control for mobile menu list.
+    // This avoids edge cases where CSS state updates but the list remains hidden.
+    if (navmenuList) {
+      const shouldForceOpen = isOpen && window.innerWidth < 1200;
+      if (shouldForceOpen) {
+        navmenuList.style.display = 'block';
+        navmenuList.style.opacity = '1';
+        navmenuList.style.visibility = 'visible';
+        navmenuList.style.transform = 'translateY(0)';
+      } else {
+        navmenuList.style.removeProperty('display');
+        navmenuList.style.removeProperty('opacity');
+        navmenuList.style.removeProperty('visibility');
+        navmenuList.style.removeProperty('transform');
+      }
+    }
+  };
+
+  const toggleMobileNav = () => {
+    const isOpen = pageBody.classList.contains('mobile-nav-active');
+    setMobileNavState(!isOpen);
+  };
+
   if (mobileNavToggleBtn) {
-    mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
+    mobileNavToggleBtn.addEventListener('click', (event) => {
+      event.stopPropagation();
+      toggleMobileNav();
+    });
+    setMobileNavState(false);
   }
 
-  /**
-   * Hide mobile nav on same-page/hash links
-   */
-  document.querySelectorAll('#navmenu a').forEach(navmenu => {
-    navmenu.addEventListener('click', () => {
-      if (document.querySelector('.mobile-nav-active')) {
-        mobileNavToogle();
+  if (navmenu) {
+    navmenu.addEventListener('click', (event) => {
+      if (!pageBody.classList.contains('mobile-nav-active')) return;
+
+      const clickedLink = event.target.closest('a');
+      if (clickedLink) {
+        setMobileNavState(false);
+        return;
+      }
+
+      const menuList = navmenu.querySelector(':scope > ul');
+      if (menuList && !menuList.contains(event.target)) {
+        setMobileNavState(false);
       }
     });
+  }
 
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      setMobileNavState(false);
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= 1200) {
+      setMobileNavState(false);
+    }
   });
 
   /**

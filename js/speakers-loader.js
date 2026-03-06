@@ -60,7 +60,7 @@
                   <div class="col-lg-3 col-md-6">
                     <div class="speaker-card h-100">
                       <div class="speaker-image">
-                        <img src="${image}" alt="${alt}" class="img-fluid" />
+                        <img src="${image}" alt="${alt}" class="img-fluid" loading="lazy" decoding="async" />
                       </div>
                       <div class="speaker-content">
                         <h4>${name}</h4>
