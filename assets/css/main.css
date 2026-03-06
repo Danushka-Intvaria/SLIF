@@ -235,6 +235,8 @@ h6 {
     padding-bottom: 8px;
     padding-left: 12px;
     padding-right: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
     gap: 12px;
   }
 
@@ -250,7 +252,8 @@ h6 {
   }
 
   .header .navmenu {
-    order: 3;
+    order: 1;
+    margin-right: 0;
   }
 }
 
@@ -619,7 +622,28 @@ h6 {
     border-radius: 10px;
     background: transparent;
     padding: 0;
+    font-size: 24px;
+    line-height: 1;
+    width: 44px;
+    height: 44px;
+    margin-right: 0;
+    border: 0;
+    border-radius: 10px;
+    background: transparent;
+    padding: 0;
     cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mobile-nav-toggle:hover,
+  .mobile-nav-toggle:focus-visible {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    color: var(--accent-color);
+    outline: none;
     transition: color 0.3s, background-color 0.3s;
     display: inline-flex;
     align-items: center;
@@ -645,7 +669,10 @@ h6 {
     position: absolute;
     inset: calc(88px + env(safe-area-inset-top, 0px)) 16px 20px 16px;
     padding: 14px 0;
+    inset: calc(88px + env(safe-area-inset-top, 0px)) 16px 20px 16px;
+    padding: 14px 0;
     margin: 0;
+    border-radius: 14px;
     border-radius: 14px;
     background-color: var(--nav-mobile-background-color);
     overflow-y: auto;
@@ -655,7 +682,14 @@ h6 {
     visibility: hidden;
     transform: translateY(6px);
     transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+    -webkit-overflow-scrolling: touch;
+    max-height: calc(100dvh - (120px + env(safe-area-inset-top, 0px)));
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6px);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
     z-index: 9998;
+    box-shadow: 0px 18px 40px rgba(15, 23, 42, 0.22);
     box-shadow: 0px 18px 40px rgba(15, 23, 42, 0.22);
   }
 
@@ -663,7 +697,9 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-dropdown-color);
     padding: 12px 20px;
+    padding: 12px 20px;
     font-family: var(--nav-font);
+    font-size: 16px;
     font-size: 16px;
     font-weight: 500;
     display: flex;
@@ -733,16 +769,19 @@ h6 {
   }
 
   body.mobile-nav-active .mobile-nav-toggle {
+  body.mobile-nav-active .mobile-nav-toggle {
     color: #fff;
     position: fixed;
     font-size: 28px;
     top: calc(20px + env(safe-area-inset-top, 0px));
-    right: 16px;
+    left: 16px;
+    right: auto;
     margin-right: 0;
     z-index: 9999;
   }
 
-  body.mobile-nav-active #navmenu {
+  body.mobile-nav-active #navmenu,
+  body.mobile-nav-active .navmenu {
     position: fixed;
     overflow: hidden;
     inset: 0;
@@ -750,9 +789,14 @@ h6 {
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     transition: background-color 0.25s ease;
+    background: rgba(15, 23, 42, 0.72);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    transition: background-color 0.25s ease;
   }
 
-  body.mobile-nav-active #navmenu > ul {
+  body.mobile-nav-active #navmenu > ul,
+  body.mobile-nav-active .navmenu > ul {
     display: block;
     opacity: 1;
     visibility: visible;
@@ -763,7 +807,8 @@ h6 {
 @media (max-width: 575px) {
   body.mobile-nav-active .mobile-nav-toggle {
     top: calc(14px + env(safe-area-inset-top, 0px));
-    right: 12px;
+    left: 12px;
+    right: auto;
   }
 
   .navmenu ul {
@@ -1022,6 +1067,21 @@ h6 {
 @media (max-width: 768px) {
   .page-title .heading {
     padding: 100px 0 60px;
+  }
+
+  .page-title .heading h1 {
+    font-size: 32px;
+  }
+
+  .page-title .heading p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 575px) {
+  .page-title .heading h1 {
+    font-size: 28px;
   }
 
   .page-title .heading h1 {
@@ -4276,9 +4336,17 @@ section,
     max-width: 100%;
   }
 
+  .contact .contact-info-panel .contact-info-header p {
+    max-width: 100%;
+  }
+
   .contact .contact-info-panel .contact-info-header h3,
   .contact .map-card .map-card-header h3 {
     font-size: 26px;
+  }
+
+  .contact .info-card .card-content h4 {
+    font-size: 18px;
   }
 
   .contact .info-card .card-content h4 {
@@ -4301,6 +4369,10 @@ section,
 
   .contact .info-card {
     padding: 14px;
+  }
+
+  .contact .info-card .card-content h4 {
+    font-size: 16px;
   }
 
   .contact .info-card .card-content h4 {

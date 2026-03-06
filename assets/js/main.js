@@ -40,11 +40,27 @@ function initSite() {
     if (navmenuList) {
       const shouldForceOpen = isOpen && window.innerWidth < 1200;
       if (shouldForceOpen) {
+        if (navmenu) {
+          navmenu.style.position = 'fixed';
+          navmenu.style.inset = '0';
+          navmenu.style.overflow = 'hidden';
+          navmenu.style.background = 'rgba(15, 23, 42, 0.72)';
+          navmenu.style.backdropFilter = 'blur(2px)';
+          navmenu.style.webkitBackdropFilter = 'blur(2px)';
+        }
         navmenuList.style.display = 'block';
         navmenuList.style.opacity = '1';
         navmenuList.style.visibility = 'visible';
         navmenuList.style.transform = 'translateY(0)';
       } else {
+        if (navmenu) {
+          navmenu.style.removeProperty('position');
+          navmenu.style.removeProperty('inset');
+          navmenu.style.removeProperty('overflow');
+          navmenu.style.removeProperty('background');
+          navmenu.style.removeProperty('backdrop-filter');
+          navmenu.style.removeProperty('-webkit-backdrop-filter');
+        }
         navmenuList.style.removeProperty('display');
         navmenuList.style.removeProperty('opacity');
         navmenuList.style.removeProperty('visibility');
@@ -64,8 +80,40 @@ function initSite() {
       toggleMobileNav();
     });
     setMobileNavState(false);
+    mobileNavToggleBtn.addEventListener('click', (event) => {
+      event.stopPropagation();
+      toggleMobileNav();
+    });
+    setMobileNavState(false);
   }
 
+  if (navmenu) {
+    navmenu.addEventListener('click', (event) => {
+      if (!pageBody.classList.contains('mobile-nav-active')) return;
+
+      const clickedLink = event.target.closest('a');
+      if (clickedLink) {
+        setMobileNavState(false);
+        return;
+      }
+
+      const menuList = navmenu.querySelector(':scope > ul');
+      if (menuList && !menuList.contains(event.target)) {
+        setMobileNavState(false);
+      }
+    });
+  }
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      setMobileNavState(false);
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= 1200) {
+      setMobileNavState(false);
+    }
   if (navmenu) {
     navmenu.addEventListener('click', (event) => {
       if (!pageBody.classList.contains('mobile-nav-active')) return;
