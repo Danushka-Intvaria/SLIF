@@ -6,22 +6,22 @@
       "name": "Inaugural Session",
       "speakers": [
         {
-          "name": "Hon Prof Anil Jayantha Fernando",
-          "title": "Deputy Minister of Finance and Planning",
-          "company": "Ministry of Finance, Sri Lanka",
+          "name": "Hon. Dr. Anil Jayantha Fernando",
+          "title": "Minister of Labour and Deputy Minister of Finance and Planning",
+          "company": "Ministry of Labour / Ministry of Finance, Sri Lanka",
           "image": "assets/img/events/slif-speakers/Anil-Jayantha.png",
-          "alt": "Hon. Prof. Anil Jayantha Fernando"
+          "alt": "Hon. Dr. Anil Jayantha Fernando"
         },
         {
           "name": "H.E. Carmen Moreno",
           "title": "EU Ambassador",
-          "company": "EU Delegation",
+          "company": "European Union Ambassador to Sri Lanka and the Maldives",
           "image": "assets/img/events/slif-speakers/Carmen Moreno.png",
           "alt": "Carmen Moreno"
         },
         {
           "name": "Hon. Hanif Yusoof",
-          "title": "President's Special Envoy for Foreign Investment & Governor of the Western Province",
+          "title": "Presidential Special Envoy for Foreign Investment & Governor,Western Province",
           "company": "Government of Sri Lanka",
           "image": "assets/img/events/slif-speakers/Hanif-Yusoof.png",
           "alt": "Hon. Hanif Yusoof"
@@ -29,7 +29,7 @@
         {
           "name": "Ms. Armida Salsiah Alisjahban",
           "title": "Executive Secretary",
-          "company": "ESCAP",
+          "company": "United Nations Economic and Social Commission for Asia and the Pacific (UNESCAP)",
           "image": "assets/img/events/slif-speakers/Armida Salsiah.png",
           "alt": "Ms. Armida Salsiah Alisjahban"
         },
@@ -79,11 +79,11 @@
       "name": "Sri Lanka's Investment Eco System",
       "speakers": [
         {
-          "name": "Hon Chathuranga Abeysinghe",
+          "name": "Hon. Chathuranga Abeysinghe",
           "title": "Deputy Minister of Industry and Entrepreneurship Development",
           "company": "Ministry of industry and Entrepreneurship Development",
           "image": "assets/img/events/slif-speakers/ChathurangaAbeysinghe.png",
-          "alt": "Hon Chathuranga Abeysinghe"
+          "alt": "Hon. Chathuranga Abeysinghe"
         },
         {
           "name": "Mr Mangala Wijesinghe",
@@ -93,25 +93,25 @@
           "alt": "Mr Mangala Wijesinghe"
         },
         {
-          "name": "Mr Krishnakumar Thirumalai",
+          "name": "Mr. Krishnakumar Thirumalai",
           "title": "Chief Executive Officer",
           "company": "Reliance Consumer Products Ltd",
           "image": "assets/img/events/slif-speakers/krishnakumar-thirumalai.png",
-          "alt": "Mr Krishnakumar Thirumalai"
+          "alt": "Mr. Krishnakumar Thirumalai"
         },
         {
-          "name": "Mr Matt McCollough",
+          "name": "Mr. Matt McCollough",
           "title": "Vice President Sales & Marketing",
           "company": "Shield Restraint Systems",
           "image": "assets/img/events/slif-speakers/matt-mccollough.png",
-          "alt": "Mr Matt McCollough"
+          "alt": "Mr. Matt McCollough"
         },
         {
-          "name": "Krishan Balendran",
+          "name": "Mr. Krishan Balendran",
           "title": "Chairman",
           "company": "Ceylon Chamber of Commerce",
           "image": "assets/img/events/slif-speakers/krishan-balendran.png",
-          "alt": "Krishan Balendran"
+          "alt": "Mr. Krishan Balendran"
         }
       ]
     },
