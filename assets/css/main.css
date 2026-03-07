@@ -620,7 +620,9 @@ h6 {
     background: transparent;
     padding: 0;
     cursor: pointer;
-    transition: color 0.3s, background-color 0.3s;
+    transition:
+      color 0.3s,
+      background-color 0.3s;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -654,7 +656,10 @@ h6 {
     opacity: 0;
     visibility: hidden;
     transform: translateY(6px);
-    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+    transition:
+      opacity 0.25s ease,
+      transform 0.25s ease,
+      visibility 0.25s ease;
     z-index: 9998;
     box-shadow: 0px 18px 40px rgba(15, 23, 42, 0.22);
   }
@@ -979,7 +984,7 @@ h6 {
 }
 
 .page-title .heading {
-  padding: 130px 0 80px;
+  padding: 130px 0 20px;
 }
 
 .page-title .heading h1 {
@@ -1015,13 +1020,15 @@ h6 {
 
 @media (max-width: 1199px) {
   .page-title .heading {
-    padding: 112px 0 72px;
+    padding-top: 112px;
+    padding-bottom: 10px;
   }
 }
 
 @media (max-width: 768px) {
   .page-title .heading {
-    padding: 100px 0 60px;
+    padding-top: 100px;
+    padding-bottom: 5px;
   }
 
   .page-title .heading h1 {
@@ -4050,7 +4057,11 @@ section,
   position: absolute;
   border-radius: 999px;
   pointer-events: none;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.22), transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.22),
+    transparent 70%
+  );
 }
 
 .contact .contact-info-panel::before {
@@ -4129,7 +4140,9 @@ section,
   align-items: center;
   gap: 14px;
   backdrop-filter: blur(8px);
-  transition: transform 0.25s ease, background-color 0.25s ease,
+  transition:
+    transform 0.25s ease,
+    background-color 0.25s ease,
     border-color 0.25s ease;
 }
 
@@ -4211,7 +4224,9 @@ section,
   border: 1px solid rgba(255, 255, 255, 0.24);
   color: var(--contrast-color);
   font-size: 18px;
-  transition: transform 0.25s ease, background-color 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    background-color 0.25s ease;
 }
 
 .contact .social-links-panel .social-icons a:hover {
