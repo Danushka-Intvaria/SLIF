@@ -71,6 +71,13 @@
           "company": "Information and Communication Technology Agency (ICTA) of Sri Lanka",
           "image": "https://media.srilankainvestmentforum.com/slifmedia/images/speakers/hans-wijesuriya.png",
           "alt": "Dr Hans Wijesuriya"
+        },
+        {
+          "name": "Joy Priya Somasundram",
+          "title": "Principal and Head of Consulting",
+          "company": "FT Locations, The Financial Times",
+          "image": "https://media.srilankainvestmentforum.com/slifmedia/images/speakers/priya-somasundram.png",
+          "alt": "Joy Priya Somasundram"
         }
       ]
     },
@@ -90,13 +97,6 @@
           "company": "Export Development Board (EDB) of Sri Lanka",
           "image": "https://media.srilankainvestmentforum.com/slifmedia/images/speakers/mangala-wijesinghe.png",
           "alt": "Mangala Wijesinghe"
-        },
-        {
-          "name": "Krishnakumar Thirumalai",
-          "title": "Chief Executive Officer",
-          "company": "Reliance Consumer Products Ltd",
-          "image": "https://media.srilankainvestmentforum.com/slifmedia/images/speakers/krishnakumar-thirumalai.png",
-          "alt": "Krishnakumar Thirumalai"
         },
         {
           "name": "Matt McCollough",
@@ -130,6 +130,13 @@
           "company": "Expertise France",
           "image": "https://media.srilankainvestmentforum.com/slifmedia/images/speakers/morgan-rohel.png",
           "alt": "Morgan Rohel"
+        },
+        {
+          "name": "Namita Vikas",
+          "title": "Moderator and Commentator",
+          "company": "Expertise France",
+          "image": "https://media.srilankainvestmentforum.com/slifmedia/images/speakers/namita-vikas.png",
+          "alt": "Namita Vikas"
         }
       ]
     }
