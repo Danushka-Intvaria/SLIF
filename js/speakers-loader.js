@@ -41,7 +41,9 @@
 
     content.innerHTML = sessions
       .map((session, sessionIndex) => {
-        const speakers = Array.isArray(session?.speakers) ? session.speakers : [];
+        const speakers = Array.isArray(session?.speakers)
+          ? session.speakers
+          : [];
         const rowClass =
           sessionIndex === sessions.length - 1 ? "row g-4" : "row g-4 mb-5";
 
@@ -54,7 +56,9 @@
                 const title = escapeHtml(speaker?.title || "");
                 const company = escapeHtml(speaker?.company || "");
                 const image = resolveAssetPath(speaker?.image || "");
-                const alt = escapeHtml(speaker?.alt || speaker?.name || "Speaker");
+                const alt = escapeHtml(
+                  speaker?.alt || speaker?.name || "Speaker",
+                );
 
                 return `
                   <div class="col-lg-3 col-md-6">
